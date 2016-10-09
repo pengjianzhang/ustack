@@ -1,0 +1,54 @@
+
+1, Multi-core/Multi-process Suppport
+
+Each Process Bind A Core
+
+Each process Read  Specific rx-queues of each Adapter
+
+Each process Write specific tx-queues of each Adapter  
+
+Each process obtain a part of Packet Buffer
+
+
+Packets Share between Process
+
+if a packet is received by A process, but the packet should be dealed by B process,
+then Process A send the packet to B. This should be down by a atomic queue  
+
+A Adapter receive a packet, this packet may be passed to a Fake Adapter 
+
+Fake Adapter
+rx receive from other process 
+tx send to other process
+
+queue0 [----------------]
+queue1 [----------------]
+queue2 [----------------]
+queue3 [----------------]
+
+queue0 [----------------]
+queue1 [----------------]
+queue2 [----------------]
+queue3 [----------------]
+
+queue0 [----------------]
+queue1 [----------------]
+queue2 [----------------]
+queue3 [----------------]
+
+queue0 [----------------]
+queue1 [----------------]
+queue2 [----------------]
+queue3 [----------------]
+
+
+How 2 Balance Free Packets ?
+
+
+
+Port-Range is cut into separate pares, each process pick one part
+
+[1024---|-----|-----|-----|-----|----|------|-65535]  
+
+In Full-Nat Mode, each local ip's port range is 
+

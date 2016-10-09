@@ -1,0 +1,36 @@
+
+
+
+1,packet dispatch
+	
+	dispatch( packet )
+	{
+
+		if(!packet's protocol is IP/TCP/UDP) return this_id;
+
+		if(packet's dest is a vs)
+		{
+			id = hash( client ip);
+		}	
+		else if(packet's dest is a local ip)
+		{
+			id = find_local_ip_port_range(local  port);
+		}
+		else
+		{
+			id = hash(client ip);
+		}	
+
+
+		return id;
+	}
+
+2, rx/tx queues ,processes, cores
+
+
+3, 1 process mode, .vs. n process mode
+	Program can choose mode, 1-proc mode or n-proc mode.
+	1-proc mode for debug, development,n-proc mode for real situation.
+	Program should pass argument to igb-driver to init 1 or n queue for
+	each adapter.    
+

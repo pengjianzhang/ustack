@@ -1,0 +1,76 @@
+
+User Space Load Balance Design
+
+0,协议支持
+ARP
+IPV4，IPV6
+ICMP
+TCP，UDP
+HTTP，SSL，HTTPS，FTP，DNS-TCP,DNS-UDP
+
+1,4层协议
+	当前状况，支持
+
+2，用户态TCP/IP协议栈
+	TCP链接建立/终止，组装，重传。
+
+   动态路由
+
+3,7层协议
+	HTTP 
+	SSL协议offload比较困难，需要提供Socket接口。
+	FTP协议（有必要7层么？）
+
+4，浮动IP	
+	使用VRRP协议，ARP协议已经实现，需要实现VRRP协议。
+	
+5，VS/POOL/Node(添加删除修改)
+	
+	
+6，负载均衡算法
+	使用socket编程
+	是否要独立	
+
+7，Self IP
+	已经实现，VS使用端口（< 1024或者 10240）	
+
+8，健康检查
+	健康检查与uspace如何通讯
+	健康检查嵌入？
+	健康检查分离？
+
+9，集群
+
+10，路由
+
+11，ICMP协议（包含在TCP协议）
+	
+12，SNMP支持
+	perl语言，socket编程，参考HAProxy SNMP实现
+
+13，数据统计
+	设计的时候就要考虑到数据统计。
+
+
+6，健康检查
+	健康检查与uspace如何通讯
+	健康检查嵌入？
+	健康检查分离？
+3,Web UI
+	WEB UI的功能：设置配置（VS，POOL等），展示系统配置，展示系统状态，告警，SNMP等。
+	不是用ZXTM的WEB UI。使用node.js开发，大约5个月，冯通负责，毕业前完成。自己设计，修改，开发进度可以很快。
+
+
+4，驱动模块 
+	支持IPv4，不支持IPv6，
+
+
+5，多核/多进程支持
+
+Archetecture
+	假设8个核，7核核跑业务，1个核运行其他程序（）	
+			
+	NIC-0	<--> This NIC never change. data throught kernel TCP/IP stack.
+			then user program can use Socket API.
+	
+	[ NIC-1, NIC-2 ...  NIC-n] <--->new adapter, data go to user space directly

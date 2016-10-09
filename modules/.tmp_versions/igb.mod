@@ -1,0 +1,2 @@
+/home/pencil/workspace_git_2013/ustack/modules/igb/igb.ko
+/home/pencil/workspace_git_2013/ustack/modules/igb/igb_main.o /home/pencil/workspace_git_2013/ustack/modules/igb/igb_ethtool.o /home/pencil/workspace_git_2013/ustack/modules/igb/e1000_82575.o /home/pencil/workspace_git_2013/ustack/modules/igb/e1000_mac.o /home/pencil/workspace_git_2013/ustack/modules/igb/e1000_nvm.o /home/pencil/workspace_git_2013/ustack/modules/igb/e1000_phy.o /home/pencil/workspace_git_2013/ustack/modules/igb/e1000_mbx.o

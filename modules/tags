@@ -1,0 +1,1924 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADVERTISE_1000_FULL	igb/e1000_defines.h	247;"	d
+ADVERTISE_1000_HALF	igb/e1000_defines.h	246;"	d
+ADVERTISE_100_FULL	igb/e1000_defines.h	245;"	d
+ADVERTISE_100_HALF	igb/e1000_defines.h	244;"	d
+ADVERTISE_10_FULL	igb/e1000_defines.h	243;"	d
+ADVERTISE_10_HALF	igb/e1000_defines.h	242;"	d
+ALL_QUEUES	igb/e1000_82575.h	242;"	d
+AUTONEG_ADVERTISE_SPEED_DEFAULT	igb/e1000_defines.h	261;"	d
+AUTO_ALL_MODES	igb/igb.h	127;"	d
+AUTO_READ_DONE_TIMEOUT	igb/e1000_defines.h	431;"	d
+CONFIG_IGB_DISABLE_PACKET_SPLIT	igb/igb.h	35;"	d
+COPPER_LINK_UP_LIMIT	igb/e1000_defines.h	422;"	d
+CR_1000T_FD_CAPS	igb/e1000_defines.h	506;"	d
+CR_1000T_HD_CAPS	igb/e1000_defines.h	505;"	d
+CR_1000T_MS_ENABLE	igb/e1000_defines.h	509;"	d
+CR_1000T_MS_VALUE	igb/e1000_defines.h	507;"	d
+DRV_VERSION	igb/igb_main.c	/^MODULE_VERSION(DRV_VERSION);$/;"	v
+DRV_VERSION	igb/igb_main.c	53;"	d	file:
+E1000_82580_RXPBS_TABLE_SIZE	igb/e1000_82575.c	70;"	d	file:
+E1000_ADVTXD_DCMD_DEXT	igb/e1000_82575.h	134;"	d
+E1000_ADVTXD_DCMD_IFCS	igb/e1000_82575.h	133;"	d
+E1000_ADVTXD_DCMD_TSE	igb/e1000_82575.h	136;"	d
+E1000_ADVTXD_DCMD_VLE	igb/e1000_82575.h	135;"	d
+E1000_ADVTXD_DTYP_CTXT	igb/e1000_82575.h	131;"	d
+E1000_ADVTXD_DTYP_DATA	igb/e1000_82575.h	132;"	d
+E1000_ADVTXD_L4LEN_SHIFT	igb/e1000_82575.h	152;"	d
+E1000_ADVTXD_MACLEN_SHIFT	igb/e1000_82575.h	147;"	d
+E1000_ADVTXD_MAC_TSTAMP	igb/e1000_82575.h	130;"	d
+E1000_ADVTXD_MSS_SHIFT	igb/e1000_82575.h	153;"	d
+E1000_ADVTXD_PAYLEN_SHIFT	igb/e1000_82575.h	137;"	d
+E1000_ADVTXD_TUCMD_IPV4	igb/e1000_82575.h	148;"	d
+E1000_ADVTXD_TUCMD_L4T_SCTP	igb/e1000_82575.h	150;"	d
+E1000_ADVTXD_TUCMD_L4T_TCP	igb/e1000_82575.h	149;"	d
+E1000_AIT	igb/e1000_regs.h	66;"	d
+E1000_ALGNERRC	igb/e1000_regs.h	157;"	d
+E1000_ALL_100_SPEED	igb/e1000_defines.h	255;"	d
+E1000_ALL_10_SPEED	igb/e1000_defines.h	256;"	d
+E1000_ALL_FULL_DUPLEX	igb/e1000_defines.h	257;"	d
+E1000_ALL_HALF_DUPLEX	igb/e1000_defines.h	259;"	d
+E1000_ALL_NOT_GIG	igb/e1000_defines.h	253;"	d
+E1000_ALL_SPEED_DUPLEX	igb/e1000_defines.h	250;"	d
+E1000_ALT_MAC_ADDRESS_OFFSET_LAN0	igb/e1000_hw.h	70;"	d
+E1000_ALT_MAC_ADDRESS_OFFSET_LAN1	igb/e1000_hw.h	71;"	d
+E1000_ALT_MAC_ADDRESS_OFFSET_LAN2	igb/e1000_hw.h	72;"	d
+E1000_ALT_MAC_ADDRESS_OFFSET_LAN3	igb/e1000_hw.h	73;"	d
+E1000_BLK_PHY_RESET	igb/e1000_defines.h	416;"	d
+E1000_BPRC	igb/e1000_regs.h	183;"	d
+E1000_BPTC	igb/e1000_regs.h	211;"	d
+E1000_CABLE_LENGTH_UNDEFINED	igb/e1000_phy.h	132;"	d
+E1000_CBRMPC	igb/e1000_regs.h	235;"	d
+E1000_CBTMPC	igb/e1000_regs.h	233;"	d
+E1000_CCMCTL	igb/e1000_regs.h	276;"	d
+E1000_CEXTERR	igb/e1000_regs.h	169;"	d
+E1000_COLC	igb/e1000_regs.h	165;"	d
+E1000_COLD_SHIFT	igb/e1000_defines.h	305;"	d
+E1000_COLLISION_DISTANCE	igb/e1000_defines.h	304;"	d
+E1000_COLLISION_THRESHOLD	igb/e1000_defines.h	302;"	d
+E1000_CONNSW	igb/e1000_regs.h	42;"	d
+E1000_CONNSW_ENRGSRC	igb/e1000_defines.h	199;"	d
+E1000_CRCERRS	igb/e1000_regs.h	156;"	d
+E1000_CTRL	igb/e1000_regs.h	31;"	d
+E1000_CTRL_ADVD3WUC	igb/igb_main.c	6269;"	d	file:
+E1000_CTRL_ASDE	igb/e1000_defines.h	173;"	d
+E1000_CTRL_DEV_RST	igb/e1000_82575.h	48;"	d
+E1000_CTRL_EN_PHY_PWR_MGMT	igb/igb_main.c	6271;"	d	file:
+E1000_CTRL_EXT	igb/e1000_regs.h	35;"	d
+E1000_CTRL_EXT_DRV_LOAD	igb/e1000_defines.h	58;"	d
+E1000_CTRL_EXT_EIAME	igb/e1000_defines.h	54;"	d
+E1000_CTRL_EXT_IRCA	igb/e1000_defines.h	55;"	d
+E1000_CTRL_EXT_LINK_MODE_1000BASE_KX	igb/e1000_defines.h	52;"	d
+E1000_CTRL_EXT_LINK_MODE_MASK	igb/e1000_defines.h	50;"	d
+E1000_CTRL_EXT_LINK_MODE_PCIE_SERDES	igb/e1000_defines.h	51;"	d
+E1000_CTRL_EXT_LINK_MODE_SGMII	igb/e1000_defines.h	53;"	d
+E1000_CTRL_EXT_PBA_CLR	igb/e1000_defines.h	63;"	d
+E1000_CTRL_EXT_PFRSTD	igb/e1000_defines.h	49;"	d
+E1000_CTRL_EXT_SDP3_DATA	igb/e1000_defines.h	47;"	d
+E1000_CTRL_FD	igb/e1000_defines.h	170;"	d
+E1000_CTRL_FRCDPX	igb/e1000_defines.h	180;"	d
+E1000_CTRL_FRCSPD	igb/e1000_defines.h	179;"	d
+E1000_CTRL_GIO_MASTER_DISABLE	igb/e1000_defines.h	171;"	d
+E1000_CTRL_I2C_ENA	igb/e1000_defines.h	193;"	d
+E1000_CTRL_ILOS	igb/e1000_defines.h	175;"	d
+E1000_CTRL_LRST	igb/e1000_defines.h	172;"	d
+E1000_CTRL_PHY_RST	igb/e1000_defines.h	191;"	d
+E1000_CTRL_RFCE	igb/e1000_defines.h	188;"	d
+E1000_CTRL_RST	igb/e1000_defines.h	187;"	d
+E1000_CTRL_SLU	igb/e1000_defines.h	174;"	d
+E1000_CTRL_SPD_100	igb/e1000_defines.h	177;"	d
+E1000_CTRL_SPD_1000	igb/e1000_defines.h	178;"	d
+E1000_CTRL_SPD_SEL	igb/e1000_defines.h	176;"	d
+E1000_CTRL_SWDPIN0	igb/e1000_defines.h	184;"	d
+E1000_CTRL_SWDPIN1	igb/e1000_defines.h	185;"	d
+E1000_CTRL_SWDPIO0	igb/e1000_defines.h	186;"	d
+E1000_CTRL_TFCE	igb/e1000_defines.h	189;"	d
+E1000_CTRL_VME	igb/e1000_defines.h	190;"	d
+E1000_CT_SHIFT	igb/e1000_defines.h	303;"	d
+E1000_DAQF	igb/e1000_regs.h	97;"	d
+E1000_DAQF0	igb/e1000_regs.h	101;"	d
+E1000_DC	igb/e1000_regs.h	166;"	d
+E1000_DCA_CTRL	igb/e1000_regs.h	283;"	d
+E1000_DCA_CTRL_DCA_MODE_CB2	igb/e1000_82575.h	166;"	d
+E1000_DCA_CTRL_DCA_MODE_DISABLE	igb/e1000_82575.h	165;"	d
+E1000_DCA_RXCTRL	igb/e1000_regs.h	146;"	d
+E1000_DCA_RXCTRL_CPUID_MASK	igb/e1000_82575.h	168;"	d
+E1000_DCA_RXCTRL_CPUID_MASK_82576	igb/e1000_82575.h	179;"	d
+E1000_DCA_RXCTRL_CPUID_SHIFT	igb/e1000_82575.h	181;"	d
+E1000_DCA_RXCTRL_DATA_DCA_EN	igb/e1000_82575.h	171;"	d
+E1000_DCA_RXCTRL_DESC_DCA_EN	igb/e1000_82575.h	169;"	d
+E1000_DCA_RXCTRL_HEAD_DCA_EN	igb/e1000_82575.h	170;"	d
+E1000_DCA_TXCTRL	igb/e1000_regs.h	145;"	d
+E1000_DCA_TXCTRL_CPUID_MASK	igb/e1000_82575.h	173;"	d
+E1000_DCA_TXCTRL_CPUID_MASK_82576	igb/e1000_82575.h	178;"	d
+E1000_DCA_TXCTRL_CPUID_SHIFT	igb/e1000_82575.h	180;"	d
+E1000_DCA_TXCTRL_DESC_DCA_EN	igb/e1000_82575.h	174;"	d
+E1000_DCA_TXCTRL_TX_WB_RO_EN	igb/e1000_82575.h	175;"	d
+E1000_DEV_ID_82575EB_COPPER	igb/e1000_hw.h	49;"	d
+E1000_DEV_ID_82575EB_FIBER_SERDES	igb/e1000_hw.h	50;"	d
+E1000_DEV_ID_82575GB_QUAD_COPPER	igb/e1000_hw.h	51;"	d
+E1000_DEV_ID_82576	igb/e1000_hw.h	41;"	d
+E1000_DEV_ID_82576_FIBER	igb/e1000_hw.h	42;"	d
+E1000_DEV_ID_82576_NS	igb/e1000_hw.h	46;"	d
+E1000_DEV_ID_82576_NS_SERDES	igb/e1000_hw.h	47;"	d
+E1000_DEV_ID_82576_QUAD_COPPER	igb/e1000_hw.h	44;"	d
+E1000_DEV_ID_82576_QUAD_COPPER_ET2	igb/e1000_hw.h	45;"	d
+E1000_DEV_ID_82576_SERDES	igb/e1000_hw.h	43;"	d
+E1000_DEV_ID_82576_SERDES_QUAD	igb/e1000_hw.h	48;"	d
+E1000_DEV_ID_82580_COPPER	igb/e1000_hw.h	52;"	d
+E1000_DEV_ID_82580_COPPER_DUAL	igb/e1000_hw.h	56;"	d
+E1000_DEV_ID_82580_FIBER	igb/e1000_hw.h	53;"	d
+E1000_DEV_ID_82580_SERDES	igb/e1000_hw.h	54;"	d
+E1000_DEV_ID_82580_SGMII	igb/e1000_hw.h	55;"	d
+E1000_DEV_ID_I350_COPPER	igb/e1000_hw.h	57;"	d
+E1000_DEV_ID_I350_FIBER	igb/e1000_hw.h	58;"	d
+E1000_DEV_ID_I350_SERDES	igb/e1000_hw.h	59;"	d
+E1000_DEV_ID_I350_SGMII	igb/e1000_hw.h	60;"	d
+E1000_DTXCTL	igb/e1000_regs.h	155;"	d
+E1000_DTXCTL_8023LL	igb/e1000_82575.h	236;"	d
+E1000_DTXCTL_MDP_EN	igb/e1000_82575.h	239;"	d
+E1000_DTXCTL_OOS_ENABLE	igb/e1000_82575.h	238;"	d
+E1000_DTXCTL_SPOOF_INT	igb/e1000_82575.h	240;"	d
+E1000_DTXCTL_VLAN_ADDED	igb/e1000_82575.h	237;"	d
+E1000_DTXSWC	igb/e1000_regs.h	303;"	d
+E1000_DTXSWC_VMDQ_LOOPBACK_EN	igb/e1000_82575.h	197;"	d
+E1000_ECOL	igb/e1000_regs.h	162;"	d
+E1000_EECD	igb/e1000_regs.h	33;"	d
+E1000_EECD_ADDR_BITS	igb/e1000_defines.h	537;"	d
+E1000_EECD_AUTO_RD	igb/e1000_defines.h	539;"	d
+E1000_EECD_CS	igb/e1000_defines.h	530;"	d
+E1000_EECD_DI	igb/e1000_defines.h	531;"	d
+E1000_EECD_DO	igb/e1000_defines.h	532;"	d
+E1000_EECD_GNT	igb/e1000_defines.h	534;"	d
+E1000_EECD_PRES	igb/e1000_defines.h	535;"	d
+E1000_EECD_REQ	igb/e1000_defines.h	533;"	d
+E1000_EECD_SIZE_EX_MASK	igb/e1000_defines.h	540;"	d
+E1000_EECD_SIZE_EX_SHIFT	igb/e1000_defines.h	541;"	d
+E1000_EECD_SK	igb/e1000_defines.h	529;"	d
+E1000_EEMNGCTL	igb/e1000_regs.h	70;"	d
+E1000_EERD	igb/e1000_regs.h	34;"	d
+E1000_EEWR	igb/e1000_regs.h	71;"	d
+E1000_EIAC	igb/e1000_regs.h	58;"	d
+E1000_EIAM	igb/e1000_regs.h	59;"	d
+E1000_EICR	igb/e1000_regs.h	53;"	d
+E1000_EICR_OTHER	igb/e1000_defines.h	342;"	d
+E1000_EICR_RX_QUEUE	igb/e1000_82575.h	71;"	d
+E1000_EICR_RX_QUEUE0	igb/e1000_defines.h	334;"	d
+E1000_EICR_RX_QUEUE1	igb/e1000_defines.h	335;"	d
+E1000_EICR_RX_QUEUE2	igb/e1000_defines.h	336;"	d
+E1000_EICR_RX_QUEUE3	igb/e1000_defines.h	337;"	d
+E1000_EICR_TX_QUEUE	igb/e1000_82575.h	65;"	d
+E1000_EICR_TX_QUEUE0	igb/e1000_defines.h	338;"	d
+E1000_EICR_TX_QUEUE1	igb/e1000_defines.h	339;"	d
+E1000_EICR_TX_QUEUE2	igb/e1000_defines.h	340;"	d
+E1000_EICR_TX_QUEUE3	igb/e1000_defines.h	341;"	d
+E1000_EICS	igb/e1000_regs.h	55;"	d
+E1000_EIMC	igb/e1000_regs.h	57;"	d
+E1000_EIMS	igb/e1000_regs.h	56;"	d
+E1000_EIMS_OTHER	igb/e1000_defines.h	373;"	d
+E1000_EITR	igb/e1000_regs.h	54;"	d
+E1000_ENABLE_SERDES_LOOPBACK	igb/e1000_defines.h	211;"	d
+E1000_ERR_CONFIG	igb/e1000_defines.h	411;"	d
+E1000_ERR_MAC_INIT	igb/e1000_defines.h	413;"	d
+E1000_ERR_MASTER_REQUESTS_PENDING	igb/e1000_defines.h	415;"	d
+E1000_ERR_MBX	igb/e1000_defines.h	419;"	d
+E1000_ERR_NVM	igb/e1000_defines.h	409;"	d
+E1000_ERR_PARAM	igb/e1000_defines.h	412;"	d
+E1000_ERR_PHY	igb/e1000_defines.h	410;"	d
+E1000_ERR_RESET	igb/e1000_defines.h	414;"	d
+E1000_ERR_SWFW_SYNC	igb/e1000_defines.h	417;"	d
+E1000_ETQF	igb/e1000_regs.h	105;"	d
+E1000_ETQF_1588	igb/e1000_82575.h	185;"	d
+E1000_ETQF_FILTER_ENABLE	igb/e1000_82575.h	184;"	d
+E1000_FACTPS	igb/e1000_regs.h	280;"	d
+E1000_FACTPS_MNGCG	igb/e1000_mac.h	81;"	d
+E1000_FCAH	igb/e1000_regs.h	40;"	d
+E1000_FCAL	igb/e1000_regs.h	39;"	d
+E1000_FCRTH	igb/e1000_regs.h	76;"	d
+E1000_FCRTL	igb/e1000_regs.h	75;"	d
+E1000_FCRTL_XONE	igb/e1000_defines.h	434;"	d
+E1000_FCRTV	igb/e1000_regs.h	77;"	d
+E1000_FCRUC	igb/e1000_regs.h	175;"	d
+E1000_FCT	igb/e1000_regs.h	41;"	d
+E1000_FCTTV	igb/e1000_regs.h	51;"	d
+E1000_FFLT_REG	igb/e1000_regs.h	265;"	d
+E1000_FFMT_REG	igb/e1000_regs.h	263;"	d
+E1000_FFVT_REG	igb/e1000_regs.h	264;"	d
+E1000_FRTIMER	igb/e1000_regs.h	73;"	d
+E1000_FTQF	igb/e1000_regs.h	99;"	d
+E1000_FTQF0	igb/e1000_regs.h	103;"	d
+E1000_FTQF_1588_TIME_STAMP	igb/e1000_82575.h	189;"	d
+E1000_FTQF_MASK	igb/e1000_82575.h	190;"	d
+E1000_FTQF_MASK_PROTO_BP	igb/e1000_82575.h	191;"	d
+E1000_FTQF_MASK_SOURCE_PORT_BP	igb/e1000_82575.h	192;"	d
+E1000_FTQF_VF_BP	igb/e1000_82575.h	188;"	d
+E1000_FUNC_0	igb/e1000_hw.h	65;"	d
+E1000_FUNC_1	igb/e1000_hw.h	66;"	d
+E1000_FUNC_2	igb/e1000_hw.h	67;"	d
+E1000_FUNC_3	igb/e1000_hw.h	68;"	d
+E1000_FWSM	igb/e1000_regs.h	282;"	d
+E1000_FWSM_MODE_MASK	igb/e1000_mac.h	83;"	d
+E1000_FWSM_MODE_SHIFT	igb/e1000_mac.h	84;"	d
+E1000_GCR	igb/e1000_regs.h	279;"	d
+E1000_GCR_CAP_VER2	igb/e1000_defines.h	473;"	d
+E1000_GCR_CMPL_TMOUT_10ms	igb/e1000_defines.h	471;"	d
+E1000_GCR_CMPL_TMOUT_MASK	igb/e1000_defines.h	470;"	d
+E1000_GCR_CMPL_TMOUT_RESEND	igb/e1000_defines.h	472;"	d
+E1000_GEN_CTL_ADDRESS_SHIFT	igb/e1000_defines.h	708;"	d
+E1000_GEN_CTL_READY	igb/e1000_defines.h	707;"	d
+E1000_GEN_POLL_TIMEOUT	igb/e1000_defines.h	709;"	d
+E1000_GIOCTL	igb/e1000_regs.h	277;"	d
+E1000_GORCH	igb/e1000_regs.h	187;"	d
+E1000_GORCL	igb/e1000_regs.h	186;"	d
+E1000_GOTCH	igb/e1000_regs.h	189;"	d
+E1000_GOTCL	igb/e1000_regs.h	188;"	d
+E1000_GPIE	igb/e1000_regs.h	60;"	d
+E1000_GPIE_EIAME	igb/e1000_defines.h	75;"	d
+E1000_GPIE_MSIX_MODE	igb/e1000_defines.h	74;"	d
+E1000_GPIE_NSICR	igb/e1000_defines.h	73;"	d
+E1000_GPIE_PBA	igb/e1000_defines.h	76;"	d
+E1000_GPRC	igb/e1000_regs.h	182;"	d
+E1000_GPTC	igb/e1000_regs.h	185;"	d
+E1000_HGORCH	igb/e1000_regs.h	240;"	d
+E1000_HGORCL	igb/e1000_regs.h	239;"	d
+E1000_HGOTCH	igb/e1000_regs.h	242;"	d
+E1000_HGOTCL	igb/e1000_regs.h	241;"	d
+E1000_HGPTC	igb/e1000_regs.h	237;"	d
+E1000_HI_MAX_DATA_LENGTH	igb/e1000_hw.h	272;"	d
+E1000_HI_MAX_MNG_DATA_LENGTH	igb/e1000_hw.h	287;"	d
+E1000_HTCBDPC	igb/e1000_regs.h	238;"	d
+E1000_HTDPMC	igb/e1000_regs.h	234;"	d
+E1000_I2CCMD	igb/e1000_regs.h	72;"	d
+E1000_I2CCMD_ERROR	igb/e1000_defines.h	69;"	d
+E1000_I2CCMD_OPCODE_READ	igb/e1000_defines.h	66;"	d
+E1000_I2CCMD_OPCODE_WRITE	igb/e1000_defines.h	67;"	d
+E1000_I2CCMD_PHY_ADDR_SHIFT	igb/e1000_defines.h	65;"	d
+E1000_I2CCMD_PHY_TIMEOUT	igb/e1000_defines.h	71;"	d
+E1000_I2CCMD_READY	igb/e1000_defines.h	68;"	d
+E1000_I2CCMD_REG_ADDR_SHIFT	igb/e1000_defines.h	64;"	d
+E1000_IAC	igb/e1000_regs.h	214;"	d
+E1000_IAM	igb/e1000_regs.h	49;"	d
+E1000_ICR	igb/e1000_regs.h	44;"	d
+E1000_ICRXATC	igb/e1000_regs.h	218;"	d
+E1000_ICRXDMTC	igb/e1000_regs.h	228;"	d
+E1000_ICRXOC	igb/e1000_regs.h	229;"	d
+E1000_ICRXPTC	igb/e1000_regs.h	216;"	d
+E1000_ICR_DOUTSYNC	igb/e1000_defines.h	331;"	d
+E1000_ICR_DRSTA	igb/e1000_defines.h	327;"	d
+E1000_ICR_INT_ASSERTED	igb/e1000_defines.h	329;"	d
+E1000_ICR_LSC	igb/e1000_defines.h	322;"	d
+E1000_ICR_RXDMT0	igb/e1000_defines.h	324;"	d
+E1000_ICR_RXSEQ	igb/e1000_defines.h	323;"	d
+E1000_ICR_RXT0	igb/e1000_defines.h	325;"	d
+E1000_ICR_TXDW	igb/e1000_defines.h	321;"	d
+E1000_ICR_VMMB	igb/e1000_defines.h	326;"	d
+E1000_ICS	igb/e1000_regs.h	46;"	d
+E1000_ICS_DRSTA	igb/e1000_defines.h	378;"	d
+E1000_ICS_LSC	igb/e1000_defines.h	376;"	d
+E1000_ICS_RXDMT0	igb/e1000_defines.h	377;"	d
+E1000_ICTXATC	igb/e1000_regs.h	222;"	d
+E1000_ICTXPTC	igb/e1000_regs.h	220;"	d
+E1000_ICTXQEC	igb/e1000_regs.h	224;"	d
+E1000_ICTXQMTC	igb/e1000_regs.h	226;"	d
+E1000_IMC	igb/e1000_regs.h	48;"	d
+E1000_IMIR	igb/e1000_regs.h	287;"	d
+E1000_IMIREXT	igb/e1000_regs.h	288;"	d
+E1000_IMIREXT_CTRL_BP	igb/e1000_82575.h	79;"	d
+E1000_IMIREXT_SIZE_BP	igb/e1000_82575.h	78;"	d
+E1000_IMIRVP	igb/e1000_regs.h	289;"	d
+E1000_IMS	igb/e1000_regs.h	47;"	d
+E1000_IMS_DOUTSYNC	igb/e1000_defines.h	370;"	d
+E1000_IMS_DRSTA	igb/e1000_defines.h	369;"	d
+E1000_IMS_LSC	igb/e1000_defines.h	364;"	d
+E1000_IMS_RXDMT0	igb/e1000_defines.h	367;"	d
+E1000_IMS_RXSEQ	igb/e1000_defines.h	366;"	d
+E1000_IMS_RXT0	igb/e1000_defines.h	368;"	d
+E1000_IMS_TXDW	igb/e1000_defines.h	363;"	d
+E1000_IMS_VMMB	igb/e1000_defines.h	365;"	d
+E1000_IOVCTL	igb/e1000_82575.h	230;"	d
+E1000_IOVCTL_REUSE_VFQ	igb/e1000_82575.h	231;"	d
+E1000_IOVTCL	igb/e1000_regs.h	306;"	d
+E1000_IP4AT_REG	igb/e1000_regs.h	260;"	d
+E1000_IP6AT_REG	igb/e1000_regs.h	261;"	d
+E1000_IPAV	igb/e1000_regs.h	272;"	d
+E1000_ITR	igb/e1000_regs.h	45;"	d
+E1000_IVAR0	igb/e1000_regs.h	61;"	d
+E1000_IVAR_MISC	igb/e1000_regs.h	62;"	d
+E1000_IVAR_VALID	igb/e1000_defines.h	72;"	d
+E1000_LATECOL	igb/e1000_regs.h	164;"	d
+E1000_LEDCTL	igb/e1000_regs.h	67;"	d
+E1000_LEDCTL_LED0_BLINK	igb/e1000_defines.h	265;"	d
+E1000_LEDCTL_LED0_MODE_SHIFT	igb/e1000_defines.h	264;"	d
+E1000_LEDCTL_MODE_LED_OFF	igb/e1000_defines.h	268;"	d
+E1000_LEDCTL_MODE_LED_ON	igb/e1000_defines.h	267;"	d
+E1000_LENERRS	igb/e1000_regs.h	243;"	d
+E1000_MANC	igb/e1000_regs.h	271;"	d
+E1000_MANC_ASF_EN	igb/e1000_defines.h	112;"	d
+E1000_MANC_BLK_PHY_RST_ON_IDE	igb/e1000_defines.h	115;"	d
+E1000_MANC_EN_MAC_ADDR_FILTER	igb/e1000_defines.h	117;"	d
+E1000_MANC_RCV_TCO_EN	igb/e1000_defines.h	114;"	d
+E1000_MANC_SMBUS_EN	igb/e1000_defines.h	111;"	d
+E1000_MAX_SGMII_PHY_REG_ADDR	igb/e1000_defines.h	70;"	d
+E1000_MBVFICR	igb/e1000_regs.h	297;"	d
+E1000_MBVFICR_VFACK_MASK	igb/e1000_mbx.h	41;"	d
+E1000_MBVFICR_VFACK_VF1	igb/e1000_mbx.h	42;"	d
+E1000_MBVFICR_VFREQ_MASK	igb/e1000_mbx.h	39;"	d
+E1000_MBVFICR_VFREQ_VF1	igb/e1000_mbx.h	40;"	d
+E1000_MBVFIMR	igb/e1000_regs.h	298;"	d
+E1000_MCC	igb/e1000_regs.h	163;"	d
+E1000_MDIC	igb/e1000_regs.h	36;"	d
+E1000_MDICNFG	igb/e1000_regs.h	37;"	d
+E1000_MDIC_ERROR	igb/e1000_defines.h	704;"	d
+E1000_MDIC_OP_READ	igb/e1000_defines.h	702;"	d
+E1000_MDIC_OP_WRITE	igb/e1000_defines.h	701;"	d
+E1000_MDIC_PHY_SHIFT	igb/e1000_defines.h	700;"	d
+E1000_MDIC_READY	igb/e1000_defines.h	703;"	d
+E1000_MDIC_REG_SHIFT	igb/e1000_defines.h	699;"	d
+E1000_MGTPDC	igb/e1000_regs.h	196;"	d
+E1000_MGTPRC	igb/e1000_regs.h	195;"	d
+E1000_MGTPTC	igb/e1000_regs.h	197;"	d
+E1000_MNG_DHCP_COOKIE_STATUS_VLAN	igb/e1000_mac.h	86;"	d
+E1000_MPC	igb/e1000_regs.h	160;"	d
+E1000_MPRC	igb/e1000_regs.h	184;"	d
+E1000_MPTC	igb/e1000_regs.h	210;"	d
+E1000_MRQC	igb/e1000_regs.h	286;"	d
+E1000_MRQC_ENABLE_RSS_4Q	igb/e1000_82575.h	58;"	d
+E1000_MRQC_ENABLE_VMDQ	igb/e1000_82575.h	59;"	d
+E1000_MRQC_ENABLE_VMDQ_RSS_2Q	igb/e1000_82575.h	60;"	d
+E1000_MRQC_RSS_FIELD_IPV4	igb/e1000_defines.h	104;"	d
+E1000_MRQC_RSS_FIELD_IPV4_TCP	igb/e1000_defines.h	103;"	d
+E1000_MRQC_RSS_FIELD_IPV4_UDP	igb/e1000_82575.h	61;"	d
+E1000_MRQC_RSS_FIELD_IPV6	igb/e1000_defines.h	106;"	d
+E1000_MRQC_RSS_FIELD_IPV6_TCP	igb/e1000_defines.h	107;"	d
+E1000_MRQC_RSS_FIELD_IPV6_TCP_EX	igb/e1000_defines.h	105;"	d
+E1000_MRQC_RSS_FIELD_IPV6_UDP	igb/e1000_82575.h	62;"	d
+E1000_MRQC_RSS_FIELD_IPV6_UDP_EX	igb/e1000_82575.h	63;"	d
+E1000_MSIXBM	igb/e1000_regs.h	291;"	d
+E1000_MTA	igb/e1000_regs.h	252;"	d
+E1000_NOT_IMPLEMENTED	igb/e1000_defines.h	418;"	d
+E1000_NVM_APME_82575	igb/e1000_82575.h	194;"	d
+E1000_NVM_CFG_DONE_PORT_0	igb/e1000_defines.h	559;"	d
+E1000_NVM_CFG_DONE_PORT_1	igb/e1000_defines.h	560;"	d
+E1000_NVM_CFG_DONE_PORT_2	igb/e1000_defines.h	561;"	d
+E1000_NVM_CFG_DONE_PORT_3	igb/e1000_defines.h	562;"	d
+E1000_NVM_GRANT_ATTEMPTS	igb/e1000_defines.h	538;"	d
+E1000_NVM_POLL_READ	igb/e1000_defines.h	548;"	d
+E1000_NVM_RW_ADDR_SHIFT	igb/e1000_defines.h	547;"	d
+E1000_NVM_RW_REG_DATA	igb/e1000_defines.h	544;"	d
+E1000_NVM_RW_REG_DONE	igb/e1000_defines.h	545;"	d
+E1000_NVM_RW_REG_START	igb/e1000_defines.h	546;"	d
+E1000_P2VMAILBOX	igb/e1000_regs.h	308;"	d
+E1000_P2VMAILBOX_ACK	igb/e1000_mbx.h	34;"	d
+E1000_P2VMAILBOX_PFU	igb/e1000_mbx.h	36;"	d
+E1000_P2VMAILBOX_RVFU	igb/e1000_mbx.h	37;"	d
+E1000_P2VMAILBOX_STS	igb/e1000_mbx.h	33;"	d
+E1000_P2VMAILBOX_VFU	igb/e1000_mbx.h	35;"	d
+E1000_PBA	igb/e1000_regs.h	68;"	d
+E1000_PBA_34K	igb/e1000_defines.h	313;"	d
+E1000_PBA_64K	igb/e1000_defines.h	314;"	d
+E1000_PBS	igb/e1000_regs.h	69;"	d
+E1000_PCIEMISC	igb/e1000_regs.h	325;"	d
+E1000_PCIEMISC_LX_DECISION	igb/e1000_defines.h	716;"	d
+E1000_PCS_ANADV	igb/e1000_regs.h	245;"	d
+E1000_PCS_CFG0	igb/e1000_regs.h	230;"	d
+E1000_PCS_CFG_PCS_EN	igb/e1000_defines.h	200;"	d
+E1000_PCS_LCTL	igb/e1000_regs.h	231;"	d
+E1000_PCS_LCTL_AN_ENABLE	igb/e1000_defines.h	208;"	d
+E1000_PCS_LCTL_AN_RESTART	igb/e1000_defines.h	209;"	d
+E1000_PCS_LCTL_AN_TIMEOUT	igb/e1000_defines.h	210;"	d
+E1000_PCS_LCTL_FDV_FULL	igb/e1000_defines.h	204;"	d
+E1000_PCS_LCTL_FLV_LINK_UP	igb/e1000_defines.h	201;"	d
+E1000_PCS_LCTL_FORCE_FCTRL	igb/e1000_defines.h	207;"	d
+E1000_PCS_LCTL_FORCE_LINK	igb/e1000_defines.h	206;"	d
+E1000_PCS_LCTL_FSD	igb/e1000_defines.h	205;"	d
+E1000_PCS_LCTL_FSV_100	igb/e1000_defines.h	202;"	d
+E1000_PCS_LCTL_FSV_1000	igb/e1000_defines.h	203;"	d
+E1000_PCS_LPAB	igb/e1000_regs.h	246;"	d
+E1000_PCS_LPABNP	igb/e1000_regs.h	248;"	d
+E1000_PCS_LSTAT	igb/e1000_regs.h	232;"	d
+E1000_PCS_LSTS_DUPLEX_FULL	igb/e1000_defines.h	216;"	d
+E1000_PCS_LSTS_LINK_OK	igb/e1000_defines.h	213;"	d
+E1000_PCS_LSTS_SPEED_100	igb/e1000_defines.h	214;"	d
+E1000_PCS_LSTS_SPEED_1000	igb/e1000_defines.h	215;"	d
+E1000_PCS_LSTS_SYNK_OK	igb/e1000_defines.h	217;"	d
+E1000_PCS_NPTX	igb/e1000_regs.h	247;"	d
+E1000_PF_CONTROL_MSG	igb/e1000_mbx.h	68;"	d
+E1000_PRC1023	igb/e1000_regs.h	180;"	d
+E1000_PRC127	igb/e1000_regs.h	177;"	d
+E1000_PRC1522	igb/e1000_regs.h	181;"	d
+E1000_PRC255	igb/e1000_regs.h	178;"	d
+E1000_PRC511	igb/e1000_regs.h	179;"	d
+E1000_PRC64	igb/e1000_regs.h	176;"	d
+E1000_PSRCTL_BSIZE0_MASK	igb/e1000_defines.h	153;"	d
+E1000_PSRCTL_BSIZE0_SHIFT	igb/e1000_defines.h	158;"	d
+E1000_PSRCTL_BSIZE1_MASK	igb/e1000_defines.h	154;"	d
+E1000_PSRCTL_BSIZE1_SHIFT	igb/e1000_defines.h	159;"	d
+E1000_PSRCTL_BSIZE2_MASK	igb/e1000_defines.h	155;"	d
+E1000_PSRCTL_BSIZE2_SHIFT	igb/e1000_defines.h	160;"	d
+E1000_PSRCTL_BSIZE3_MASK	igb/e1000_defines.h	156;"	d
+E1000_PSRCTL_BSIZE3_SHIFT	igb/e1000_defines.h	161;"	d
+E1000_PSRTYPE	igb/e1000_regs.h	255;"	d
+E1000_PTC1023	igb/e1000_regs.h	208;"	d
+E1000_PTC127	igb/e1000_regs.h	205;"	d
+E1000_PTC1522	igb/e1000_regs.h	209;"	d
+E1000_PTC255	igb/e1000_regs.h	206;"	d
+E1000_PTC511	igb/e1000_regs.h	207;"	d
+E1000_PTC64	igb/e1000_regs.h	204;"	d
+E1000_QDE	igb/e1000_regs.h	302;"	d
+E1000_RA	igb/e1000_regs.h	253;"	d
+E1000_RA2	igb/e1000_regs.h	254;"	d
+E1000_RAH	igb/e1000_regs.h	258;"	d
+E1000_RAH_AV	igb/e1000_defines.h	402;"	d
+E1000_RAH_MAC_ADDR_LEN	igb/e1000_defines.h	404;"	d
+E1000_RAH_POOL_1	igb/e1000_defines.h	406;"	d
+E1000_RAH_POOL_MASK	igb/e1000_defines.h	405;"	d
+E1000_RAL	igb/e1000_regs.h	256;"	d
+E1000_RAL_MAC_ADDR_LEN	igb/e1000_defines.h	403;"	d
+E1000_RAR_ENTRIES_82575	igb/e1000_82575.h	41;"	d
+E1000_RAR_ENTRIES_82576	igb/e1000_82575.h	42;"	d
+E1000_RAR_ENTRIES_82580	igb/e1000_82575.h	43;"	d
+E1000_RAR_ENTRIES_I350	igb/e1000_82575.h	44;"	d
+E1000_RCTL	igb/e1000_regs.h	50;"	d
+E1000_RCTL_BAM	igb/e1000_defines.h	129;"	d
+E1000_RCTL_CFIEN	igb/e1000_defines.h	133;"	d
+E1000_RCTL_EN	igb/e1000_defines.h	120;"	d
+E1000_RCTL_LBM_MAC	igb/e1000_defines.h	125;"	d
+E1000_RCTL_LBM_TCVR	igb/e1000_defines.h	126;"	d
+E1000_RCTL_LPE	igb/e1000_defines.h	124;"	d
+E1000_RCTL_MO_SHIFT	igb/e1000_defines.h	128;"	d
+E1000_RCTL_MPE	igb/e1000_defines.h	123;"	d
+E1000_RCTL_RDMTS_HALF	igb/e1000_defines.h	127;"	d
+E1000_RCTL_SBP	igb/e1000_defines.h	121;"	d
+E1000_RCTL_SECRC	igb/e1000_defines.h	134;"	d
+E1000_RCTL_SZ_256	igb/e1000_defines.h	131;"	d
+E1000_RCTL_SZ_512	igb/e1000_defines.h	130;"	d
+E1000_RCTL_UPE	igb/e1000_defines.h	122;"	d
+E1000_RCTL_VFE	igb/e1000_defines.h	132;"	d
+E1000_RDBAH	igb/e1000_regs.h	121;"	d
+E1000_RDBAL	igb/e1000_regs.h	119;"	d
+E1000_RDH	igb/e1000_regs.h	127;"	d
+E1000_RDLEN	igb/e1000_regs.h	123;"	d
+E1000_RDT	igb/e1000_regs.h	129;"	d
+E1000_RETA	igb/e1000_regs.h	293;"	d
+E1000_REVISION_2	igb/e1000_hw.h	62;"	d
+E1000_REVISION_4	igb/e1000_hw.h	63;"	d
+E1000_RFC	igb/e1000_regs.h	192;"	d
+E1000_RFCTL	igb/e1000_regs.h	251;"	d
+E1000_RFCTL_LEF	igb/e1000_defines.h	299;"	d
+E1000_RJC	igb/e1000_regs.h	194;"	d
+E1000_RLEC	igb/e1000_regs.h	170;"	d
+E1000_RLPML	igb/e1000_regs.h	250;"	d
+E1000_RNBC	igb/e1000_regs.h	190;"	d
+E1000_ROC	igb/e1000_regs.h	193;"	d
+E1000_RPLOLR	igb/e1000_regs.h	304;"	d
+E1000_RPLOLR_STRCRC	igb/e1000_82575.h	234;"	d
+E1000_RPLOLR_STRVLAN	igb/e1000_82575.h	233;"	d
+E1000_RPTHC	igb/e1000_regs.h	236;"	d
+E1000_RQDPC	igb/e1000_regs.h	107;"	d
+E1000_RSSRK	igb/e1000_regs.h	294;"	d
+E1000_RUC	igb/e1000_regs.h	191;"	d
+E1000_RXCSUM	igb/e1000_regs.h	249;"	d
+E1000_RXCSUM_CRCOFL	igb/e1000_defines.h	295;"	d
+E1000_RXCSUM_IPOFL	igb/e1000_defines.h	293;"	d
+E1000_RXCSUM_PCSD	igb/e1000_defines.h	296;"	d
+E1000_RXCSUM_TUOFL	igb/e1000_defines.h	294;"	d
+E1000_RXDADV_HDRBUFLEN_MASK	igb/e1000_82575.h	110;"	d
+E1000_RXDADV_HDRBUFLEN_SHIFT	igb/e1000_82575.h	111;"	d
+E1000_RXDADV_STAT_TS	igb/e1000_82575.h	112;"	d
+E1000_RXDADV_STAT_TSIP	igb/e1000_82575.h	113;"	d
+E1000_RXDCTL	igb/e1000_regs.h	131;"	d
+E1000_RXDCTL_QUEUE_ENABLE	igb/e1000_82575.h	162;"	d
+E1000_RXDEXT_ERR_FRAME_ERR_MASK	igb/e1000_defines.h	96;"	d
+E1000_RXDEXT_STATERR_CE	igb/e1000_defines.h	87;"	d
+E1000_RXDEXT_STATERR_CXE	igb/e1000_defines.h	90;"	d
+E1000_RXDEXT_STATERR_IPE	igb/e1000_defines.h	92;"	d
+E1000_RXDEXT_STATERR_RXE	igb/e1000_defines.h	93;"	d
+E1000_RXDEXT_STATERR_SE	igb/e1000_defines.h	88;"	d
+E1000_RXDEXT_STATERR_SEQ	igb/e1000_defines.h	89;"	d
+E1000_RXDEXT_STATERR_TCPE	igb/e1000_defines.h	91;"	d
+E1000_RXD_STAT_DD	igb/e1000_defines.h	79;"	d
+E1000_RXD_STAT_EOP	igb/e1000_defines.h	80;"	d
+E1000_RXD_STAT_IXSM	igb/e1000_defines.h	81;"	d
+E1000_RXD_STAT_TCPCS	igb/e1000_defines.h	84;"	d
+E1000_RXD_STAT_TS	igb/e1000_defines.h	85;"	d
+E1000_RXD_STAT_UDPCS	igb/e1000_defines.h	83;"	d
+E1000_RXD_STAT_VP	igb/e1000_defines.h	82;"	d
+E1000_RXERRC	igb/e1000_regs.h	159;"	d
+E1000_RXPBS	igb/e1000_regs.h	110;"	d
+E1000_RXPBS_SIZE_MASK_82576	igb/e1000_82575.h	245;"	d
+E1000_RXSATRH	igb/e1000_regs.h	86;"	d
+E1000_RXSATRL	igb/e1000_regs.h	85;"	d
+E1000_RXSTMPH	igb/e1000_regs.h	84;"	d
+E1000_RXSTMPL	igb/e1000_regs.h	83;"	d
+E1000_RX_DESC_ADV	igb/igb.h	234;"	d
+E1000_SAQF	igb/e1000_regs.h	96;"	d
+E1000_SAQF0	igb/e1000_regs.h	100;"	d
+E1000_SCC	igb/e1000_regs.h	161;"	d
+E1000_SCCTL	igb/e1000_regs.h	278;"	d
+E1000_SCTL	igb/e1000_regs.h	38;"	d
+E1000_SCTL_DISABLE_SERDES_LOOPBACK	igb/e1000_defines.h	290;"	d
+E1000_SCVPC	igb/e1000_regs.h	244;"	d
+E1000_SEC	igb/e1000_regs.h	168;"	d
+E1000_SPQF	igb/e1000_regs.h	98;"	d
+E1000_SPQF0	igb/e1000_regs.h	102;"	d
+E1000_SRRCTL	igb/e1000_regs.h	125;"	d
+E1000_SRRCTL_BSIZEHDRSIZE_SHIFT	igb/e1000_82575.h	52;"	d
+E1000_SRRCTL_BSIZEPKT_SHIFT	igb/e1000_82575.h	51;"	d
+E1000_SRRCTL_DESCTYPE_ADV_ONEBUF	igb/e1000_82575.h	53;"	d
+E1000_SRRCTL_DESCTYPE_HDR_SPLIT_ALWAYS	igb/e1000_82575.h	54;"	d
+E1000_SRRCTL_DROP_EN	igb/e1000_82575.h	55;"	d
+E1000_SRRCTL_TIMESTAMP	igb/e1000_82575.h	56;"	d
+E1000_STATUS	igb/e1000_regs.h	32;"	d
+E1000_STATUS_FD	igb/e1000_defines.h	220;"	d
+E1000_STATUS_FUNC_1	igb/e1000_defines.h	224;"	d
+E1000_STATUS_FUNC_MASK	igb/e1000_defines.h	222;"	d
+E1000_STATUS_FUNC_SHIFT	igb/e1000_defines.h	223;"	d
+E1000_STATUS_GIO_MASTER_ENABLE	igb/e1000_defines.h	230;"	d
+E1000_STATUS_LU	igb/e1000_defines.h	221;"	d
+E1000_STATUS_SPEED_100	igb/e1000_defines.h	226;"	d
+E1000_STATUS_SPEED_1000	igb/e1000_defines.h	227;"	d
+E1000_STATUS_TXOFF	igb/e1000_defines.h	225;"	d
+E1000_STAT_DEV_RST_SET	igb/e1000_82575.h	47;"	d
+E1000_SWFW_EEP_SM	igb/e1000_defines.h	164;"	d
+E1000_SWFW_PHY0_SM	igb/e1000_defines.h	165;"	d
+E1000_SWFW_PHY1_SM	igb/e1000_defines.h	166;"	d
+E1000_SWSM	igb/e1000_regs.h	281;"	d
+E1000_SWSM_SMBI	igb/e1000_defines.h	317;"	d
+E1000_SWSM_SWESMBI	igb/e1000_defines.h	318;"	d
+E1000_SW_FW_SYNC	igb/e1000_regs.h	275;"	d
+E1000_SW_SYNCH_MB	igb/e1000_82575.h	46;"	d
+E1000_SYMERRS	igb/e1000_regs.h	158;"	d
+E1000_SYNQF	igb/e1000_regs.h	104;"	d
+E1000_SYSTIMH	igb/e1000_regs.h	90;"	d
+E1000_SYSTIML	igb/e1000_regs.h	89;"	d
+E1000_SYSTIMR	igb/e1000_regs.h	93;"	d
+E1000_TCPTIMER	igb/e1000_regs.h	74;"	d
+E1000_TCTL	igb/e1000_regs.h	63;"	d
+E1000_TCTL_COLD	igb/e1000_defines.h	284;"	d
+E1000_TCTL_CT	igb/e1000_defines.h	283;"	d
+E1000_TCTL_EN	igb/e1000_defines.h	281;"	d
+E1000_TCTL_EXT	igb/e1000_regs.h	64;"	d
+E1000_TCTL_PSP	igb/e1000_defines.h	282;"	d
+E1000_TCTL_RTLC	igb/e1000_defines.h	285;"	d
+E1000_TDBAH	igb/e1000_regs.h	135;"	d
+E1000_TDBAL	igb/e1000_regs.h	133;"	d
+E1000_TDFH	igb/e1000_regs.h	151;"	d
+E1000_TDFHS	igb/e1000_regs.h	153;"	d
+E1000_TDFPC	igb/e1000_regs.h	154;"	d
+E1000_TDFT	igb/e1000_regs.h	152;"	d
+E1000_TDH	igb/e1000_regs.h	139;"	d
+E1000_TDLEN	igb/e1000_regs.h	137;"	d
+E1000_TDT	igb/e1000_regs.h	141;"	d
+E1000_TDWBAH	igb/e1000_regs.h	149;"	d
+E1000_TDWBAL	igb/e1000_regs.h	147;"	d
+E1000_TIMINCA	igb/e1000_regs.h	91;"	d
+E1000_TIMINCA_16NS_SHIFT	igb/e1000_defines.h	467;"	d
+E1000_TIPG	igb/e1000_regs.h	65;"	d
+E1000_TNCRS	igb/e1000_regs.h	167;"	d
+E1000_TORH	igb/e1000_regs.h	199;"	d
+E1000_TORL	igb/e1000_regs.h	198;"	d
+E1000_TOTH	igb/e1000_regs.h	201;"	d
+E1000_TOTL	igb/e1000_regs.h	200;"	d
+E1000_TPR	igb/e1000_regs.h	202;"	d
+E1000_TPT	igb/e1000_regs.h	203;"	d
+E1000_TSAUXC	igb/e1000_regs.h	92;"	d
+E1000_TSCTC	igb/e1000_regs.h	212;"	d
+E1000_TSCTFC	igb/e1000_regs.h	213;"	d
+E1000_TSYNCRXCFG	igb/e1000_regs.h	82;"	d
+E1000_TSYNCRXCFG_PTP_V1_CTRLT_MASK	igb/e1000_defines.h	448;"	d
+E1000_TSYNCRXCFG_PTP_V1_DELAY_REQ_MESSAGE	igb/e1000_defines.h	450;"	d
+E1000_TSYNCRXCFG_PTP_V1_DELAY_RESP_MESSAGE	igb/e1000_defines.h	452;"	d
+E1000_TSYNCRXCFG_PTP_V1_FOLLOWUP_MESSAGE	igb/e1000_defines.h	451;"	d
+E1000_TSYNCRXCFG_PTP_V1_MANAGEMENT_MESSAGE	igb/e1000_defines.h	453;"	d
+E1000_TSYNCRXCFG_PTP_V1_SYNC_MESSAGE	igb/e1000_defines.h	449;"	d
+E1000_TSYNCRXCFG_PTP_V2_ANNOUNCE_MESSAGE	igb/e1000_defines.h	463;"	d
+E1000_TSYNCRXCFG_PTP_V2_DELAY_REQ_MESSAGE	igb/e1000_defines.h	457;"	d
+E1000_TSYNCRXCFG_PTP_V2_DELAY_RESP_MESSAGE	igb/e1000_defines.h	461;"	d
+E1000_TSYNCRXCFG_PTP_V2_FOLLOWUP_MESSAGE	igb/e1000_defines.h	460;"	d
+E1000_TSYNCRXCFG_PTP_V2_MANAGEMENT_MESSAGE	igb/e1000_defines.h	465;"	d
+E1000_TSYNCRXCFG_PTP_V2_MSGID_MASK	igb/e1000_defines.h	455;"	d
+E1000_TSYNCRXCFG_PTP_V2_PATH_DELAY_FOLLOWUP_MESSAGE	igb/e1000_defines.h	462;"	d
+E1000_TSYNCRXCFG_PTP_V2_PATH_DELAY_REQ_MESSAGE	igb/e1000_defines.h	458;"	d
+E1000_TSYNCRXCFG_PTP_V2_PATH_DELAY_RESP_MESSAGE	igb/e1000_defines.h	459;"	d
+E1000_TSYNCRXCFG_PTP_V2_SIGNALLING_MESSAGE	igb/e1000_defines.h	464;"	d
+E1000_TSYNCRXCFG_PTP_V2_SYNC_MESSAGE	igb/e1000_defines.h	456;"	d
+E1000_TSYNCRXCTL	igb/e1000_regs.h	80;"	d
+E1000_TSYNCRXCTL_ENABLED	igb/e1000_defines.h	446;"	d
+E1000_TSYNCRXCTL_TYPE_ALL	igb/e1000_defines.h	444;"	d
+E1000_TSYNCRXCTL_TYPE_EVENT_V2	igb/e1000_defines.h	445;"	d
+E1000_TSYNCRXCTL_TYPE_L2_L4_V2	igb/e1000_defines.h	443;"	d
+E1000_TSYNCRXCTL_TYPE_L2_V2	igb/e1000_defines.h	441;"	d
+E1000_TSYNCRXCTL_TYPE_L4_V1	igb/e1000_defines.h	442;"	d
+E1000_TSYNCRXCTL_TYPE_MASK	igb/e1000_defines.h	440;"	d
+E1000_TSYNCRXCTL_VALID	igb/e1000_defines.h	439;"	d
+E1000_TSYNCTXCTL	igb/e1000_regs.h	81;"	d
+E1000_TSYNCTXCTL_ENABLED	igb/e1000_defines.h	437;"	d
+E1000_TSYNCTXCTL_VALID	igb/e1000_defines.h	436;"	d
+E1000_TXCW	igb/e1000_regs.h	52;"	d
+E1000_TXDCTL	igb/e1000_regs.h	143;"	d
+E1000_TXDCTL_QUEUE_ENABLE	igb/e1000_82575.h	158;"	d
+E1000_TXD_CMD_DEXT	igb/e1000_defines.h	276;"	d
+E1000_TXD_CMD_EOP	igb/e1000_defines.h	273;"	d
+E1000_TXD_CMD_IFCS	igb/e1000_defines.h	274;"	d
+E1000_TXD_CMD_RS	igb/e1000_defines.h	275;"	d
+E1000_TXD_POPTS_IXSM	igb/e1000_defines.h	271;"	d
+E1000_TXD_POPTS_TXSM	igb/e1000_defines.h	272;"	d
+E1000_TXD_STAT_DD	igb/e1000_defines.h	277;"	d
+E1000_TXSTMPH	igb/e1000_regs.h	88;"	d
+E1000_TXSTMPL	igb/e1000_regs.h	87;"	d
+E1000_TX_CTXTDESC_ADV	igb/igb.h	238;"	d
+E1000_TX_DESC_ADV	igb/igb.h	236;"	d
+E1000_UTA	igb/e1000_regs.h	305;"	d
+E1000_VET	igb/e1000_regs.h	43;"	d
+E1000_VFLRE	igb/e1000_regs.h	299;"	d
+E1000_VFMAILBOX_SIZE	igb/e1000_mbx.h	44;"	d
+E1000_VFRE	igb/e1000_regs.h	300;"	d
+E1000_VFTA	igb/e1000_regs.h	266;"	d
+E1000_VFTA_ENTRY_BIT_SHIFT_MASK	igb/e1000_defines.h	713;"	d
+E1000_VFTA_ENTRY_MASK	igb/e1000_defines.h	712;"	d
+E1000_VFTA_ENTRY_SHIFT	igb/e1000_defines.h	711;"	d
+E1000_VFTE	igb/e1000_regs.h	301;"	d
+E1000_VF_RESET	igb/e1000_mbx.h	60;"	d
+E1000_VF_SET_LPE	igb/e1000_mbx.h	64;"	d
+E1000_VF_SET_MAC_ADDR	igb/e1000_mbx.h	61;"	d
+E1000_VF_SET_MULTICAST	igb/e1000_mbx.h	62;"	d
+E1000_VF_SET_PROMISC	igb/e1000_mbx.h	65;"	d
+E1000_VF_SET_PROMISC_MULTICAST	igb/e1000_mbx.h	66;"	d
+E1000_VF_SET_VLAN	igb/e1000_mbx.h	63;"	d
+E1000_VLAN_FILTER_TBL_SIZE	igb/e1000_defines.h	392;"	d
+E1000_VLVF	igb/e1000_regs.h	311;"	d
+E1000_VLVF_ARRAY_SIZE	igb/e1000_82575.h	220;"	d
+E1000_VLVF_LVLAN	igb/e1000_82575.h	224;"	d
+E1000_VLVF_POOLSEL_MASK	igb/e1000_82575.h	223;"	d
+E1000_VLVF_POOLSEL_SHIFT	igb/e1000_82575.h	222;"	d
+E1000_VLVF_VLANID_ENABLE	igb/e1000_82575.h	225;"	d
+E1000_VLVF_VLANID_MASK	igb/e1000_82575.h	221;"	d
+E1000_VMBMEM	igb/e1000_regs.h	309;"	d
+E1000_VMOLR	igb/e1000_regs.h	310;"	d
+E1000_VMOLR_AUPE	igb/e1000_82575.h	212;"	d
+E1000_VMOLR_BAM	igb/e1000_82575.h	215;"	d
+E1000_VMOLR_LPE	igb/e1000_82575.h	210;"	d
+E1000_VMOLR_MPME	igb/e1000_82575.h	216;"	d
+E1000_VMOLR_RLPML_MASK	igb/e1000_82575.h	209;"	d
+E1000_VMOLR_ROMPE	igb/e1000_82575.h	213;"	d
+E1000_VMOLR_ROPE	igb/e1000_82575.h	214;"	d
+E1000_VMOLR_RSSE	igb/e1000_82575.h	211;"	d
+E1000_VMOLR_STRCRC	igb/e1000_82575.h	218;"	d
+E1000_VMOLR_STRVLAN	igb/e1000_82575.h	217;"	d
+E1000_VMVIR	igb/e1000_regs.h	313;"	d
+E1000_VMVIR_VLANA_DEFAULT	igb/e1000_82575.h	227;"	d
+E1000_VMVIR_VLANA_NEVER	igb/e1000_82575.h	228;"	d
+E1000_VT_CTL	igb/e1000_regs.h	267;"	d
+E1000_VT_CTL_DEFAULT_POOL_MASK	igb/e1000_82575.h	201;"	d
+E1000_VT_CTL_DEFAULT_POOL_SHIFT	igb/e1000_82575.h	200;"	d
+E1000_VT_CTL_DISABLE_DEF_POOL	igb/e1000_82575.h	205;"	d
+E1000_VT_CTL_IGNORE_MAC	igb/e1000_82575.h	204;"	d
+E1000_VT_CTL_VM_REPL_EN	igb/e1000_82575.h	206;"	d
+E1000_VT_MSGINFO_MASK	igb/e1000_mbx.h	58;"	d
+E1000_VT_MSGINFO_SHIFT	igb/e1000_mbx.h	56;"	d
+E1000_VT_MSGTYPE_ACK	igb/e1000_mbx.h	50;"	d
+E1000_VT_MSGTYPE_CTS	igb/e1000_mbx.h	54;"	d
+E1000_VT_MSGTYPE_NACK	igb/e1000_mbx.h	52;"	d
+E1000_WUC	igb/e1000_regs.h	268;"	d
+E1000_WUC_PME_EN	igb/e1000_defines.h	37;"	d
+E1000_WUFC	igb/e1000_regs.h	269;"	d
+E1000_WUFC_BC	igb/e1000_defines.h	44;"	d
+E1000_WUFC_EX	igb/e1000_defines.h	42;"	d
+E1000_WUFC_LNKC	igb/e1000_defines.h	40;"	d
+E1000_WUFC_MAG	igb/e1000_defines.h	41;"	d
+E1000_WUFC_MC	igb/e1000_defines.h	43;"	d
+E1000_WUPL	igb/e1000_regs.h	273;"	d
+E1000_WUPM_REG	igb/e1000_regs.h	262;"	d
+E1000_WUS	igb/e1000_regs.h	270;"	d
+E1000_XOFFRXC	igb/e1000_regs.h	173;"	d
+E1000_XOFFTXC	igb/e1000_regs.h	174;"	d
+E1000_XONRXC	igb/e1000_regs.h	171;"	d
+E1000_XONTXC	igb/e1000_regs.h	172;"	d
+ETHERNET_IEEE_VLAN_TYPE	igb/e1000_defines.h	308;"	d
+FLOW_CONTROL_ADDRESS_HIGH	igb/e1000_defines.h	387;"	d
+FLOW_CONTROL_ADDRESS_LOW	igb/e1000_defines.h	386;"	d
+FLOW_CONTROL_TYPE	igb/e1000_defines.h	388;"	d
+FULL_DUPLEX	igb/e1000_defines.h	239;"	d
+HALF_DUPLEX	igb/e1000_defines.h	238;"	d
+I350_I_PHY_ID	igb/e1000_defines.h	628;"	d
+I82580_ADDR_REG	igb/e1000_phy.h	88;"	d
+I82580_CFG_ASSERT_CRS_ON_TX	igb/e1000_phy.h	90;"	d
+I82580_CFG_ENABLE_DOWNSHIFT	igb/e1000_phy.h	91;"	d
+I82580_CFG_REG	igb/e1000_phy.h	89;"	d
+I82580_CTRL_DOWNSHIFT_MASK	igb/e1000_phy.h	93;"	d
+I82580_CTRL_REG	igb/e1000_phy.h	92;"	d
+I82580_DSTATUS_CABLE_LENGTH	igb/e1000_phy.h	113;"	d
+I82580_DSTATUS_CABLE_LENGTH_SHIFT	igb/e1000_phy.h	114;"	d
+I82580_I_PHY_ID	igb/e1000_defines.h	627;"	d
+I82580_PHY_CTRL2_AUTO_MDIX	igb/e1000_phy.h	109;"	d
+I82580_PHY_CTRL2_FORCE_MDI_MDIX	igb/e1000_phy.h	110;"	d
+I82580_PHY_CTRL_2	igb/e1000_phy.h	96;"	d
+I82580_PHY_DIAG_STATUS	igb/e1000_phy.h	99;"	d
+I82580_PHY_LBK_CTRL	igb/e1000_phy.h	97;"	d
+I82580_PHY_STATUS2_MDIX	igb/e1000_phy.h	103;"	d
+I82580_PHY_STATUS2_REV_POLARITY	igb/e1000_phy.h	102;"	d
+I82580_PHY_STATUS2_SPEED_1000MBPS	igb/e1000_phy.h	105;"	d
+I82580_PHY_STATUS2_SPEED_100MBPS	igb/e1000_phy.h	106;"	d
+I82580_PHY_STATUS2_SPEED_MASK	igb/e1000_phy.h	104;"	d
+I82580_PHY_STATUS_2	igb/e1000_phy.h	98;"	d
+ID_LED_DEF1_DEF2	igb/e1000_defines.h	598;"	d
+ID_LED_DEF1_OFF2	igb/e1000_defines.h	600;"	d
+ID_LED_DEF1_ON2	igb/e1000_defines.h	599;"	d
+ID_LED_DEFAULT	igb/e1000_defines.h	594;"	d
+ID_LED_DEFAULT_82575_SERDES	igb/e1000_82575.h	36;"	d
+ID_LED_OFF1_DEF2	igb/e1000_defines.h	604;"	d
+ID_LED_OFF1_OFF2	igb/e1000_defines.h	606;"	d
+ID_LED_OFF1_ON2	igb/e1000_defines.h	605;"	d
+ID_LED_ON1_DEF2	igb/e1000_defines.h	601;"	d
+ID_LED_ON1_OFF2	igb/e1000_defines.h	603;"	d
+ID_LED_ON1_ON2	igb/e1000_defines.h	602;"	d
+ID_LED_RESERVED_0000	igb/e1000_defines.h	592;"	d
+ID_LED_RESERVED_FFFF	igb/e1000_defines.h	593;"	d
+IGB_82576_TSYNC_SHIFT	igb/igb.h	331;"	d
+IGB_82580_TSYNC_SHIFT	igb/igb.h	332;"	d
+IGB_ABS_MAX_TX_QUEUES	igb/igb.h	68;"	d
+IGB_ADVTXD_DCMD	igb/igb.h	232;"	d
+IGB_DEFAULT_ITR	igb/igb.h	59;"	d
+IGB_DEFAULT_RXD	igb/igb.h	55;"	d
+IGB_DEFAULT_TXD	igb/igb.h	51;"	d
+IGB_EEPROM_APME	igb/igb.h	128;"	d
+IGB_FLAG_DCA_ENABLED	igb/igb.h	327;"	d
+IGB_FLAG_HAS_MSI	igb/igb.h	326;"	d
+IGB_FLAG_QUAD_PORT_A	igb/igb.h	328;"	d
+IGB_FLAG_QUEUE_PAIRS	igb/igb.h	329;"	d
+IGB_GLOBAL_STATS_LEN	igb/igb_ethtool.c	112;"	d	file:
+IGB_LED_ON	igb/igb_ethtool.c	1960;"	d	file:
+IGB_MASTER_SLAVE	igb/igb.h	132;"	d
+IGB_MAX_DATA_PER_TXD	igb/igb_main.c	3960;"	d	file:
+IGB_MAX_ITR_USECS	igb/igb.h	60;"	d
+IGB_MAX_RXD	igb/igb.h	57;"	d
+IGB_MAX_RX_QUEUES	igb/igb.h	66;"	d
+IGB_MAX_TXD	igb/igb.h	53;"	d
+IGB_MAX_TXD_PWR	igb/igb_main.c	3959;"	d	file:
+IGB_MAX_TX_QUEUES	igb/igb.h	69;"	d
+IGB_MAX_VFTA_ENTRIES	igb/igb.h	73;"	d
+IGB_MAX_VF_FUNCTIONS	igb/igb.h	72;"	d
+IGB_MAX_VF_MC_ENTRIES	igb/igb.h	71;"	d
+IGB_MIN_ITR_USECS	igb/igb.h	61;"	d
+IGB_MIN_RXD	igb/igb.h	56;"	d
+IGB_MIN_TXD	igb/igb.h	52;"	d
+IGB_MNG_VLAN_NONE	igb/igb.h	135;"	d
+IGB_N0_QUEUE	igb/igb_main.c	737;"	d	file:
+IGB_NETDEV_STAT	igb/igb_ethtool.c	95;"	d	file:
+IGB_NETDEV_STATS_LEN	igb/igb_ethtool.c	114;"	d	file:
+IGB_QUEUE_STATS_LEN	igb/igb_ethtool.c	120;"	d	file:
+IGB_REGS_LEN	igb/igb_ethtool.c	392;"	d	file:
+IGB_RING_FLAG_RX_CSUM	igb/igb.h	227;"	d
+IGB_RING_FLAG_RX_SCTP_CSUM	igb/igb.h	228;"	d
+IGB_RING_FLAG_TX_CTX_IDX	igb/igb.h	230;"	d
+IGB_RXBUFFER_1024	igb/igb.h	116;"	d
+IGB_RXBUFFER_128	igb/igb.h	115;"	d
+IGB_RXBUFFER_16384	igb/igb.h	118;"	d
+IGB_RXBUFFER_2048	igb/igb.h	117;"	d
+IGB_RXBUFFER_64	igb/igb.h	114;"	d
+IGB_RX_BUFFER_WRITE	igb/igb.h	125;"	d
+IGB_RX_HTHRESH	igb/igb.h	103;"	d
+IGB_RX_PTHRESH	igb/igb.h	102;"	d
+IGB_RX_QUEUE_STATS_LEN	igb/igb_ethtool.c	116;"	d	file:
+IGB_RX_WTHRESH	igb/igb.h	104;"	d
+IGB_START_ITR	igb/igb.h	48;"	d
+IGB_STAT	igb/igb_ethtool.c	52;"	d	file:
+IGB_STATS_LEN	igb/igb_ethtool.c	125;"	d	file:
+IGB_TEST_LEN	igb/igb_ethtool.c	133;"	d	file:
+IGB_TS_HDR_LEN	igb/igb.h	333;"	d
+IGB_TX_FLAGS_CSUM	igb/igb_main.c	3789;"	d	file:
+IGB_TX_FLAGS_IPV4	igb/igb_main.c	3792;"	d	file:
+IGB_TX_FLAGS_TSO	igb/igb_main.c	3791;"	d	file:
+IGB_TX_FLAGS_TSTAMP	igb/igb_main.c	3793;"	d	file:
+IGB_TX_FLAGS_VLAN	igb/igb_main.c	3790;"	d	file:
+IGB_TX_FLAGS_VLAN_MASK	igb/igb_main.c	3794;"	d	file:
+IGB_TX_FLAGS_VLAN_SHIFT	igb/igb_main.c	3795;"	d	file:
+IGB_TX_HTHRESH	igb/igb.h	106;"	d
+IGB_TX_PTHRESH	igb/igb.h	105;"	d
+IGB_TX_QUEUE_STATS_LEN	igb/igb_ethtool.c	118;"	d	file:
+IGB_TX_QUEUE_WAKE	igb/igb.h	123;"	d
+IGB_TX_WTHRESH	igb/igb.h	107;"	d
+IGB_VF_FLAG_CTS	igb/igb.h	86;"	d
+IGB_VF_FLAG_MULTI_PROMISC	igb/igb.h	88;"	d
+IGB_VF_FLAG_PF_SET_MAC	igb/igb.h	89;"	d
+IGB_VF_FLAG_UNI_PROMISC	igb/igb.h	87;"	d
+IGP01E1000_PHY_LINK_HEALTH	igb/e1000_phy.h	79;"	d
+IGP01E1000_PHY_PAGE_SELECT	igb/e1000_phy.h	81;"	d
+IGP01E1000_PHY_PCS_INIT_REG	igb/e1000_phy.h	82;"	d
+IGP01E1000_PHY_POLARITY_MASK	igb/e1000_phy.h	83;"	d
+IGP01E1000_PHY_PORT_CONFIG	igb/e1000_phy.h	76;"	d
+IGP01E1000_PHY_PORT_CTRL	igb/e1000_phy.h	78;"	d
+IGP01E1000_PHY_PORT_STATUS	igb/e1000_phy.h	77;"	d
+IGP01E1000_PLHR_SS_DOWNGRADE	igb/e1000_phy.h	118;"	d
+IGP01E1000_PSCFR_SMART_SPEED	igb/e1000_phy.h	86;"	d
+IGP01E1000_PSCR_AUTO_MDIX	igb/e1000_phy.h	84;"	d
+IGP01E1000_PSCR_FORCE_MDI_MDIX	igb/e1000_phy.h	85;"	d
+IGP01E1000_PSSR_MDIX	igb/e1000_phy.h	120;"	d
+IGP01E1000_PSSR_POLARITY_REVERSED	igb/e1000_phy.h	119;"	d
+IGP01E1000_PSSR_SPEED_1000MBPS	igb/e1000_phy.h	122;"	d
+IGP01E1000_PSSR_SPEED_MASK	igb/e1000_phy.h	121;"	d
+IGP02E1000_AGC_LENGTH_MASK	igb/e1000_phy.h	129;"	d
+IGP02E1000_AGC_LENGTH_SHIFT	igb/e1000_phy.h	128;"	d
+IGP02E1000_AGC_RANGE	igb/e1000_phy.h	130;"	d
+IGP02E1000_CABLE_LENGTH_TABLE_SIZE	igb/e1000_phy.c	55;"	d	file:
+IGP02E1000_PHY_AGC_A	igb/e1000_phy.h	124;"	d
+IGP02E1000_PHY_AGC_B	igb/e1000_phy.h	125;"	d
+IGP02E1000_PHY_AGC_C	igb/e1000_phy.h	126;"	d
+IGP02E1000_PHY_AGC_D	igb/e1000_phy.h	127;"	d
+IGP02E1000_PHY_CHANNEL_NUM	igb/e1000_phy.h	123;"	d
+IGP02E1000_PHY_POWER_MGMT	igb/e1000_phy.h	80;"	d
+IGP02E1000_PM_D0_LPLU	igb/e1000_phy.h	116;"	d
+IGP02E1000_PM_D3_LPLU	igb/e1000_phy.h	117;"	d
+IGP03E1000_E_PHY_ID	igb/e1000_defines.h	626;"	d
+IGP_ACTIVITY_LED_ENABLE	igb/e1000_defines.h	609;"	d
+IGP_ACTIVITY_LED_MASK	igb/e1000_defines.h	608;"	d
+IGP_LED3_MODE	igb/e1000_defines.h	610;"	d
+IMS_ENABLE_MASK	igb/e1000_defines.h	354;"	d
+KDIR	Makefile	/^KDIR := \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+M88E1000_CABLE_LENGTH_TABLE_SIZE	igb/e1000_phy.c	42;"	d	file:
+M88E1000_EPSCR_MASTER_DOWNSHIFT_1X	igb/e1000_defines.h	685;"	d
+M88E1000_EPSCR_MASTER_DOWNSHIFT_MASK	igb/e1000_defines.h	684;"	d
+M88E1000_EPSCR_SLAVE_DOWNSHIFT_1X	igb/e1000_defines.h	691;"	d
+M88E1000_EPSCR_SLAVE_DOWNSHIFT_MASK	igb/e1000_defines.h	690;"	d
+M88E1000_EPSCR_TX_CLK_25	igb/e1000_defines.h	692;"	d
+M88E1000_EXT_PHY_SPEC_CTRL	igb/e1000_defines.h	634;"	d
+M88E1000_PHY_GEN_CONTROL	igb/e1000_defines.h	637;"	d
+M88E1000_PHY_PAGE_SELECT	igb/e1000_defines.h	636;"	d
+M88E1000_PHY_SPEC_CTRL	igb/e1000_defines.h	632;"	d
+M88E1000_PHY_SPEC_STATUS	igb/e1000_defines.h	633;"	d
+M88E1000_PSCR_ASSERT_CRS_ON_TX	igb/e1000_defines.h	654;"	d
+M88E1000_PSCR_AUTO_X_1000T	igb/e1000_defines.h	646;"	d
+M88E1000_PSCR_AUTO_X_MODE	igb/e1000_defines.h	648;"	d
+M88E1000_PSCR_MDIX_MANUAL_MODE	igb/e1000_defines.h	644;"	d
+M88E1000_PSCR_MDI_MANUAL_MODE	igb/e1000_defines.h	642;"	d
+M88E1000_PSCR_POLARITY_REVERSAL	igb/e1000_defines.h	640;"	d
+M88E1000_PSSR_1000MBS	igb/e1000_defines.h	669;"	d
+M88E1000_PSSR_CABLE_LENGTH	igb/e1000_defines.h	667;"	d
+M88E1000_PSSR_CABLE_LENGTH_SHIFT	igb/e1000_defines.h	671;"	d
+M88E1000_PSSR_DOWNSHIFT	igb/e1000_defines.h	658;"	d
+M88E1000_PSSR_MDIX	igb/e1000_defines.h	659;"	d
+M88E1000_PSSR_REV_POLARITY	igb/e1000_defines.h	657;"	d
+M88E1000_PSSR_SPEED	igb/e1000_defines.h	668;"	d
+M88E1111_I_PHY_ID	igb/e1000_defines.h	625;"	d
+M88EC018_EPSCR_DOWNSHIFT_COUNTER_5X	igb/e1000_defines.h	696;"	d
+M88EC018_EPSCR_DOWNSHIFT_COUNTER_MASK	igb/e1000_defines.h	695;"	d
+M88_VENDOR	igb/e1000_defines.h	629;"	d
+MASTER_DISABLE_TIMEOUT	igb/e1000_defines.h	426;"	d
+MAXIMUM_ETHERNET_VLAN_SIZE	igb/igb.h	111;"	d
+MAX_ADAPTER_NUM	ukmem.c	23;"	d	file:
+MAX_DESC_NUM	ukmem.c	22;"	d	file:
+MAX_JUMBO_FRAME_SIZE	igb/e1000_defines.h	310;"	d
+MAX_MTA_REG	igb/e1000_hw.h	359;"	d
+MAX_NUM_VFS	igb/e1000_82575.h	195;"	d
+MAX_PHY_MULTI_PAGE_REG	igb/e1000_defines.h	618;"	d
+MAX_PHY_REG_ADDRESS	igb/e1000_defines.h	617;"	d
+MAX_Q_VECTORS	igb/igb.h	63;"	d
+MAX_STD_JUMBO_FRAME_SIZE	igb/igb.h	120;"	d
+MII_CR_AUTO_NEG_EN	igb/e1000_defines.h	479;"	d
+MII_CR_FULL_DUPLEX	igb/e1000_defines.h	476;"	d
+MII_CR_LOOPBACK	igb/e1000_defines.h	480;"	d
+MII_CR_POWER_DOWN	igb/e1000_defines.h	478;"	d
+MII_CR_RESET	igb/e1000_defines.h	481;"	d
+MII_CR_RESTART_AUTO_NEG	igb/e1000_defines.h	477;"	d
+MII_CR_SPEED_10	igb/e1000_defines.h	484;"	d
+MII_CR_SPEED_100	igb/e1000_defines.h	483;"	d
+MII_CR_SPEED_1000	igb/e1000_defines.h	482;"	d
+MII_SR_AUTONEG_COMPLETE	igb/e1000_defines.h	488;"	d
+MII_SR_LINK_STATUS	igb/e1000_defines.h	487;"	d
+NON_Q_VECTORS	igb/igb.h	62;"	d
+NVM_82580_LAN_FUNC_OFFSET	igb/e1000_defines.h	564;"	d
+NVM_A8_OPCODE_SPI	igb/e1000_defines.h	584;"	d
+NVM_ALT_MAC_ADDR_PTR	igb/e1000_defines.h	556;"	d
+NVM_CHECKSUM_REG	igb/e1000_defines.h	557;"	d
+NVM_ID_LED_SETTINGS	igb/e1000_defines.h	551;"	d
+NVM_INIT_CONTROL2_REG	igb/e1000_defines.h	553;"	d
+NVM_INIT_CONTROL3_PORT_A	igb/e1000_defines.h	555;"	d
+NVM_INIT_CONTROL3_PORT_B	igb/e1000_defines.h	554;"	d
+NVM_MAX_RETRY_SPI	igb/e1000_defines.h	582;"	d
+NVM_PBA_OFFSET_0	igb/e1000_defines.h	575;"	d
+NVM_PBA_OFFSET_1	igb/e1000_defines.h	576;"	d
+NVM_RDSR_OPCODE_SPI	igb/e1000_defines.h	586;"	d
+NVM_STATUS_RDY_SPI	igb/e1000_defines.h	589;"	d
+NVM_SUM	igb/e1000_defines.h	573;"	d
+NVM_WORD0F_ASM_DIR	igb/e1000_defines.h	568;"	d
+NVM_WORD0F_PAUSE_MASK	igb/e1000_defines.h	567;"	d
+NVM_WORD_SIZE_BASE_SHIFT	igb/e1000_defines.h	577;"	d
+NVM_WREN_OPCODE_SPI	igb/e1000_defines.h	585;"	d
+NVM_WRITE_OPCODE_SPI	igb/e1000_defines.h	583;"	d
+NWAY_AR_100TX_FD_CAPS	igb/e1000_defines.h	494;"	d
+NWAY_AR_100TX_HD_CAPS	igb/e1000_defines.h	493;"	d
+NWAY_AR_10T_FD_CAPS	igb/e1000_defines.h	492;"	d
+NWAY_AR_10T_HD_CAPS	igb/e1000_defines.h	491;"	d
+NWAY_AR_ASM_DIR	igb/e1000_defines.h	496;"	d
+NWAY_AR_PAUSE	igb/e1000_defines.h	495;"	d
+NWAY_LPAR_ASM_DIR	igb/e1000_defines.h	500;"	d
+NWAY_LPAR_PAUSE	igb/e1000_defines.h	499;"	d
+PATTERN_TEST	igb/igb_ethtool.c	902;"	d	file:
+PCIE_DEVICE_CONTROL2	igb/e1000_defines.h	613;"	d
+PCIE_DEVICE_CONTROL2_16ms	igb/e1000_defines.h	614;"	d
+PHY_1000T_CTRL	igb/e1000_defines.h	525;"	d
+PHY_1000T_STATUS	igb/e1000_defines.h	526;"	d
+PHY_AUTONEG_ADV	igb/e1000_defines.h	523;"	d
+PHY_AUTO_NEG_LIMIT	igb/e1000_defines.h	423;"	d
+PHY_CFG_TIMEOUT	igb/e1000_defines.h	428;"	d
+PHY_CONTROL	igb/e1000_defines.h	519;"	d
+PHY_FORCE_LIMIT	igb/e1000_defines.h	424;"	d
+PHY_ID1	igb/e1000_defines.h	521;"	d
+PHY_ID2	igb/e1000_defines.h	522;"	d
+PHY_IDLE_ERROR_COUNT_MASK	igb/igb_main.c	4377;"	d	file:
+PHY_LP_ABILITY	igb/e1000_defines.h	524;"	d
+PHY_REVISION_MASK	igb/e1000_defines.h	616;"	d
+PHY_STATUS	igb/e1000_defines.h	520;"	d
+PTP_PORT	igb/igb_main.c	6034;"	d	file:
+Q_IDX_82576	igb/igb_main.c	626;"	d	file:
+REG_PATTERN_TEST	igb/igb_ethtool.c	1107;"	d	file:
+REG_SET_AND_CHECK	igb/igb_ethtool.c	1113;"	d	file:
+REQ_RX_DESCRIPTOR_MULTIPLE	igb/e1000_defines.h	33;"	d
+REQ_TX_DESCRIPTOR_MULTIPLE	igb/e1000_defines.h	32;"	d
+RX_FLAG	igb/igb_main.c	94;"	d	file:
+RX_FLAG	ukmem.c	169;"	d	file:
+SET_READ_TEST	igb/igb_ethtool.c	903;"	d	file:
+SPEED_10	igb/e1000_defines.h	235;"	d
+SPEED_100	igb/e1000_defines.h	236;"	d
+SPEED_1000	igb/e1000_defines.h	237;"	d
+SR_1000T_LOCAL_RX_STATUS	igb/e1000_defines.h	514;"	d
+SR_1000T_REMOTE_RX_STATUS	igb/e1000_defines.h	513;"	d
+TABLE32_TEST	igb/igb_ethtool.c	905;"	d	file:
+TABLE64_TEST_HI	igb/igb_ethtool.c	907;"	d	file:
+TABLE64_TEST_LO	igb/igb_ethtool.c	906;"	d	file:
+TX_FLAG	igb/igb_main.c	93;"	d	file:
+TX_FLAG	ukmem.c	168;"	d	file:
+USTAK_VERSION	ukmem.c	/^MODULE_VERSION(USTAK_VERSION);$/;"	v
+USTAK_VERSION	ukmem.c	14;"	d	file:
+VLAN_TAG_SIZE	igb/e1000_defines.h	391;"	d
+WRITE_NO_TEST	igb/igb_ethtool.c	904;"	d	file:
+_82575	igb/e1000_hw.h	/^		struct e1000_dev_spec_82575	_82575;$/;"	m	union:e1000_hw::__anon7	typeref:struct:e1000_hw::__anon7::e1000_dev_spec_82575
+_E1000_82575_H_	igb/e1000_82575.h	29;"	d
+_E1000_DEFINES_H_	igb/e1000_defines.h	29;"	d
+_E1000_HW_H_	igb/e1000_hw.h	29;"	d
+_E1000_MAC_H_	igb/e1000_mac.h	29;"	d
+_E1000_MBX_H_	igb/e1000_mbx.h	29;"	d
+_E1000_NVM_H_	igb/e1000_nvm.h	29;"	d
+_E1000_PHY_H_	igb/e1000_phy.h	29;"	d
+_E1000_REGS_H_	igb/e1000_regs.h	29;"	d
+_IGB_H_	igb/igb.h	32;"	d
+__IGB_DOWN	igb/igb.h	/^	__IGB_DOWN$/;"	e	enum:e1000_state_t
+__IGB_RESETTING	igb/igb.h	/^	__IGB_RESETTING,$/;"	e	enum:e1000_state_t
+__IGB_TESTING	igb/igb.h	/^	__IGB_TESTING,$/;"	e	enum:e1000_state_t
+__igb_maybe_stop_tx	igb/igb_main.c	/^static int __igb_maybe_stop_tx(struct igb_ring *tx_ring, int size)$/;"	f	file:
+__igb_notify_dca	igb/igb_main.c	/^static int __igb_notify_dca(struct device *dev, void *data)$/;"	f	file:
+__igb_shutdown	igb/igb_main.c	/^static int __igb_shutdown(struct pci_dev *pdev, bool *enable_wake)$/;"	f	file:
+acks	igb/e1000_hw.h	/^	u32 acks;$/;"	m	struct:e1000_mbx_stats
+acquire	igb/e1000_hw.h	/^	s32  (*acquire)(struct e1000_hw *);$/;"	m	struct:e1000_nvm_operations
+acquire	igb/e1000_hw.h	/^	s32  (*acquire)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+adapter	igb/igb.h	/^	struct igb_adapter *adapter; \/* backlink *\/$/;"	m	struct:igb_q_vector	typeref:struct:igb_q_vector::igb_adapter
+adapter	ukmem.c	/^	struct adapter_mem adapter[MAX_ADAPTER_NUM];$/;"	m	struct:ukmem	typeref:struct:ukmem::adapter_mem	file:
+adapter_addr	ukmem.c	/^	unsigned long adapter_addr;	\/*adapter address*\/$/;"	m	struct:adapter_mem	file:
+adapter_mem	ukmem.c	/^struct adapter_mem$/;"	s	file:
+adapter_num	ukmem.c	/^	int adapter_num;$/;"	m	struct:ukmem	file:
+adaptive_ifs	igb/e1000_hw.h	/^	bool adaptive_ifs;$/;"	m	struct:e1000_mac_info
+addr	igb/e1000_hw.h	/^	u32 addr;$/;"	m	struct:e1000_phy_info
+addr	igb/e1000_hw.h	/^	u8 addr[6];$/;"	m	struct:e1000_mac_info
+address_bits	igb/e1000_hw.h	/^	u16 address_bits;$/;"	m	struct:e1000_nvm_info
+algnerrc	igb/e1000_hw.h	/^	u64 algnerrc;$/;"	m	struct:e1000_hw_stats
+alloc_failed	igb/igb.h	/^	u64 alloc_failed;$/;"	m	struct:igb_rx_queue_stats
+arc_subsystem_valid	igb/e1000_hw.h	/^	bool arc_subsystem_valid;$/;"	m	struct:e1000_mac_info
+array_len	igb/igb_ethtool.c	/^	u16 array_len;$/;"	m	struct:igb_reg_test	file:
+array_rd32	igb/e1000_regs.h	321;"	d
+array_wr32	igb/e1000_regs.h	319;"	d
+asf_firmware_present	igb/e1000_hw.h	/^	bool asf_firmware_present;$/;"	m	struct:e1000_mac_info
+autoneg	igb/e1000_hw.h	/^	bool autoneg;$/;"	m	struct:e1000_mac_info
+autoneg_advertised	igb/e1000_hw.h	/^	u16 autoneg_advertised;$/;"	m	struct:e1000_phy_info
+autoneg_failed	igb/e1000_hw.h	/^	bool autoneg_failed;$/;"	m	struct:e1000_mac_info
+autoneg_mask	igb/e1000_hw.h	/^	u16 autoneg_mask;$/;"	m	struct:e1000_phy_info
+autoneg_wait_to_complete	igb/e1000_hw.h	/^	bool autoneg_wait_to_complete;$/;"	m	struct:e1000_phy_info
+back	igb/e1000_hw.h	/^	void *back;$/;"	m	struct:e1000_hw
+bd_number	igb/igb.h	/^	u32 bd_number;$/;"	m	struct:igb_adapter
+blink_timer	igb/igb.h	/^	struct timer_list blink_timer;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::timer_list
+board_82575	igb/igb.h	/^	board_82575,$/;"	e	enum:igb_boards
+bprc	igb/e1000_hw.h	/^	u64 bprc;$/;"	m	struct:e1000_hw_stats
+bptc	igb/e1000_hw.h	/^	u64 bptc;$/;"	m	struct:e1000_hw_stats
+buffer_addr	igb/e1000_82575.h	/^		__le64 buffer_addr;    \/* Address of descriptor's data buf *\/$/;"	m	struct:e1000_adv_tx_desc::__anon15
+buffer_info	igb/igb.h	/^	struct igb_buffer *buffer_info; \/* array of buffer info structs *\/$/;"	m	struct:igb_ring	typeref:struct:igb_ring::igb_buffer
+bulk_latency	igb/igb_main.c	/^	bulk_latency = 2,$/;"	e	enum:latency_range	file:
+bus	igb/e1000_hw.h	/^	struct e1000_bus_info  bus;$/;"	m	struct:e1000_hw	typeref:struct:e1000_hw::e1000_bus_info
+bytecount	igb/igb.h	/^			unsigned int bytecount;$/;"	m	struct:igb_buffer::__anon1::__anon2
+bytes	igb/igb.h	/^	u64 bytes;$/;"	m	struct:igb_rx_queue_stats
+bytes	igb/igb.h	/^	u64 bytes;$/;"	m	struct:igb_tx_queue_stats
+cable_length	igb/e1000_hw.h	/^	u16 cable_length;$/;"	m	struct:e1000_phy_info
+cable_polarity	igb/e1000_hw.h	/^	enum e1000_rev_polarity cable_polarity;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_rev_polarity
+cbrdpc	igb/e1000_hw.h	/^	u64 cbrdpc;$/;"	m	struct:e1000_hw_stats
+cbrmpc	igb/e1000_hw.h	/^	u64 cbrmpc;$/;"	m	struct:e1000_hw_stats
+cbtmpc	igb/e1000_hw.h	/^	u64 cbtmpc;$/;"	m	struct:e1000_hw_stats
+cexterr	igb/e1000_hw.h	/^	u64 cexterr;$/;"	m	struct:e1000_hw_stats
+check_for_ack	igb/e1000_hw.h	/^	s32 (*check_for_ack)(struct e1000_hw *, u16);$/;"	m	struct:e1000_mbx_operations
+check_for_link	igb/e1000_hw.h	/^	s32  (*check_for_link)(struct e1000_hw *);$/;"	m	struct:e1000_mac_operations
+check_for_msg	igb/e1000_hw.h	/^	s32 (*check_for_msg)(struct e1000_hw *, u16);$/;"	m	struct:e1000_mbx_operations
+check_for_rst	igb/e1000_hw.h	/^	s32 (*check_for_rst)(struct e1000_hw *, u16);$/;"	m	struct:e1000_mbx_operations
+check_mng_mode	igb/e1000_hw.h	/^	bool (*check_mng_mode)(struct e1000_hw *);$/;"	m	struct:e1000_mac_operations
+check_polarity	igb/e1000_hw.h	/^	s32  (*check_polarity)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+check_reset_block	igb/e1000_hw.h	/^	s32  (*check_reset_block)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+checksum	igb/e1000_hw.h	/^	u8  checksum;$/;"	m	struct:e1000_host_mng_command_header
+checksum	igb/e1000_hw.h	/^	u8  checksum;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+checksum	igb/e1000_hw.h	/^	u8 checksum;$/;"	m	struct:e1000_host_command_header
+clock	igb/igb.h	/^	struct timecounter clock;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::timecounter
+cmd_type_len	igb/e1000_82575.h	/^		__le32 cmd_type_len;$/;"	m	struct:e1000_adv_tx_desc::__anon15
+colc	igb/e1000_hw.h	/^	u64 colc;$/;"	m	struct:e1000_hw_stats
+command_data	igb/e1000_hw.h	/^	u8 command_data[E1000_HI_MAX_DATA_LENGTH];$/;"	m	struct:e1000_host_command_info
+command_data	igb/e1000_hw.h	/^	u8 command_data[E1000_HI_MAX_MNG_DATA_LENGTH];$/;"	m	struct:e1000_host_mng_command_info
+command_header	igb/e1000_hw.h	/^	struct e1000_host_command_header command_header;$/;"	m	struct:e1000_host_command_info	typeref:struct:e1000_host_command_info::e1000_host_command_header
+command_header	igb/e1000_hw.h	/^	struct e1000_host_mng_command_header command_header;$/;"	m	struct:e1000_host_mng_command_info	typeref:struct:e1000_host_mng_command_info::e1000_host_mng_command_header
+command_id	igb/e1000_hw.h	/^	u8  command_id;$/;"	m	struct:e1000_host_mng_command_header
+command_id	igb/e1000_hw.h	/^	u8 command_id;$/;"	m	struct:e1000_host_command_header
+command_length	igb/e1000_hw.h	/^	u16 command_length;$/;"	m	struct:e1000_host_mng_command_header
+command_length	igb/e1000_hw.h	/^	u8 command_length;$/;"	m	struct:e1000_host_command_header
+command_options	igb/e1000_hw.h	/^	u8 command_options;$/;"	m	struct:e1000_host_command_header
+compare	igb/igb.h	/^	struct timecompare compare;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::timecompare
+count	igb/igb.h	/^	u16 count;                     \/* number of desc. in the ring *\/$/;"	m	struct:igb_ring
+cpu	igb/igb.h	/^	u16 cpu;$/;"	m	struct:igb_q_vector
+crcerrs	igb/e1000_hw.h	/^	u64 crcerrs;$/;"	m	struct:e1000_hw_stats
+csum	igb/e1000_82575.h	/^					__le16 csum;     \/* Packet Checksum *\/$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon10::__anon12::__anon13
+csum_err	igb/igb.h	/^	u64 csum_err;$/;"	m	struct:igb_rx_queue_stats
+csum_ip	igb/e1000_82575.h	/^				} csum_ip;$/;"	m	union:e1000_adv_rx_desc::__anon9::__anon10::__anon12	typeref:struct:e1000_adv_rx_desc::__anon9::__anon10::__anon12::__anon13
+current_mode	igb/e1000_hw.h	/^	enum e1000_fc_mode current_mode; \/* Type of flow control *\/$/;"	m	struct:e1000_fc_info	typeref:enum:e1000_fc_info::e1000_fc_mode
+cycles	igb/igb.h	/^	struct cyclecounter cycles;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::cyclecounter
+dc	igb/e1000_hw.h	/^	u64 dc;$/;"	m	struct:e1000_hw_stats
+dca_notifier	igb/igb_main.c	/^static struct notifier_block dca_notifier = {$/;"	v	typeref:struct:notifier_block	file:
+delay_usec	igb/e1000_hw.h	/^	u16 delay_usec;$/;"	m	struct:e1000_nvm_info
+desc	igb/igb.h	/^	void *desc;                    \/* descriptor ring memory *\/$/;"	m	struct:igb_ring
+desc_pages	ukmem.c	/^	unsigned long desc_pages;		\/\/a descripter contains page numbers$/;"	m	struct:ukmem	file:
+detect_tx_hung	igb/igb.h	/^			bool detect_tx_hung;$/;"	m	struct:igb_ring::__anon4::__anon5
+dev	igb/igb.h	/^	struct device *dev;            \/* device pointer for dma mapping *\/$/;"	m	struct:igb_ring	typeref:struct:igb_ring::device
+dev_spec	igb/e1000_hw.h	/^	} dev_spec;$/;"	m	struct:e1000_hw	typeref:union:e1000_hw::__anon7
+device_id	igb/e1000_hw.h	/^	u16 device_id;$/;"	m	struct:e1000_hw
+disable_hw_init_bits	igb/e1000_hw.h	/^	bool disable_hw_init_bits;$/;"	m	struct:e1000_mac_info
+disable_polarity_correction	igb/e1000_hw.h	/^	bool disable_polarity_correction;$/;"	m	struct:e1000_phy_info
+dma	igb/igb.h	/^	dma_addr_t dma;                \/* phys address of the ring *\/$/;"	m	struct:igb_ring
+dma	igb/igb.h	/^	dma_addr_t dma;$/;"	m	struct:igb_buffer
+doosync	igb/e1000_hw.h	/^	u64 doosync;$/;"	m	struct:e1000_hw_stats
+drops	igb/igb.h	/^	u64 drops;$/;"	m	struct:igb_rx_queue_stats
+e1000_1000t_rx_status	igb/e1000_hw.h	/^enum e1000_1000t_rx_status {$/;"	g
+e1000_1000t_rx_status_not_ok	igb/e1000_hw.h	/^	e1000_1000t_rx_status_not_ok = 0,$/;"	e	enum:e1000_1000t_rx_status
+e1000_1000t_rx_status_ok	igb/e1000_hw.h	/^	e1000_1000t_rx_status_ok,$/;"	e	enum:e1000_1000t_rx_status
+e1000_1000t_rx_status_undefined	igb/e1000_hw.h	/^	e1000_1000t_rx_status_undefined = 0xFF$/;"	e	enum:e1000_1000t_rx_status
+e1000_82575	igb/e1000_hw.h	/^	e1000_82575,$/;"	e	enum:e1000_mac_type
+e1000_82575_info	igb/e1000_82575.c	/^const struct e1000_info e1000_82575_info = {$/;"	v	typeref:struct:e1000_info
+e1000_82576	igb/e1000_hw.h	/^	e1000_82576,$/;"	e	enum:e1000_mac_type
+e1000_82580	igb/e1000_hw.h	/^	e1000_82580,$/;"	e	enum:e1000_mac_type
+e1000_82580_rxpbs_table	igb/e1000_82575.c	/^static const u16 e1000_82580_rxpbs_table[] =$/;"	v	file:
+e1000_adv_rx_desc	igb/e1000_82575.h	/^union e1000_adv_rx_desc {$/;"	u
+e1000_adv_tx_context_desc	igb/e1000_82575.h	/^struct e1000_adv_tx_context_desc {$/;"	s
+e1000_adv_tx_desc	igb/e1000_82575.h	/^union e1000_adv_tx_desc {$/;"	u
+e1000_bus_info	igb/e1000_hw.h	/^struct e1000_bus_info {$/;"	s
+e1000_bus_speed	igb/e1000_hw.h	/^enum e1000_bus_speed {$/;"	g
+e1000_bus_speed_100	igb/e1000_hw.h	/^	e1000_bus_speed_100,$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_120	igb/e1000_hw.h	/^	e1000_bus_speed_120,$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_133	igb/e1000_hw.h	/^	e1000_bus_speed_133,$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_2500	igb/e1000_hw.h	/^	e1000_bus_speed_2500,$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_33	igb/e1000_hw.h	/^	e1000_bus_speed_33,$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_5000	igb/e1000_hw.h	/^	e1000_bus_speed_5000,$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_66	igb/e1000_hw.h	/^	e1000_bus_speed_66,$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_reserved	igb/e1000_hw.h	/^	e1000_bus_speed_reserved$/;"	e	enum:e1000_bus_speed
+e1000_bus_speed_unknown	igb/e1000_hw.h	/^	e1000_bus_speed_unknown = 0,$/;"	e	enum:e1000_bus_speed
+e1000_bus_type	igb/e1000_hw.h	/^enum e1000_bus_type {$/;"	g
+e1000_bus_type_pci	igb/e1000_hw.h	/^	e1000_bus_type_pci,$/;"	e	enum:e1000_bus_type
+e1000_bus_type_pci_express	igb/e1000_hw.h	/^	e1000_bus_type_pci_express,$/;"	e	enum:e1000_bus_type
+e1000_bus_type_pcix	igb/e1000_hw.h	/^	e1000_bus_type_pcix,$/;"	e	enum:e1000_bus_type
+e1000_bus_type_reserved	igb/e1000_hw.h	/^	e1000_bus_type_reserved$/;"	e	enum:e1000_bus_type
+e1000_bus_type_unknown	igb/e1000_hw.h	/^	e1000_bus_type_unknown = 0,$/;"	e	enum:e1000_bus_type
+e1000_bus_width	igb/e1000_hw.h	/^enum e1000_bus_width {$/;"	g
+e1000_bus_width_32	igb/e1000_hw.h	/^	e1000_bus_width_32,$/;"	e	enum:e1000_bus_width
+e1000_bus_width_64	igb/e1000_hw.h	/^	e1000_bus_width_64,$/;"	e	enum:e1000_bus_width
+e1000_bus_width_pcie_x1	igb/e1000_hw.h	/^	e1000_bus_width_pcie_x1,$/;"	e	enum:e1000_bus_width
+e1000_bus_width_pcie_x2	igb/e1000_hw.h	/^	e1000_bus_width_pcie_x2,$/;"	e	enum:e1000_bus_width
+e1000_bus_width_pcie_x4	igb/e1000_hw.h	/^	e1000_bus_width_pcie_x4 = 4,$/;"	e	enum:e1000_bus_width
+e1000_bus_width_pcie_x8	igb/e1000_hw.h	/^	e1000_bus_width_pcie_x8 = 8,$/;"	e	enum:e1000_bus_width
+e1000_bus_width_reserved	igb/e1000_hw.h	/^	e1000_bus_width_reserved$/;"	e	enum:e1000_bus_width
+e1000_bus_width_unknown	igb/e1000_hw.h	/^	e1000_bus_width_unknown = 0,$/;"	e	enum:e1000_bus_width
+e1000_dev_spec_82575	igb/e1000_hw.h	/^struct e1000_dev_spec_82575 {$/;"	s
+e1000_fc_default	igb/e1000_hw.h	/^	e1000_fc_default = 0xFF$/;"	e	enum:e1000_fc_mode
+e1000_fc_full	igb/e1000_hw.h	/^	e1000_fc_full,$/;"	e	enum:e1000_fc_mode
+e1000_fc_info	igb/e1000_hw.h	/^struct e1000_fc_info {$/;"	s
+e1000_fc_mode	igb/e1000_hw.h	/^enum e1000_fc_mode {$/;"	g
+e1000_fc_none	igb/e1000_hw.h	/^	e1000_fc_none = 0,$/;"	e	enum:e1000_fc_mode
+e1000_fc_rx_pause	igb/e1000_hw.h	/^	e1000_fc_rx_pause,$/;"	e	enum:e1000_fc_mode
+e1000_fc_tx_pause	igb/e1000_hw.h	/^	e1000_fc_tx_pause,$/;"	e	enum:e1000_fc_mode
+e1000_host_command_header	igb/e1000_hw.h	/^struct e1000_host_command_header {$/;"	s
+e1000_host_command_info	igb/e1000_hw.h	/^struct e1000_host_command_info {$/;"	s
+e1000_host_mng_command_header	igb/e1000_hw.h	/^struct e1000_host_mng_command_header {$/;"	s
+e1000_host_mng_command_info	igb/e1000_hw.h	/^struct e1000_host_mng_command_info {$/;"	s
+e1000_host_mng_dhcp_cookie	igb/e1000_hw.h	/^struct e1000_host_mng_dhcp_cookie {$/;"	s
+e1000_hw	igb/e1000_hw.h	/^struct e1000_hw {$/;"	s
+e1000_hw_stats	igb/e1000_hw.h	/^struct e1000_hw_stats {$/;"	s
+e1000_i350	igb/e1000_hw.h	/^	e1000_i350,$/;"	e	enum:e1000_mac_type
+e1000_igp_2_cable_length_table	igb/e1000_phy.c	/^static const u16 e1000_igp_2_cable_length_table[] =$/;"	v	file:
+e1000_info	igb/e1000_hw.h	/^struct e1000_info {$/;"	s
+e1000_m88_cable_length_table	igb/e1000_phy.c	/^static const u16 e1000_m88_cable_length_table[] =$/;"	v	file:
+e1000_mac_info	igb/e1000_hw.h	/^struct e1000_mac_info {$/;"	s
+e1000_mac_operations	igb/e1000_hw.h	/^struct e1000_mac_operations {$/;"	s
+e1000_mac_ops_82575	igb/e1000_82575.c	/^static struct e1000_mac_operations e1000_mac_ops_82575 = {$/;"	v	typeref:struct:e1000_mac_operations	file:
+e1000_mac_type	igb/e1000_hw.h	/^enum e1000_mac_type {$/;"	g
+e1000_mbx_info	igb/e1000_hw.h	/^struct e1000_mbx_info {$/;"	s
+e1000_mbx_operations	igb/e1000_hw.h	/^struct e1000_mbx_operations {$/;"	s
+e1000_mbx_stats	igb/e1000_hw.h	/^struct e1000_mbx_stats {$/;"	s
+e1000_media_type	igb/e1000_hw.h	/^enum e1000_media_type {$/;"	g
+e1000_media_type_copper	igb/e1000_hw.h	/^	e1000_media_type_copper = 1,$/;"	e	enum:e1000_media_type
+e1000_media_type_internal_serdes	igb/e1000_hw.h	/^	e1000_media_type_internal_serdes = 2,$/;"	e	enum:e1000_media_type
+e1000_media_type_unknown	igb/e1000_hw.h	/^	e1000_media_type_unknown = 0,$/;"	e	enum:e1000_media_type
+e1000_mng_mode	igb/e1000_mac.h	/^enum e1000_mng_mode {$/;"	g
+e1000_mng_mode_asf	igb/e1000_mac.h	/^	e1000_mng_mode_asf,$/;"	e	enum:e1000_mng_mode
+e1000_mng_mode_host_if_only	igb/e1000_mac.h	/^	e1000_mng_mode_host_if_only$/;"	e	enum:e1000_mng_mode
+e1000_mng_mode_ipmi	igb/e1000_mac.h	/^	e1000_mng_mode_ipmi,$/;"	e	enum:e1000_mng_mode
+e1000_mng_mode_none	igb/e1000_mac.h	/^	e1000_mng_mode_none = 0,$/;"	e	enum:e1000_mng_mode
+e1000_mng_mode_pt	igb/e1000_mac.h	/^	e1000_mng_mode_pt,$/;"	e	enum:e1000_mng_mode
+e1000_ms_auto	igb/e1000_phy.h	/^	e1000_ms_auto$/;"	e	enum:e1000_ms_type
+e1000_ms_force_master	igb/e1000_phy.h	/^	e1000_ms_force_master,$/;"	e	enum:e1000_ms_type
+e1000_ms_force_slave	igb/e1000_phy.h	/^	e1000_ms_force_slave,$/;"	e	enum:e1000_ms_type
+e1000_ms_hw_default	igb/e1000_phy.h	/^	e1000_ms_hw_default = 0,$/;"	e	enum:e1000_ms_type
+e1000_ms_type	igb/e1000_phy.h	/^enum e1000_ms_type {$/;"	g
+e1000_num_macs	igb/e1000_hw.h	/^	e1000_num_macs  \/* List is 1-based, so subtract 1 for true count. *\/$/;"	e	enum:e1000_mac_type
+e1000_num_media_types	igb/e1000_hw.h	/^	e1000_num_media_types$/;"	e	enum:e1000_media_type
+e1000_nvm_eeprom_spi	igb/e1000_hw.h	/^	e1000_nvm_eeprom_spi,$/;"	e	enum:e1000_nvm_type
+e1000_nvm_flash_hw	igb/e1000_hw.h	/^	e1000_nvm_flash_hw,$/;"	e	enum:e1000_nvm_type
+e1000_nvm_flash_sw	igb/e1000_hw.h	/^	e1000_nvm_flash_sw$/;"	e	enum:e1000_nvm_type
+e1000_nvm_info	igb/e1000_hw.h	/^struct e1000_nvm_info {$/;"	s
+e1000_nvm_none	igb/e1000_hw.h	/^	e1000_nvm_none,$/;"	e	enum:e1000_nvm_type
+e1000_nvm_operations	igb/e1000_hw.h	/^struct e1000_nvm_operations {$/;"	s
+e1000_nvm_ops_82575	igb/e1000_82575.c	/^static struct e1000_nvm_operations e1000_nvm_ops_82575 = {$/;"	v	typeref:struct:e1000_nvm_operations	file:
+e1000_nvm_override	igb/e1000_hw.h	/^enum e1000_nvm_override {$/;"	g
+e1000_nvm_override_none	igb/e1000_hw.h	/^	e1000_nvm_override_none = 0,$/;"	e	enum:e1000_nvm_override
+e1000_nvm_override_spi_large	igb/e1000_hw.h	/^	e1000_nvm_override_spi_large,$/;"	e	enum:e1000_nvm_override
+e1000_nvm_override_spi_small	igb/e1000_hw.h	/^	e1000_nvm_override_spi_small,$/;"	e	enum:e1000_nvm_override
+e1000_nvm_type	igb/e1000_hw.h	/^enum e1000_nvm_type {$/;"	g
+e1000_nvm_unknown	igb/e1000_hw.h	/^	e1000_nvm_unknown = 0,$/;"	e	enum:e1000_nvm_type
+e1000_phy_82580	igb/e1000_hw.h	/^	e1000_phy_82580,$/;"	e	enum:e1000_phy_type
+e1000_phy_gg82563	igb/e1000_hw.h	/^	e1000_phy_gg82563,$/;"	e	enum:e1000_phy_type
+e1000_phy_ife	igb/e1000_hw.h	/^	e1000_phy_ife,$/;"	e	enum:e1000_phy_type
+e1000_phy_igp	igb/e1000_hw.h	/^	e1000_phy_igp,$/;"	e	enum:e1000_phy_type
+e1000_phy_igp_2	igb/e1000_hw.h	/^	e1000_phy_igp_2,$/;"	e	enum:e1000_phy_type
+e1000_phy_igp_3	igb/e1000_hw.h	/^	e1000_phy_igp_3,$/;"	e	enum:e1000_phy_type
+e1000_phy_info	igb/e1000_hw.h	/^struct e1000_phy_info {$/;"	s
+e1000_phy_m88	igb/e1000_hw.h	/^	e1000_phy_m88,$/;"	e	enum:e1000_phy_type
+e1000_phy_none	igb/e1000_hw.h	/^	e1000_phy_none,$/;"	e	enum:e1000_phy_type
+e1000_phy_operations	igb/e1000_hw.h	/^struct e1000_phy_operations {$/;"	s
+e1000_phy_ops_82575	igb/e1000_82575.c	/^static struct e1000_phy_operations e1000_phy_ops_82575 = {$/;"	v	typeref:struct:e1000_phy_operations	file:
+e1000_phy_stats	igb/e1000_hw.h	/^struct e1000_phy_stats {$/;"	s
+e1000_phy_type	igb/e1000_hw.h	/^enum e1000_phy_type {$/;"	g
+e1000_phy_unknown	igb/e1000_hw.h	/^	e1000_phy_unknown = 0,$/;"	e	enum:e1000_phy_type
+e1000_rev_polarity	igb/e1000_hw.h	/^enum e1000_rev_polarity {$/;"	g
+e1000_rev_polarity_normal	igb/e1000_hw.h	/^	e1000_rev_polarity_normal = 0,$/;"	e	enum:e1000_rev_polarity
+e1000_rev_polarity_reversed	igb/e1000_hw.h	/^	e1000_rev_polarity_reversed,$/;"	e	enum:e1000_rev_polarity
+e1000_rev_polarity_undefined	igb/e1000_hw.h	/^	e1000_rev_polarity_undefined = 0xFF$/;"	e	enum:e1000_rev_polarity
+e1000_smart_speed	igb/e1000_phy.h	/^enum e1000_smart_speed {$/;"	g
+e1000_smart_speed_default	igb/e1000_phy.h	/^	e1000_smart_speed_default = 0,$/;"	e	enum:e1000_smart_speed
+e1000_smart_speed_off	igb/e1000_phy.h	/^	e1000_smart_speed_off$/;"	e	enum:e1000_smart_speed
+e1000_smart_speed_on	igb/e1000_phy.h	/^	e1000_smart_speed_on,$/;"	e	enum:e1000_smart_speed
+e1000_state_t	igb/igb.h	/^enum e1000_state_t {$/;"	g
+e1000_stop_nvm	igb/e1000_nvm.c	/^static void e1000_stop_nvm(struct e1000_hw *hw)$/;"	f	file:
+e1000_undefined	igb/e1000_hw.h	/^	e1000_undefined = 0,$/;"	e	enum:e1000_mac_type
+ecol	igb/e1000_hw.h	/^	u64 ecol;$/;"	m	struct:e1000_hw_stats
+eeprom_wol	igb/igb.h	/^	u32 eeprom_wol;$/;"	m	struct:igb_adapter
+eims_enable_mask	igb/igb.h	/^	u32 eims_enable_mask;$/;"	m	struct:igb_adapter
+eims_other	igb/igb.h	/^	u32 eims_other;$/;"	m	struct:igb_adapter
+eims_value	igb/igb.h	/^	u32 eims_value;$/;"	m	struct:igb_q_vector
+en_mng_pt	igb/igb.h	/^	u32 en_mng_pt;$/;"	m	struct:igb_adapter
+fc	igb/e1000_hw.h	/^	struct e1000_fc_info   fc;$/;"	m	struct:e1000_hw	typeref:struct:e1000_hw::e1000_fc_info
+fc_autoneg	igb/igb.h	/^	bool fc_autoneg;$/;"	m	struct:igb_adapter
+fcruc	igb/e1000_hw.h	/^	u64 fcruc;$/;"	m	struct:e1000_hw_stats
+flags	igb/igb.h	/^	u32 flags;$/;"	m	struct:igb_ring
+flags	igb/igb.h	/^	u32 flags;$/;"	m	struct:vf_data_storage
+flags	igb/igb.h	/^	unsigned int flags;$/;"	m	struct:igb_adapter
+flash_address	igb/e1000_hw.h	/^	u8 __iomem *flash_address;$/;"	m	struct:e1000_hw
+flash_bank_size	igb/e1000_hw.h	/^	u32 flash_bank_size;$/;"	m	struct:e1000_nvm_info
+flash_base_addr	igb/e1000_hw.h	/^	u32 flash_base_addr;$/;"	m	struct:e1000_nvm_info
+force_speed_duplex	igb/e1000_hw.h	/^	s32  (*force_speed_duplex)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+forced_speed_duplex	igb/e1000_hw.h	/^	u8  forced_speed_duplex;$/;"	m	struct:e1000_mac_info
+func	igb/e1000_hw.h	/^	u16 func;$/;"	m	struct:e1000_bus_info
+get_cable_length	igb/e1000_hw.h	/^	s32  (*get_cable_length)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+get_cfg_done	igb/e1000_hw.h	/^	s32  (*get_cfg_done)(struct e1000_hw *hw);$/;"	m	struct:e1000_phy_operations
+get_invariants	igb/e1000_hw.h	/^	s32 (*get_invariants)(struct e1000_hw *);$/;"	m	struct:e1000_info
+get_link_status	igb/e1000_hw.h	/^	bool get_link_status;$/;"	m	struct:e1000_mac_info
+get_phy_info	igb/e1000_hw.h	/^	s32  (*get_phy_info)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+get_speed_and_duplex	igb/e1000_hw.h	/^	s32  (*get_speed_and_duplex)(struct e1000_hw *, u16 *, u16 *);$/;"	m	struct:e1000_mac_operations
+global_device_reset	igb/e1000_hw.h	/^	bool global_device_reset;$/;"	m	struct:e1000_dev_spec_82575
+gorc	igb/e1000_hw.h	/^	u64 gorc;$/;"	m	struct:e1000_hw_stats
+gotc	igb/e1000_hw.h	/^	u64 gotc;$/;"	m	struct:e1000_hw_stats
+gprc	igb/e1000_hw.h	/^	u64 gprc;$/;"	m	struct:e1000_hw_stats
+gptc	igb/e1000_hw.h	/^	u64 gptc;$/;"	m	struct:e1000_hw_stats
+gso_segs	igb/igb.h	/^			u16 gso_segs;$/;"	m	struct:igb_buffer::__anon1::__anon2
+hdr_addr	igb/e1000_82575.h	/^		__le64 hdr_addr;             \/* Header buffer address *\/$/;"	m	struct:e1000_adv_rx_desc::__anon8
+hdr_info	igb/e1000_82575.h	/^				__le16 hdr_info;   \/* Split Header,$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon10::__anon11
+head	igb/igb.h	/^	void __iomem *head;$/;"	m	struct:igb_ring
+hgorc	igb/e1000_hw.h	/^	u64 hgorc;$/;"	m	struct:e1000_hw_stats
+hgotc	igb/e1000_hw.h	/^	u64 hgotc;$/;"	m	struct:e1000_hw_stats
+hgptc	igb/e1000_hw.h	/^	u64 hgptc;$/;"	m	struct:e1000_hw_stats
+hi_dword	igb/e1000_82575.h	/^			} hi_dword;$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon10	typeref:union:e1000_adv_rx_desc::__anon9::__anon10::__anon12
+high_water	igb/e1000_hw.h	/^	u32 high_water;     \/* Flow control high-water mark *\/$/;"	m	struct:e1000_fc_info
+hrmpc	igb/e1000_hw.h	/^	u64 hrmpc;$/;"	m	struct:e1000_hw_stats
+htcbdpc	igb/e1000_hw.h	/^	u64 htcbdpc;$/;"	m	struct:e1000_hw_stats
+htdpmc	igb/e1000_hw.h	/^	u64 htdpmc;$/;"	m	struct:e1000_hw_stats
+hw	igb/igb.h	/^	struct e1000_hw hw;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::e1000_hw
+hw_addr	igb/e1000_hw.h	/^	u8 __iomem *hw_addr;$/;"	m	struct:e1000_hw
+hw_dbg	igb/e1000_hw.h	512;"	d
+hwtstamp_config	igb/igb.h	/^	struct hwtstamp_config hwtstamp_config;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::hwtstamp_config
+iac	igb/e1000_hw.h	/^	u64 iac;$/;"	m	struct:e1000_hw_stats
+icrxatc	igb/e1000_hw.h	/^	u64 icrxatc;$/;"	m	struct:e1000_hw_stats
+icrxdmtc	igb/e1000_hw.h	/^	u64 icrxdmtc;$/;"	m	struct:e1000_hw_stats
+icrxoc	igb/e1000_hw.h	/^	u64 icrxoc;$/;"	m	struct:e1000_hw_stats
+icrxptc	igb/e1000_hw.h	/^	u64 icrxptc;$/;"	m	struct:e1000_hw_stats
+ictxatc	igb/e1000_hw.h	/^	u64 ictxatc;$/;"	m	struct:e1000_hw_stats
+ictxptc	igb/e1000_hw.h	/^	u64 ictxptc;$/;"	m	struct:e1000_hw_stats
+ictxqec	igb/e1000_hw.h	/^	u64 ictxqec;$/;"	m	struct:e1000_hw_stats
+ictxqmtc	igb/e1000_hw.h	/^	u64 ictxqmtc;$/;"	m	struct:e1000_hw_stats
+id	igb/e1000_hw.h	/^	u32 id;$/;"	m	struct:e1000_phy_info
+idle_errors	igb/e1000_hw.h	/^	u32 idle_errors;$/;"	m	struct:e1000_phy_stats
+ifs_params_forced	igb/e1000_hw.h	/^	bool ifs_params_forced;$/;"	m	struct:e1000_mac_info
+igb-objs	igb/Makefile	/^igb-objs := igb_main.o igb_ethtool.o e1000_82575.o \\$/;"	m
+igb_acquire_nvm	igb/e1000_nvm.c	/^s32 igb_acquire_nvm(struct e1000_hw *hw)$/;"	f
+igb_acquire_nvm_82575	igb/e1000_82575.c	/^static s32 igb_acquire_nvm_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_acquire_phy_82575	igb/e1000_82575.c	/^static s32 igb_acquire_phy_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_acquire_swfw_sync_82575	igb/e1000_82575.c	/^static s32 igb_acquire_swfw_sync_82575(struct e1000_hw *hw, u16 mask)$/;"	f	file:
+igb_adapter	igb/igb.h	/^struct igb_adapter {$/;"	s
+igb_alloc_q_vectors	igb/igb_main.c	/^static int igb_alloc_q_vectors(struct igb_adapter *adapter)$/;"	f	file:
+igb_alloc_queues	igb/igb_main.c	/^static int igb_alloc_queues(struct igb_adapter *adapter)$/;"	f	file:
+igb_alloc_rx_buffers_adv	igb/igb_main.c	/^void igb_alloc_rx_buffers_adv(struct igb_ring *rx_ring, int cleaned_count)$/;"	f
+igb_assign_vector	igb/igb_main.c	/^static void igb_assign_vector(struct igb_q_vector *q_vector, int msix_vector)$/;"	f	file:
+igb_blink_led	igb/e1000_mac.c	/^s32 igb_blink_led(struct e1000_hw *hw)$/;"	f
+igb_boards	igb/igb.h	/^enum igb_boards {$/;"	g
+igb_buffer	igb/igb.h	/^struct igb_buffer {$/;"	s
+igb_cache_ring_register	igb/igb_main.c	/^static void igb_cache_ring_register(struct igb_adapter *adapter)$/;"	f	file:
+igb_change_mtu	igb/igb_main.c	/^static int igb_change_mtu(struct net_device *netdev, int new_mtu)$/;"	f	file:
+igb_check_alt_mac_addr	igb/e1000_mac.c	/^s32 igb_check_alt_mac_addr(struct e1000_hw *hw)$/;"	f
+igb_check_downshift	igb/e1000_phy.c	/^s32 igb_check_downshift(struct e1000_hw *hw)$/;"	f
+igb_check_for_ack	igb/e1000_mbx.c	/^s32 igb_check_for_ack(struct e1000_hw *hw, u16 mbx_id)$/;"	f
+igb_check_for_ack_pf	igb/e1000_mbx.c	/^static s32 igb_check_for_ack_pf(struct e1000_hw *hw, u16 vf_number)$/;"	f	file:
+igb_check_for_bit_pf	igb/e1000_mbx.c	/^static s32 igb_check_for_bit_pf(struct e1000_hw *hw, u32 mask)$/;"	f	file:
+igb_check_for_copper_link	igb/e1000_mac.c	/^s32 igb_check_for_copper_link(struct e1000_hw *hw)$/;"	f
+igb_check_for_link_82575	igb/e1000_82575.c	/^static s32 igb_check_for_link_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_check_for_msg	igb/e1000_mbx.c	/^s32 igb_check_for_msg(struct e1000_hw *hw, u16 mbx_id)$/;"	f
+igb_check_for_msg_pf	igb/e1000_mbx.c	/^static s32 igb_check_for_msg_pf(struct e1000_hw *hw, u16 vf_number)$/;"	f	file:
+igb_check_for_rst	igb/e1000_mbx.c	/^s32 igb_check_for_rst(struct e1000_hw *hw, u16 mbx_id)$/;"	f
+igb_check_for_rst_pf	igb/e1000_mbx.c	/^static s32 igb_check_for_rst_pf(struct e1000_hw *hw, u16 vf_number)$/;"	f	file:
+igb_check_lbtest_frame	igb/igb_ethtool.c	/^static int igb_check_lbtest_frame(struct sk_buff *skb, unsigned int frame_size)$/;"	f	file:
+igb_check_polarity_82580	igb/e1000_phy.c	/^static s32 igb_check_polarity_82580(struct e1000_hw *hw)$/;"	f	file:
+igb_check_polarity_igp	igb/e1000_phy.c	/^static s32 igb_check_polarity_igp(struct e1000_hw *hw)$/;"	f	file:
+igb_check_polarity_m88	igb/e1000_phy.c	/^static s32 igb_check_polarity_m88(struct e1000_hw *hw)$/;"	f	file:
+igb_check_reset_block	igb/e1000_phy.c	/^s32 igb_check_reset_block(struct e1000_hw *hw)$/;"	f
+igb_clean_all_rx_rings	igb/igb_main.c	/^static void igb_clean_all_rx_rings(struct igb_adapter *adapter)$/;"	f	file:
+igb_clean_all_tx_rings	igb/igb_main.c	/^static void igb_clean_all_tx_rings(struct igb_adapter *adapter)$/;"	f	file:
+igb_clean_rx_irq_adv	igb/igb_main.c	/^static bool igb_clean_rx_irq_adv(struct igb_q_vector *q_vector,$/;"	f	file:
+igb_clean_rx_ring	igb/igb_main.c	/^static void igb_clean_rx_ring(struct igb_ring *rx_ring)$/;"	f	file:
+igb_clean_test_rings	igb/igb_ethtool.c	/^static int igb_clean_test_rings(struct igb_ring *rx_ring,$/;"	f	file:
+igb_clean_tx_irq	igb/igb_main.c	/^static bool igb_clean_tx_irq(struct igb_q_vector *q_vector)$/;"	f	file:
+igb_clean_tx_ring	igb/igb_main.c	/^static void igb_clean_tx_ring(struct igb_ring *tx_ring)$/;"	f	file:
+igb_cleanup_led	igb/e1000_mac.c	/^s32 igb_cleanup_led(struct e1000_hw *hw)$/;"	f
+igb_clear_hw_cntrs_82575	igb/e1000_82575.c	/^static void igb_clear_hw_cntrs_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_clear_hw_cntrs_base	igb/e1000_mac.c	/^void igb_clear_hw_cntrs_base(struct e1000_hw *hw)$/;"	f
+igb_clear_interrupt_scheme	igb/igb_main.c	/^static void igb_clear_interrupt_scheme(struct igb_adapter *adapter)$/;"	f	file:
+igb_clear_vf_vfta	igb/igb_main.c	/^static void igb_clear_vf_vfta(struct igb_adapter *adapter, u32 vf)$/;"	f	file:
+igb_clear_vfta	igb/e1000_mac.c	/^void igb_clear_vfta(struct e1000_hw *hw)$/;"	f
+igb_close	igb/igb_main.c	/^static int igb_close(struct net_device *netdev)$/;"	f	file:
+igb_config_collision_dist	igb/e1000_mac.c	/^void igb_config_collision_dist(struct e1000_hw *hw)$/;"	f
+igb_config_fc_after_link_up	igb/e1000_mac.c	/^s32 igb_config_fc_after_link_up(struct e1000_hw *hw)$/;"	f
+igb_configure	igb/igb_main.c	/^static void igb_configure(struct igb_adapter *adapter)$/;"	f	file:
+igb_configure_msix	igb/igb_main.c	/^static void igb_configure_msix(struct igb_adapter *adapter)$/;"	f	file:
+igb_configure_rx	igb/igb_main.c	/^static void igb_configure_rx(struct igb_adapter *adapter)$/;"	f	file:
+igb_configure_rx_ring	igb/igb_main.c	/^void igb_configure_rx_ring(struct igb_adapter *adapter,$/;"	f
+igb_configure_tx	igb/igb_main.c	/^static void igb_configure_tx(struct igb_adapter *adapter)$/;"	f	file:
+igb_configure_tx_ring	igb/igb_main.c	/^void igb_configure_tx_ring(struct igb_adapter *adapter,$/;"	f
+igb_copper_link_autoneg	igb/e1000_phy.c	/^static s32 igb_copper_link_autoneg(struct e1000_hw *hw)$/;"	f	file:
+igb_copper_link_setup_82580	igb/e1000_phy.c	/^s32 igb_copper_link_setup_82580(struct e1000_hw *hw)$/;"	f
+igb_copper_link_setup_igp	igb/e1000_phy.c	/^s32 igb_copper_link_setup_igp(struct e1000_hw *hw)$/;"	f
+igb_copper_link_setup_m88	igb/e1000_phy.c	/^s32 igb_copper_link_setup_m88(struct e1000_hw *hw)$/;"	f
+igb_copyright	igb/igb_main.c	/^static const char igb_copyright[] = "Copyright (c) 2007-2009 Intel Corporation.";$/;"	v	file:
+igb_create_lbtest_frame	igb/igb_ethtool.c	/^static void igb_create_lbtest_frame(struct sk_buff *skb,$/;"	f	file:
+igb_desc_unused	igb/igb.h	/^static inline int igb_desc_unused(struct igb_ring *ring)$/;"	f
+igb_diag_test	igb/igb_ethtool.c	/^static void igb_diag_test(struct net_device *netdev,$/;"	f	file:
+igb_disable_pcie_master	igb/e1000_mac.c	/^s32 igb_disable_pcie_master(struct e1000_hw *hw)$/;"	f
+igb_down	igb/igb_main.c	/^void igb_down(struct igb_adapter *adapter)$/;"	f
+igb_driver	igb/igb_main.c	/^static struct pci_driver igb_driver = {$/;"	v	typeref:struct:pci_driver	file:
+igb_driver_name	igb/igb_main.c	/^char igb_driver_name[] = "igb";$/;"	v
+igb_driver_string	igb/igb_main.c	/^static const char igb_driver_string[] =$/;"	v	file:
+igb_driver_version	igb/igb_main.c	/^char igb_driver_version[] = DRV_VERSION;$/;"	v
+igb_dump	igb/igb_main.c	/^static void igb_dump(struct igb_adapter *adapter)$/;"	f	file:
+igb_eeprom_test	igb/igb_ethtool.c	/^static int igb_eeprom_test(struct igb_adapter *adapter, u64 *data)$/;"	f	file:
+igb_enable_mng_pass_thru	igb/e1000_mac.c	/^bool igb_enable_mng_pass_thru(struct e1000_hw *hw)$/;"	f
+igb_err_handler	igb/igb_main.c	/^static struct pci_error_handlers igb_err_handler = {$/;"	v	typeref:struct:pci_error_handlers	file:
+igb_ethtool_ops	igb/igb_ethtool.c	/^static const struct ethtool_ops igb_ethtool_ops = {$/;"	v	typeref:struct:ethtool_ops	file:
+igb_exit_module	igb/igb_main.c	/^module_exit(igb_exit_module);$/;"	v
+igb_exit_module	igb/igb_main.c	/^static void __exit igb_exit_module(void)$/;"	f	file:
+igb_force_mac_fc	igb/e1000_mac.c	/^s32 igb_force_mac_fc(struct e1000_hw *hw)$/;"	f
+igb_free_all_rx_resources	igb/igb_main.c	/^static void igb_free_all_rx_resources(struct igb_adapter *adapter)$/;"	f	file:
+igb_free_all_tx_resources	igb/igb_main.c	/^static void igb_free_all_tx_resources(struct igb_adapter *adapter)$/;"	f	file:
+igb_free_desc_rings	igb/igb_ethtool.c	/^static void igb_free_desc_rings(struct igb_adapter *adapter)$/;"	f	file:
+igb_free_irq	igb/igb_main.c	/^static void igb_free_irq(struct igb_adapter *adapter)$/;"	f	file:
+igb_free_q_vectors	igb/igb_main.c	/^static void igb_free_q_vectors(struct igb_adapter *adapter)$/;"	f	file:
+igb_free_queues	igb/igb_main.c	/^static void igb_free_queues(struct igb_adapter *adapter)$/;"	f	file:
+igb_free_rx_resources	igb/igb_main.c	/^void igb_free_rx_resources(struct igb_ring *rx_ring)$/;"	f
+igb_free_tx_resources	igb/igb_main.c	/^void igb_free_tx_resources(struct igb_ring *tx_ring)$/;"	f
+igb_get_auto_rd_done	igb/e1000_mac.c	/^s32 igb_get_auto_rd_done(struct e1000_hw *hw)$/;"	f
+igb_get_bus_info_pcie	igb/e1000_mac.c	/^s32 igb_get_bus_info_pcie(struct e1000_hw *hw)$/;"	f
+igb_get_cable_length_82580	igb/e1000_phy.c	/^s32 igb_get_cable_length_82580(struct e1000_hw *hw)$/;"	f
+igb_get_cable_length_igp_2	igb/e1000_phy.c	/^s32 igb_get_cable_length_igp_2(struct e1000_hw *hw)$/;"	f
+igb_get_cable_length_m88	igb/e1000_phy.c	/^s32 igb_get_cable_length_m88(struct e1000_hw *hw)$/;"	f
+igb_get_cfg_done_82575	igb/e1000_82575.c	/^static s32 igb_get_cfg_done_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_get_coalesce	igb/igb_ethtool.c	/^static int igb_get_coalesce(struct net_device *netdev,$/;"	f	file:
+igb_get_drvinfo	igb/igb_ethtool.c	/^static void igb_get_drvinfo(struct net_device *netdev,$/;"	f	file:
+igb_get_eeprom	igb/igb_ethtool.c	/^static int igb_get_eeprom(struct net_device *netdev,$/;"	f	file:
+igb_get_eeprom_len	igb/igb_ethtool.c	/^static int igb_get_eeprom_len(struct net_device *netdev)$/;"	f	file:
+igb_get_ethtool_stats	igb/igb_ethtool.c	/^static void igb_get_ethtool_stats(struct net_device *netdev,$/;"	f	file:
+igb_get_hlen	igb/igb_main.c	/^static inline u16 igb_get_hlen(struct igb_ring *rx_ring,$/;"	f	file:
+igb_get_hw_control	igb/igb_main.c	/^static void igb_get_hw_control(struct igb_adapter *adapter)$/;"	f	file:
+igb_get_hw_dev	igb/igb_main.c	/^struct net_device *igb_get_hw_dev(struct e1000_hw *hw)$/;"	f
+igb_get_hw_semaphore	igb/e1000_mac.c	/^s32 igb_get_hw_semaphore(struct e1000_hw *hw)$/;"	f
+igb_get_invariants_82575	igb/e1000_82575.c	/^static s32 igb_get_invariants_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_get_link	igb/igb_ethtool.c	/^static u32 igb_get_link(struct net_device *netdev)$/;"	f	file:
+igb_get_msglevel	igb/igb_ethtool.c	/^static u32 igb_get_msglevel(struct net_device *netdev)$/;"	f	file:
+igb_get_pauseparam	igb/igb_ethtool.c	/^static void igb_get_pauseparam(struct net_device *netdev,$/;"	f	file:
+igb_get_pcs_speed_and_duplex_82575	igb/e1000_82575.c	/^static s32 igb_get_pcs_speed_and_duplex_82575(struct e1000_hw *hw, u16 *speed,$/;"	f	file:
+igb_get_phy_id	igb/e1000_phy.c	/^s32 igb_get_phy_id(struct e1000_hw *hw)$/;"	f
+igb_get_phy_id_82575	igb/e1000_82575.c	/^static s32 igb_get_phy_id_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_get_phy_info	igb/igb.h	/^static inline s32 igb_get_phy_info(struct e1000_hw *hw)$/;"	f
+igb_get_phy_info_82580	igb/e1000_phy.c	/^s32 igb_get_phy_info_82580(struct e1000_hw *hw)$/;"	f
+igb_get_phy_info_igp	igb/e1000_phy.c	/^s32 igb_get_phy_info_igp(struct e1000_hw *hw)$/;"	f
+igb_get_phy_info_m88	igb/e1000_phy.c	/^s32 igb_get_phy_info_m88(struct e1000_hw *hw)$/;"	f
+igb_get_regs	igb/igb_ethtool.c	/^static void igb_get_regs(struct net_device *netdev,$/;"	f	file:
+igb_get_regs_len	igb/igb_ethtool.c	/^static int igb_get_regs_len(struct net_device *netdev)$/;"	f	file:
+igb_get_ringparam	igb/igb_ethtool.c	/^static void igb_get_ringparam(struct net_device *netdev,$/;"	f	file:
+igb_get_rx_csum	igb/igb_ethtool.c	/^static u32 igb_get_rx_csum(struct net_device *netdev)$/;"	f	file:
+igb_get_settings	igb/igb_ethtool.c	/^static int igb_get_settings(struct net_device *netdev, struct ethtool_cmd *ecmd)$/;"	f	file:
+igb_get_speed_and_duplex_copper	igb/e1000_mac.c	/^s32 igb_get_speed_and_duplex_copper(struct e1000_hw *hw, u16 *speed,$/;"	f
+igb_get_sset_count	igb/igb_ethtool.c	/^static int igb_get_sset_count(struct net_device *netdev, int sset)$/;"	f	file:
+igb_get_stats	igb/igb_main.c	/^static struct net_device_stats *igb_get_stats(struct net_device *netdev)$/;"	f	file:
+igb_get_strings	igb/igb_ethtool.c	/^static void igb_get_strings(struct net_device *netdev, u32 stringset, u8 *data)$/;"	f	file:
+igb_get_tx_csum	igb/igb_ethtool.c	/^static u32 igb_get_tx_csum(struct net_device *netdev)$/;"	f	file:
+igb_get_wol	igb/igb_ethtool.c	/^static void igb_get_wol(struct net_device *netdev, struct ethtool_wolinfo *wol)$/;"	f	file:
+igb_gstrings_net_stats	igb/igb_ethtool.c	/^static const struct igb_stats igb_gstrings_net_stats[] = {$/;"	v	typeref:struct:igb_stats	file:
+igb_gstrings_stats	igb/igb_ethtool.c	/^static const struct igb_stats igb_gstrings_stats[] = {$/;"	v	typeref:struct:igb_stats	file:
+igb_gstrings_test	igb/igb_ethtool.c	/^static const char igb_gstrings_test[][ETH_GSTRING_LEN] = {$/;"	v	file:
+igb_has_link	igb/igb_main.c	/^bool igb_has_link(struct igb_adapter *adapter)$/;"	f
+igb_hash_mc_addr	igb/e1000_mac.c	/^static u32 igb_hash_mc_addr(struct e1000_hw *hw, u8 *mc_addr)$/;"	f	file:
+igb_hwtstamp_ioctl	igb/igb_main.c	/^static int igb_hwtstamp_ioctl(struct net_device *netdev,$/;"	f	file:
+igb_id_led_init	igb/e1000_mac.c	/^s32 igb_id_led_init(struct e1000_hw *hw)$/;"	f
+igb_info_tbl	igb/igb_main.c	/^static const struct e1000_info *igb_info_tbl[] = {$/;"	v	typeref:struct:e1000_info	file:
+igb_init_hw_82575	igb/e1000_82575.c	/^static s32 igb_init_hw_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_init_hw_timer	igb/igb_main.c	/^static void igb_init_hw_timer(struct igb_adapter *adapter)$/;"	f	file:
+igb_init_interrupt_scheme	igb/igb_main.c	/^static int igb_init_interrupt_scheme(struct igb_adapter *adapter)$/;"	f	file:
+igb_init_mbx_params_pf	igb/e1000_mbx.c	/^s32 igb_init_mbx_params_pf(struct e1000_hw *hw)$/;"	f
+igb_init_module	igb/igb_main.c	/^module_init(igb_init_module);$/;"	v
+igb_init_module	igb/igb_main.c	/^static int __init igb_init_module(void)$/;"	f	file:
+igb_init_rx_addrs	igb/e1000_mac.c	/^void igb_init_rx_addrs(struct e1000_hw *hw, u16 rar_count)$/;"	f
+igb_integrated_phy_loopback	igb/igb_ethtool.c	/^static int igb_integrated_phy_loopback(struct igb_adapter *adapter)$/;"	f	file:
+igb_intr	igb/igb_main.c	/^static irqreturn_t igb_intr(int irq, void *data)$/;"	f	file:
+igb_intr_msi	igb/igb_main.c	/^static irqreturn_t igb_intr_msi(int irq, void *data)$/;"	f	file:
+igb_intr_test	igb/igb_ethtool.c	/^static int igb_intr_test(struct igb_adapter *adapter, u64 *data)$/;"	f	file:
+igb_io_error_detected	igb/igb_main.c	/^static pci_ers_result_t igb_io_error_detected(struct pci_dev *pdev,$/;"	f	file:
+igb_io_resume	igb/igb_main.c	/^static void igb_io_resume(struct pci_dev *pdev)$/;"	f	file:
+igb_io_slot_reset	igb/igb_main.c	/^static pci_ers_result_t igb_io_slot_reset(struct pci_dev *pdev)$/;"	f	file:
+igb_ioctl	igb/igb_main.c	/^static int igb_ioctl(struct net_device *netdev, struct ifreq *ifr, int cmd)$/;"	f	file:
+igb_irq_disable	igb/igb_main.c	/^static void igb_irq_disable(struct igb_adapter *adapter)$/;"	f	file:
+igb_irq_enable	igb/igb_main.c	/^static void igb_irq_enable(struct igb_adapter *adapter)$/;"	f	file:
+igb_led_off	igb/e1000_mac.c	/^s32 igb_led_off(struct e1000_hw *hw)$/;"	f
+igb_link_test	igb/igb_ethtool.c	/^static int igb_link_test(struct igb_adapter *adapter, u64 *data)$/;"	f	file:
+igb_loopback_cleanup	igb/igb_ethtool.c	/^static void igb_loopback_cleanup(struct igb_adapter *adapter)$/;"	f	file:
+igb_loopback_test	igb/igb_ethtool.c	/^static int igb_loopback_test(struct igb_adapter *adapter, u64 *data)$/;"	f	file:
+igb_lower_eec_clk	igb/e1000_nvm.c	/^static void igb_lower_eec_clk(struct e1000_hw *hw, u32 *eecd)$/;"	f	file:
+igb_map_ring_to_vector	igb/igb_main.c	/^static int igb_map_ring_to_vector(struct igb_adapter *adapter)$/;"	f	file:
+igb_map_rx_ring_to_vector	igb/igb_main.c	/^static void igb_map_rx_ring_to_vector(struct igb_adapter *adapter,$/;"	f	file:
+igb_map_tx_ring_to_vector	igb/igb_main.c	/^static void igb_map_tx_ring_to_vector(struct igb_adapter *adapter,$/;"	f	file:
+igb_maybe_stop_tx	igb/igb_main.c	/^static inline int igb_maybe_stop_tx(struct igb_ring *tx_ring, int size)$/;"	f	file:
+igb_mii_ioctl	igb/igb_main.c	/^static int igb_mii_ioctl(struct net_device *netdev, struct ifreq *ifr, int cmd)$/;"	f	file:
+igb_msg_task	igb/igb_main.c	/^static void igb_msg_task(struct igb_adapter *adapter)$/;"	f	file:
+igb_msix_other	igb/igb_main.c	/^static irqreturn_t igb_msix_other(int irq, void *data)$/;"	f	file:
+igb_msix_ring	igb/igb_main.c	/^static irqreturn_t igb_msix_ring(int irq, void *data)$/;"	f	file:
+igb_mta_set	igb/e1000_mac.c	/^void igb_mta_set(struct e1000_hw *hw, u32 hash_value)$/;"	f
+igb_ndo_get_vf_config	igb/igb_main.c	/^static int igb_ndo_get_vf_config(struct net_device *netdev,$/;"	f	file:
+igb_ndo_set_vf_bw	igb/igb_main.c	/^static int igb_ndo_set_vf_bw(struct net_device *netdev, int vf, int tx_rate)$/;"	f	file:
+igb_ndo_set_vf_mac	igb/igb_main.c	/^static int igb_ndo_set_vf_mac(struct net_device *netdev, int vf, u8 *mac)$/;"	f	file:
+igb_ndo_set_vf_vlan	igb/igb_main.c	/^static int igb_ndo_set_vf_vlan(struct net_device *netdev,$/;"	f	file:
+igb_netdev_ops	igb/igb_main.c	/^static const struct net_device_ops igb_netdev_ops = {$/;"	v	typeref:struct:net_device_ops	file:
+igb_netpoll	igb/igb_main.c	/^static void igb_netpoll(struct net_device *netdev)$/;"	f	file:
+igb_notify_dca	igb/igb_main.c	/^static int igb_notify_dca(struct notifier_block *nb, unsigned long event,$/;"	f	file:
+igb_nway_reset	igb/igb_ethtool.c	/^static int igb_nway_reset(struct net_device *netdev)$/;"	f	file:
+igb_obtain_mbx_lock_pf	igb/e1000_mbx.c	/^static s32 igb_obtain_mbx_lock_pf(struct e1000_hw *hw, u16 vf_number)$/;"	f	file:
+igb_open	igb/igb_main.c	/^static int igb_open(struct net_device *netdev)$/;"	f	file:
+igb_pci_tbl	igb/igb_main.c	/^static DEFINE_PCI_DEVICE_TABLE(igb_pci_tbl) = {$/;"	v	file:
+igb_phy_disable_receiver	igb/igb_ethtool.c	/^static void igb_phy_disable_receiver(struct igb_adapter *adapter)$/;"	f	file:
+igb_phy_force_speed_duplex_82580	igb/e1000_phy.c	/^s32 igb_phy_force_speed_duplex_82580(struct e1000_hw *hw)$/;"	f
+igb_phy_force_speed_duplex_igp	igb/e1000_phy.c	/^s32 igb_phy_force_speed_duplex_igp(struct e1000_hw *hw)$/;"	f
+igb_phy_force_speed_duplex_m88	igb/e1000_phy.c	/^s32 igb_phy_force_speed_duplex_m88(struct e1000_hw *hw)$/;"	f
+igb_phy_force_speed_duplex_setup	igb/e1000_phy.c	/^static void igb_phy_force_speed_duplex_setup(struct e1000_hw *hw,$/;"	f	file:
+igb_phy_has_link	igb/e1000_phy.c	/^s32 igb_phy_has_link(struct e1000_hw *hw, u32 iterations,$/;"	f
+igb_phy_hw_reset	igb/e1000_phy.c	/^s32 igb_phy_hw_reset(struct e1000_hw *hw)$/;"	f
+igb_phy_hw_reset_sgmii_82575	igb/e1000_82575.c	/^static s32 igb_phy_hw_reset_sgmii_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_phy_init_script_igp3	igb/e1000_phy.c	/^s32 igb_phy_init_script_igp3(struct e1000_hw *hw)$/;"	f
+igb_phy_reset_dsp	igb/e1000_phy.c	/^static s32 igb_phy_reset_dsp(struct e1000_hw *hw)$/;"	f	file:
+igb_phy_setup_autoneg	igb/e1000_phy.c	/^static s32 igb_phy_setup_autoneg(struct e1000_hw *hw)$/;"	f	file:
+igb_phy_sw_reset	igb/e1000_phy.c	/^s32 igb_phy_sw_reset(struct e1000_hw *hw)$/;"	f
+igb_phys_id	igb/igb_ethtool.c	/^static int igb_phys_id(struct net_device *netdev, u32 data)$/;"	f	file:
+igb_ping_all_vfs	igb/igb_main.c	/^static void igb_ping_all_vfs(struct igb_adapter *adapter)$/;"	f	file:
+igb_poll	igb/igb_main.c	/^static int igb_poll(struct napi_struct *napi, int budget)$/;"	f	file:
+igb_poll_eerd_eewr_done	igb/e1000_nvm.c	/^static s32 igb_poll_eerd_eewr_done(struct e1000_hw *hw, int ee_reg)$/;"	f	file:
+igb_poll_for_ack	igb/e1000_mbx.c	/^static s32 igb_poll_for_ack(struct e1000_hw *hw, u16 mbx_id)$/;"	f	file:
+igb_poll_for_msg	igb/e1000_mbx.c	/^static s32 igb_poll_for_msg(struct e1000_hw *hw, u16 mbx_id)$/;"	f	file:
+igb_power_down_link	igb/igb_main.c	/^static void igb_power_down_link(struct igb_adapter *adapter)$/;"	f	file:
+igb_power_down_phy_copper	igb/e1000_phy.c	/^void igb_power_down_phy_copper(struct e1000_hw *hw)$/;"	f
+igb_power_down_phy_copper_82575	igb/e1000_82575.c	/^void igb_power_down_phy_copper_82575(struct e1000_hw *hw)$/;"	f
+igb_power_up_link	igb/igb_main.c	/^void igb_power_up_link(struct igb_adapter *adapter)$/;"	f
+igb_power_up_phy_copper	igb/e1000_phy.c	/^void igb_power_up_phy_copper(struct e1000_hw *hw)$/;"	f
+igb_power_up_serdes_link_82575	igb/e1000_82575.c	/^void igb_power_up_serdes_link_82575(struct e1000_hw *hw)$/;"	f
+igb_probe	igb/igb_main.c	/^static int __devinit igb_probe(struct pci_dev *pdev,$/;"	f	file:
+igb_probe_vfs	igb/igb_main.c	/^static void __devinit igb_probe_vfs(struct igb_adapter * adapter)$/;"	f	file:
+igb_put_hw_semaphore	igb/e1000_mac.c	/^void igb_put_hw_semaphore(struct e1000_hw *hw)$/;"	f
+igb_q_vector	igb/igb.h	/^struct igb_q_vector {$/;"	s
+igb_raise_eec_clk	igb/e1000_nvm.c	/^static void igb_raise_eec_clk(struct e1000_hw *hw, u32 *eecd)$/;"	f	file:
+igb_rar_set	igb/e1000_mac.c	/^void igb_rar_set(struct e1000_hw *hw, u8 *addr, u32 index)$/;"	f
+igb_rar_set_qsel	igb/igb_main.c	/^static void igb_rar_set_qsel(struct igb_adapter *adapter, u8 *addr, u32 index,$/;"	f	file:
+igb_rcv_ack_from_vf	igb/igb_main.c	/^static void igb_rcv_ack_from_vf(struct igb_adapter *adapter, u32 vf)$/;"	f	file:
+igb_rcv_msg_from_vf	igb/igb_main.c	/^static void igb_rcv_msg_from_vf(struct igb_adapter *adapter, u32 vf)$/;"	f	file:
+igb_read_clock	igb/igb_main.c	/^static cycle_t igb_read_clock(const struct cyclecounter *tc)$/;"	f	file:
+igb_read_mac_addr	igb/e1000_nvm.c	/^s32 igb_read_mac_addr(struct e1000_hw *hw)$/;"	f
+igb_read_mac_addr_82575	igb/e1000_82575.c	/^static s32 igb_read_mac_addr_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_read_mbx	igb/e1000_mbx.c	/^s32 igb_read_mbx(struct e1000_hw *hw, u32 *msg, u16 size, u16 mbx_id)$/;"	f
+igb_read_mbx_pf	igb/e1000_mbx.c	/^static s32 igb_read_mbx_pf(struct e1000_hw *hw, u32 *msg, u16 size,$/;"	f	file:
+igb_read_nvm_eerd	igb/e1000_nvm.c	/^s32 igb_read_nvm_eerd(struct e1000_hw *hw, u16 offset, u16 words, u16 *data)$/;"	f
+igb_read_part_num	igb/e1000_nvm.c	/^s32 igb_read_part_num(struct e1000_hw *hw, u32 *part_num)$/;"	f
+igb_read_pcie_cap_reg	igb/igb_main.c	/^s32 igb_read_pcie_cap_reg(struct e1000_hw *hw, u32 reg, u16 *value)$/;"	f
+igb_read_phy_reg	igb/igb.h	/^static inline s32 igb_read_phy_reg(struct e1000_hw *hw, u32 offset, u16 *data)$/;"	f
+igb_read_phy_reg_82580	igb/e1000_82575.c	/^static s32 igb_read_phy_reg_82580(struct e1000_hw *hw, u32 offset, u16 *data)$/;"	f	file:
+igb_read_phy_reg_i2c	igb/e1000_phy.c	/^s32 igb_read_phy_reg_i2c(struct e1000_hw *hw, u32 offset, u16 *data)$/;"	f
+igb_read_phy_reg_igp	igb/e1000_phy.c	/^s32 igb_read_phy_reg_igp(struct e1000_hw *hw, u32 offset, u16 *data)$/;"	f
+igb_read_phy_reg_mdic	igb/e1000_phy.c	/^s32 igb_read_phy_reg_mdic(struct e1000_hw *hw, u32 offset, u16 *data)$/;"	f
+igb_read_phy_reg_sgmii_82575	igb/e1000_82575.c	/^static s32 igb_read_phy_reg_sgmii_82575(struct e1000_hw *hw, u32 offset,$/;"	f	file:
+igb_read_posted_mbx	igb/e1000_mbx.c	/^static s32 igb_read_posted_mbx(struct e1000_hw *hw, u32 *msg, u16 size, u16 mbx_id)$/;"	f	file:
+igb_ready_nvm_eeprom	igb/e1000_nvm.c	/^static s32 igb_ready_nvm_eeprom(struct e1000_hw *hw)$/;"	f	file:
+igb_receive_skb	igb/igb_main.c	/^static void igb_receive_skb(struct igb_q_vector *q_vector,$/;"	f	file:
+igb_reg_info	igb/igb_main.c	/^struct igb_reg_info {$/;"	s	file:
+igb_reg_info_tbl	igb/igb_main.c	/^static const struct igb_reg_info igb_reg_info_tbl[] = {$/;"	v	typeref:struct:igb_reg_info	file:
+igb_reg_test	igb/igb_ethtool.c	/^static int igb_reg_test(struct igb_adapter *adapter, u64 *data)$/;"	f	file:
+igb_reg_test	igb/igb_ethtool.c	/^struct igb_reg_test {$/;"	s	file:
+igb_regdump	igb/igb_main.c	/^static void igb_regdump(struct e1000_hw *hw, struct igb_reg_info *reginfo)$/;"	f	file:
+igb_reinit_locked	igb/igb_main.c	/^void igb_reinit_locked(struct igb_adapter *adapter)$/;"	f
+igb_release_hw_control	igb/igb_main.c	/^static void igb_release_hw_control(struct igb_adapter *adapter)$/;"	f	file:
+igb_release_nvm	igb/e1000_nvm.c	/^void igb_release_nvm(struct e1000_hw *hw)$/;"	f
+igb_release_nvm_82575	igb/e1000_82575.c	/^static void igb_release_nvm_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_release_phy_82575	igb/e1000_82575.c	/^static void igb_release_phy_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_release_swfw_sync_82575	igb/e1000_82575.c	/^static void igb_release_swfw_sync_82575(struct e1000_hw *hw, u16 mask)$/;"	f	file:
+igb_remove	igb/igb_main.c	/^static void __devexit igb_remove(struct pci_dev *pdev)$/;"	f	file:
+igb_request_irq	igb/igb_main.c	/^static int igb_request_irq(struct igb_adapter *adapter)$/;"	f	file:
+igb_request_msix	igb/igb_main.c	/^static int igb_request_msix(struct igb_adapter *adapter)$/;"	f	file:
+igb_reset	igb/igb_main.c	/^void igb_reset(struct igb_adapter *adapter)$/;"	f
+igb_reset_hw_82575	igb/e1000_82575.c	/^static s32 igb_reset_hw_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_reset_hw_82580	igb/e1000_82575.c	/^static s32 igb_reset_hw_82580(struct e1000_hw *hw)$/;"	f	file:
+igb_reset_init_script_82575	igb/e1000_82575.c	/^static s32 igb_reset_init_script_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_reset_interrupt_capability	igb/igb_main.c	/^static void igb_reset_interrupt_capability(struct igb_adapter *adapter)$/;"	f	file:
+igb_reset_phy	igb/igb.h	/^static inline s32 igb_reset_phy(struct e1000_hw *hw)$/;"	f
+igb_reset_task	igb/igb_main.c	/^static void igb_reset_task(struct work_struct *work)$/;"	f	file:
+igb_restore_vf_multicasts	igb/igb_main.c	/^static void igb_restore_vf_multicasts(struct igb_adapter *adapter)$/;"	f	file:
+igb_restore_vlan	igb/igb_main.c	/^static void igb_restore_vlan(struct igb_adapter *adapter)$/;"	f	file:
+igb_resume	igb/igb_main.c	/^static int igb_resume(struct pci_dev *pdev)$/;"	f	file:
+igb_ring	igb/igb.h	/^struct igb_ring {$/;"	s
+igb_ring_irq_enable	igb/igb_main.c	/^static inline void igb_ring_irq_enable(struct igb_q_vector *q_vector)$/;"	f	file:
+igb_rlpml_set	igb/igb_main.c	/^static void igb_rlpml_set(struct igb_adapter *adapter)$/;"	f	file:
+igb_run_loopback_test	igb/igb_ethtool.c	/^static int igb_run_loopback_test(struct igb_adapter *adapter)$/;"	f	file:
+igb_rx_checksum_adv	igb/igb_main.c	/^static inline void igb_rx_checksum_adv(struct igb_ring *ring,$/;"	f	file:
+igb_rx_fifo_flush_82575	igb/e1000_82575.c	/^void igb_rx_fifo_flush_82575(struct e1000_hw *hw)$/;"	f
+igb_rx_hash	igb/igb_main.c	/^static inline void igb_rx_hash(struct igb_ring *ring,$/;"	f	file:
+igb_rx_hwtstamp	igb/igb_main.c	/^static void igb_rx_hwtstamp(struct igb_q_vector *q_vector, u32 staterr,$/;"	f	file:
+igb_rx_queue_stats	igb/igb.h	/^struct igb_rx_queue_stats {$/;"	s
+igb_rxpbs_adjust_82580	igb/e1000_82575.c	/^u16 igb_rxpbs_adjust_82580(u32 data)$/;"	f
+igb_set_coalesce	igb/igb_ethtool.c	/^static int igb_set_coalesce(struct net_device *netdev,$/;"	f	file:
+igb_set_d0_lplu_state_82575	igb/e1000_82575.c	/^static s32 igb_set_d0_lplu_state_82575(struct e1000_hw *hw, bool active)$/;"	f	file:
+igb_set_d3_lplu_state	igb/e1000_phy.c	/^s32 igb_set_d3_lplu_state(struct e1000_hw *hw, bool active)$/;"	f
+igb_set_default_fc	igb/e1000_mac.c	/^static s32 igb_set_default_fc(struct e1000_hw *hw)$/;"	f	file:
+igb_set_eeprom	igb/igb_ethtool.c	/^static int igb_set_eeprom(struct net_device *netdev,$/;"	f	file:
+igb_set_ethtool_ops	igb/igb_ethtool.c	/^void igb_set_ethtool_ops(struct net_device *netdev)$/;"	f
+igb_set_fc_watermarks	igb/e1000_mac.c	/^static s32 igb_set_fc_watermarks(struct e1000_hw *hw)$/;"	f	file:
+igb_set_interrupt_capability	igb/igb_main.c	/^static void igb_set_interrupt_capability(struct igb_adapter *adapter)$/;"	f	file:
+igb_set_itr	igb/igb_main.c	/^static void igb_set_itr(struct igb_adapter *adapter)$/;"	f	file:
+igb_set_mac	igb/igb_main.c	/^static int igb_set_mac(struct net_device *netdev, void *p)$/;"	f	file:
+igb_set_msglevel	igb/igb_ethtool.c	/^static void igb_set_msglevel(struct net_device *netdev, u32 data)$/;"	f	file:
+igb_set_pauseparam	igb/igb_ethtool.c	/^static int igb_set_pauseparam(struct net_device *netdev,$/;"	f	file:
+igb_set_pcie_completion_timeout	igb/e1000_82575.c	/^static s32 igb_set_pcie_completion_timeout(struct e1000_hw *hw)$/;"	f	file:
+igb_set_phy_loopback	igb/igb_ethtool.c	/^static int igb_set_phy_loopback(struct igb_adapter *adapter)$/;"	f	file:
+igb_set_ringparam	igb/igb_ethtool.c	/^static int igb_set_ringparam(struct net_device *netdev,$/;"	f	file:
+igb_set_rx_csum	igb/igb_ethtool.c	/^static int igb_set_rx_csum(struct net_device *netdev, u32 data)$/;"	f	file:
+igb_set_rx_mode	igb/igb_main.c	/^static void igb_set_rx_mode(struct net_device *netdev)$/;"	f	file:
+igb_set_settings	igb/igb_ethtool.c	/^static int igb_set_settings(struct net_device *netdev, struct ethtool_cmd *ecmd)$/;"	f	file:
+igb_set_spd_dplx	igb/igb_main.c	/^int igb_set_spd_dplx(struct igb_adapter *adapter, u16 spddplx)$/;"	f
+igb_set_tso	igb/igb_ethtool.c	/^static int igb_set_tso(struct net_device *netdev, u32 data)$/;"	f	file:
+igb_set_tx_csum	igb/igb_ethtool.c	/^static int igb_set_tx_csum(struct net_device *netdev, u32 data)$/;"	f	file:
+igb_set_uta	igb/igb_main.c	/^static void igb_set_uta(struct igb_adapter *adapter)$/;"	f	file:
+igb_set_vf_mac	igb/igb_main.c	/^static int igb_set_vf_mac(struct igb_adapter *adapter,$/;"	f	file:
+igb_set_vf_mac_addr	igb/igb_main.c	/^static int igb_set_vf_mac_addr(struct igb_adapter *adapter, u32 *msg, int vf)$/;"	f	file:
+igb_set_vf_multicasts	igb/igb_main.c	/^static int igb_set_vf_multicasts(struct igb_adapter *adapter,$/;"	f	file:
+igb_set_vf_promisc	igb/igb_main.c	/^static int igb_set_vf_promisc(struct igb_adapter *adapter, u32 *msgbuf, u32 vf)$/;"	f	file:
+igb_set_vf_rlpml	igb/igb_main.c	/^static inline int igb_set_vf_rlpml(struct igb_adapter *adapter, int size,$/;"	f	file:
+igb_set_vf_vlan	igb/igb_main.c	/^static int igb_set_vf_vlan(struct igb_adapter *adapter, u32 *msgbuf, u32 vf)$/;"	f	file:
+igb_set_vmolr	igb/igb_main.c	/^static inline void igb_set_vmolr(struct igb_adapter *adapter,$/;"	f	file:
+igb_set_vmvir	igb/igb_main.c	/^static void igb_set_vmvir(struct igb_adapter *adapter, u32 vid, u32 vf)$/;"	f	file:
+igb_set_wol	igb/igb_ethtool.c	/^static int igb_set_wol(struct net_device *netdev, struct ethtool_wolinfo *wol)$/;"	f	file:
+igb_setup_all_rx_resources	igb/igb_main.c	/^static int igb_setup_all_rx_resources(struct igb_adapter *adapter)$/;"	f	file:
+igb_setup_all_tx_resources	igb/igb_main.c	/^static int igb_setup_all_tx_resources(struct igb_adapter *adapter)$/;"	f	file:
+igb_setup_copper_link	igb/e1000_phy.c	/^s32 igb_setup_copper_link(struct e1000_hw *hw)$/;"	f
+igb_setup_copper_link_82575	igb/e1000_82575.c	/^static s32 igb_setup_copper_link_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_setup_dca	igb/igb_main.c	/^static void igb_setup_dca(struct igb_adapter *adapter)$/;"	f	file:
+igb_setup_desc_rings	igb/igb_ethtool.c	/^static int igb_setup_desc_rings(struct igb_adapter *adapter)$/;"	f	file:
+igb_setup_link	igb/e1000_mac.c	/^s32 igb_setup_link(struct e1000_hw *hw)$/;"	f
+igb_setup_loopback_test	igb/igb_ethtool.c	/^static int igb_setup_loopback_test(struct igb_adapter *adapter)$/;"	f	file:
+igb_setup_mrqc	igb/igb_main.c	/^static void igb_setup_mrqc(struct igb_adapter *adapter)$/;"	f	file:
+igb_setup_rctl	igb/igb_main.c	/^void igb_setup_rctl(struct igb_adapter *adapter)$/;"	f
+igb_setup_rx_resources	igb/igb_main.c	/^int igb_setup_rx_resources(struct igb_ring *rx_ring)$/;"	f
+igb_setup_serdes_link_82575	igb/e1000_82575.c	/^static s32 igb_setup_serdes_link_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_setup_tctl	igb/igb_main.c	/^void igb_setup_tctl(struct igb_adapter *adapter)$/;"	f
+igb_setup_tx_resources	igb/igb_main.c	/^int igb_setup_tx_resources(struct igb_ring *tx_ring)$/;"	f
+igb_sgmii_active_82575	igb/e1000_82575.c	/^static bool igb_sgmii_active_82575(struct e1000_hw *hw)$/;"	f	file:
+igb_shift_in_eec_bits	igb/e1000_nvm.c	/^static u16 igb_shift_in_eec_bits(struct e1000_hw *hw, u16 count)$/;"	f	file:
+igb_shift_out_eec_bits	igb/e1000_nvm.c	/^static void igb_shift_out_eec_bits(struct e1000_hw *hw, u16 data, u16 count)$/;"	f	file:
+igb_shutdown	igb/igb_main.c	/^static void igb_shutdown(struct pci_dev *pdev)$/;"	f	file:
+igb_shutdown_serdes_link_82575	igb/e1000_82575.c	/^void igb_shutdown_serdes_link_82575(struct e1000_hw *hw)$/;"	f
+igb_standby_nvm	igb/e1000_nvm.c	/^static void igb_standby_nvm(struct e1000_hw *hw)$/;"	f	file:
+igb_stats	igb/igb_ethtool.c	/^struct igb_stats {$/;"	s	file:
+igb_suspend	igb/igb_main.c	/^static int igb_suspend(struct pci_dev *pdev, pm_message_t state)$/;"	f	file:
+igb_sw_init	igb/igb_main.c	/^static int __devinit igb_sw_init(struct igb_adapter *adapter)$/;"	f	file:
+igb_systim_to_hwtstamp	igb/igb_main.c	/^static void igb_systim_to_hwtstamp(struct igb_adapter *adapter,$/;"	f	file:
+igb_test_intr	igb/igb_ethtool.c	/^static irqreturn_t igb_test_intr(int irq, void *data)$/;"	f	file:
+igb_tso_adv	igb/igb_main.c	/^static inline int igb_tso_adv(struct igb_ring *tx_ring,$/;"	f	file:
+igb_tx_csum_adv	igb/igb_main.c	/^static inline bool igb_tx_csum_adv(struct igb_ring *tx_ring,$/;"	f	file:
+igb_tx_hwtstamp	igb/igb_main.c	/^static void igb_tx_hwtstamp(struct igb_q_vector *q_vector, struct igb_buffer *buffer_info)$/;"	f	file:
+igb_tx_map_adv	igb/igb_main.c	/^static inline int igb_tx_map_adv(struct igb_ring *tx_ring, struct sk_buff *skb,$/;"	f	file:
+igb_tx_queue_adv	igb/igb_main.c	/^static inline void igb_tx_queue_adv(struct igb_ring *tx_ring,$/;"	f	file:
+igb_tx_queue_stats	igb/igb.h	/^struct igb_tx_queue_stats {$/;"	s
+igb_tx_timeout	igb/igb_main.c	/^static void igb_tx_timeout(struct net_device *netdev)$/;"	f	file:
+igb_unmap_and_free_tx_resource	igb/igb_main.c	/^void igb_unmap_and_free_tx_resource(struct igb_ring *tx_ring,$/;"	f
+igb_up	igb/igb_main.c	/^int igb_up(struct igb_adapter *adapter)$/;"	f
+igb_update_dca	igb/igb_main.c	/^static void igb_update_dca(struct igb_q_vector *q_vector)$/;"	f	file:
+igb_update_itr	igb/igb_main.c	/^static unsigned int igb_update_itr(struct igb_adapter *adapter, u16 itr_setting,$/;"	f	file:
+igb_update_mc_addr_list	igb/e1000_mac.c	/^void igb_update_mc_addr_list(struct e1000_hw *hw,$/;"	f
+igb_update_mng_vlan	igb/igb_main.c	/^static void igb_update_mng_vlan(struct igb_adapter *adapter)$/;"	f	file:
+igb_update_nvm_checksum	igb/e1000_nvm.c	/^s32 igb_update_nvm_checksum(struct e1000_hw *hw)$/;"	f
+igb_update_phy_info	igb/igb_main.c	/^static void igb_update_phy_info(unsigned long data)$/;"	f	file:
+igb_update_ring_itr	igb/igb_main.c	/^static void igb_update_ring_itr(struct igb_q_vector *q_vector)$/;"	f	file:
+igb_update_stats	igb/igb_main.c	/^void igb_update_stats(struct igb_adapter *adapter)$/;"	f
+igb_valid_led_default	igb/e1000_mac.c	/^static s32 igb_valid_led_default(struct e1000_hw *hw, u16 *data)$/;"	f	file:
+igb_validate_mdi_setting	igb/e1000_mac.c	/^s32 igb_validate_mdi_setting(struct e1000_hw *hw)$/;"	f
+igb_validate_nvm_checksum	igb/e1000_nvm.c	/^s32 igb_validate_nvm_checksum(struct e1000_hw *hw)$/;"	f
+igb_vf_reset	igb/igb_main.c	/^static inline void igb_vf_reset(struct igb_adapter *adapter, u32 vf)$/;"	f	file:
+igb_vf_reset_event	igb/igb_main.c	/^static void igb_vf_reset_event(struct igb_adapter *adapter, u32 vf)$/;"	f	file:
+igb_vf_reset_msg	igb/igb_main.c	/^static void igb_vf_reset_msg(struct igb_adapter *adapter, u32 vf)$/;"	f	file:
+igb_vfta_set	igb/e1000_mac.c	/^s32 igb_vfta_set(struct e1000_hw *hw, u32 vid, bool add)$/;"	f
+igb_vlan_rx_add_vid	igb/igb_main.c	/^static void igb_vlan_rx_add_vid(struct net_device *netdev, u16 vid)$/;"	f	file:
+igb_vlan_rx_kill_vid	igb/igb_main.c	/^static void igb_vlan_rx_kill_vid(struct net_device *netdev, u16 vid)$/;"	f	file:
+igb_vlan_rx_register	igb/igb_main.c	/^static void igb_vlan_rx_register(struct net_device *netdev,$/;"	f	file:
+igb_vlvf_set	igb/igb_main.c	/^static s32 igb_vlvf_set(struct igb_adapter *adapter, u32 vid, bool add, u32 vf)$/;"	f	file:
+igb_vmdq_set_loopback_pf	igb/e1000_82575.c	/^void igb_vmdq_set_loopback_pf(struct e1000_hw *hw, bool enable)$/;"	f
+igb_vmdq_set_replication_pf	igb/e1000_82575.c	/^void igb_vmdq_set_replication_pf(struct e1000_hw *hw, bool enable)$/;"	f
+igb_vmm_control	igb/igb_main.c	/^static void igb_vmm_control(struct igb_adapter *adapter)$/;"	f	file:
+igb_wait_autoneg	igb/e1000_phy.c	/^static s32 igb_wait_autoneg(struct e1000_hw *hw)$/;"	f	file:
+igb_watchdog	igb/igb_main.c	/^static void igb_watchdog(unsigned long data)$/;"	f	file:
+igb_watchdog_task	igb/igb_main.c	/^static void igb_watchdog_task(struct work_struct *work)$/;"	f	file:
+igb_wol_exclusion	igb/igb_ethtool.c	/^static int igb_wol_exclusion(struct igb_adapter *adapter,$/;"	f	file:
+igb_write_8bit_ctrl_reg	igb/e1000_mac.c	/^s32 igb_write_8bit_ctrl_reg(struct e1000_hw *hw, u32 reg,$/;"	f
+igb_write_itr	igb/igb_main.c	/^static void igb_write_itr(struct igb_q_vector *q_vector)$/;"	f	file:
+igb_write_mbx	igb/e1000_mbx.c	/^s32 igb_write_mbx(struct e1000_hw *hw, u32 *msg, u16 size, u16 mbx_id)$/;"	f
+igb_write_mbx_pf	igb/e1000_mbx.c	/^static s32 igb_write_mbx_pf(struct e1000_hw *hw, u32 *msg, u16 size,$/;"	f	file:
+igb_write_mc_addr_list	igb/igb_main.c	/^static int igb_write_mc_addr_list(struct net_device *netdev)$/;"	f	file:
+igb_write_nvm_spi	igb/e1000_nvm.c	/^s32 igb_write_nvm_spi(struct e1000_hw *hw, u16 offset, u16 words, u16 *data)$/;"	f
+igb_write_pcie_cap_reg	igb/igb_main.c	/^s32 igb_write_pcie_cap_reg(struct e1000_hw *hw, u32 reg, u16 *value)$/;"	f
+igb_write_phy_reg	igb/igb.h	/^static inline s32 igb_write_phy_reg(struct e1000_hw *hw, u32 offset, u16 data)$/;"	f
+igb_write_phy_reg_82580	igb/e1000_82575.c	/^static s32 igb_write_phy_reg_82580(struct e1000_hw *hw, u32 offset, u16 data)$/;"	f	file:
+igb_write_phy_reg_i2c	igb/e1000_phy.c	/^s32 igb_write_phy_reg_i2c(struct e1000_hw *hw, u32 offset, u16 data)$/;"	f
+igb_write_phy_reg_igp	igb/e1000_phy.c	/^s32 igb_write_phy_reg_igp(struct e1000_hw *hw, u32 offset, u16 data)$/;"	f
+igb_write_phy_reg_mdic	igb/e1000_phy.c	/^s32 igb_write_phy_reg_mdic(struct e1000_hw *hw, u32 offset, u16 data)$/;"	f
+igb_write_phy_reg_sgmii_82575	igb/e1000_82575.c	/^static s32 igb_write_phy_reg_sgmii_82575(struct e1000_hw *hw, u32 offset,$/;"	f	file:
+igb_write_posted_mbx	igb/e1000_mbx.c	/^static s32 igb_write_posted_mbx(struct e1000_hw *hw, u32 *msg, u16 size, u16 mbx_id)$/;"	f	file:
+igb_write_uc_addr_list	igb/igb_main.c	/^static int igb_write_uc_addr_list(struct net_device *netdev)$/;"	f	file:
+igb_write_vfta	igb/e1000_mac.c	/^static void igb_write_vfta(struct e1000_hw *hw, u32 offset, u32 value)$/;"	f	file:
+igb_xmit_frame_adv	igb/igb_main.c	/^static netdev_tx_t igb_xmit_frame_adv(struct sk_buff *skb,$/;"	f	file:
+igb_xmit_frame_adv_fake	igb/igb_main.c	/^static netdev_tx_t igb_xmit_frame_adv_fake(struct sk_buff *skb,$/;"	f	file:
+igb_xmit_frame_ring_adv	igb/igb_main.c	/^netdev_tx_t igb_xmit_frame_ring_adv(struct sk_buff *skb,$/;"	f
+in_ifs_mode	igb/e1000_hw.h	/^	bool in_ifs_mode;$/;"	m	struct:e1000_mac_info
+init_hw	igb/e1000_hw.h	/^	s32  (*init_hw)(struct e1000_hw *);$/;"	m	struct:e1000_mac_operations
+init_params	igb/e1000_hw.h	/^	s32 (*init_params)(struct e1000_hw *hw);$/;"	m	struct:e1000_mbx_operations
+io_base	igb/e1000_hw.h	/^	unsigned long io_base;$/;"	m	struct:e1000_hw
+ip_id	igb/e1000_82575.h	/^					__le16 ip_id;    \/* IP id *\/$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon10::__anon12::__anon13
+is_mdix	igb/e1000_hw.h	/^	bool is_mdix;$/;"	m	struct:e1000_phy_info
+itr_register	igb/igb.h	/^	void __iomem *itr_register;$/;"	m	struct:igb_q_vector
+itr_val	igb/igb.h	/^	u16 itr_val;$/;"	m	struct:igb_q_vector
+last_nack	igb/igb.h	/^	unsigned long last_nack;$/;"	m	struct:vf_data_storage
+latecol	igb/e1000_hw.h	/^	u64 latecol;$/;"	m	struct:e1000_hw_stats
+latency_invalid	igb/igb_main.c	/^	latency_invalid = 255$/;"	e	enum:latency_range	file:
+latency_range	igb/igb_main.c	/^enum latency_range {$/;"	g	file:
+led_status	igb/igb.h	/^	unsigned long led_status;$/;"	m	struct:igb_adapter
+ledctl_default	igb/e1000_hw.h	/^	u32 ledctl_default;$/;"	m	struct:e1000_mac_info
+ledctl_mode1	igb/e1000_hw.h	/^	u32 ledctl_mode1;$/;"	m	struct:e1000_mac_info
+ledctl_mode2	igb/e1000_hw.h	/^	u32 ledctl_mode2;$/;"	m	struct:e1000_mac_info
+lenerrs	igb/e1000_hw.h	/^	u64 lenerrs;$/;"	m	struct:e1000_hw_stats
+length	igb/e1000_82575.h	/^			__le16 length;           \/* Packet length *\/$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon14
+length	igb/igb.h	/^			u16 length;$/;"	m	struct:igb_buffer::__anon1::__anon2
+link_duplex	igb/igb.h	/^	u16 link_duplex;$/;"	m	struct:igb_adapter
+link_speed	igb/igb.h	/^	u16 link_speed;$/;"	m	struct:igb_adapter
+lo_dword	igb/e1000_82575.h	/^			} lo_dword;$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon10	typeref:struct:e1000_adv_rx_desc::__anon9::__anon10::__anon11
+local_rx	igb/e1000_hw.h	/^	enum e1000_1000t_rx_status local_rx;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_1000t_rx_status
+low_latency	igb/igb_main.c	/^	low_latency = 1,$/;"	e	enum:latency_range	file:
+low_water	igb/e1000_hw.h	/^	u32 low_water;      \/* Flow control low-water mark *\/$/;"	m	struct:e1000_fc_info
+lower	igb/e1000_82575.h	/^		} lower;$/;"	m	struct:e1000_adv_rx_desc::__anon9	typeref:struct:e1000_adv_rx_desc::__anon9::__anon10
+lowest_latency	igb/igb_main.c	/^	lowest_latency = 0,$/;"	e	enum:latency_range	file:
+mac	igb/e1000_hw.h	/^	struct e1000_mac_info  mac;$/;"	m	struct:e1000_hw	typeref:struct:e1000_hw::e1000_mac_info
+mac_ops	igb/e1000_hw.h	/^	struct e1000_mac_operations *mac_ops;$/;"	m	struct:e1000_info	typeref:struct:e1000_info::e1000_mac_operations
+mapped_as_page	igb/igb.h	/^			u8 mapped_as_page;$/;"	m	struct:igb_buffer::__anon1::__anon2
+mask	igb/igb_ethtool.c	/^	u32 mask;$/;"	m	struct:igb_reg_test	file:
+max_cable_length	igb/e1000_hw.h	/^	u16 max_cable_length;$/;"	m	struct:e1000_phy_info
+max_frame_size	igb/igb.h	/^	u32 max_frame_size;$/;"	m	struct:igb_adapter
+max_vfs	igb/igb_main.c	/^static unsigned int max_vfs = 0;$/;"	v	file:
+mbx	igb/e1000_hw.h	/^	struct e1000_mbx_info mbx;$/;"	m	struct:e1000_hw	typeref:struct:e1000_hw::e1000_mbx_info
+mc_filter_type	igb/e1000_hw.h	/^	u32 mc_filter_type;$/;"	m	struct:e1000_mac_info
+mcc	igb/e1000_hw.h	/^	u64 mcc;$/;"	m	struct:e1000_hw_stats
+mdix	igb/e1000_hw.h	/^	u8 mdix;$/;"	m	struct:e1000_phy_info
+media_type	igb/e1000_hw.h	/^	enum e1000_media_type media_type;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_media_type
+mgpdc	igb/e1000_hw.h	/^	u64 mgpdc;$/;"	m	struct:e1000_hw_stats
+mgprc	igb/e1000_hw.h	/^	u64 mgprc;$/;"	m	struct:e1000_hw_stats
+mgptc	igb/e1000_hw.h	/^	u64 mgptc;$/;"	m	struct:e1000_hw_stats
+min_cable_length	igb/e1000_hw.h	/^	u16 min_cable_length;$/;"	m	struct:e1000_phy_info
+min_frame_size	igb/igb.h	/^	u32 min_frame_size;$/;"	m	struct:igb_adapter
+mng_cookie	igb/e1000_hw.h	/^	struct e1000_host_mng_dhcp_cookie mng_cookie;$/;"	m	struct:e1000_hw	typeref:struct:e1000_hw::e1000_host_mng_dhcp_cookie
+mng_vlan_id	igb/igb.h	/^	u16 mng_vlan_id;$/;"	m	struct:igb_adapter
+mpc	igb/e1000_hw.h	/^	u64 mpc;$/;"	m	struct:e1000_hw_stats
+mprc	igb/e1000_hw.h	/^	u64 mprc;$/;"	m	struct:e1000_hw_stats
+mptc	igb/e1000_hw.h	/^	u64 mptc;$/;"	m	struct:e1000_hw_stats
+ms_type	igb/e1000_hw.h	/^	enum e1000_ms_type ms_type;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_ms_type
+msg_enable	igb/igb.h	/^	int msg_enable;$/;"	m	struct:igb_adapter
+msgs_rx	igb/e1000_hw.h	/^	u32 msgs_rx;$/;"	m	struct:e1000_mbx_stats
+msgs_tx	igb/e1000_hw.h	/^	u32 msgs_tx;$/;"	m	struct:e1000_mbx_stats
+msix_entries	igb/igb.h	/^	struct msix_entry *msix_entries;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::msix_entry
+mss_l4len_idx	igb/e1000_82575.h	/^	__le32 mss_l4len_idx;$/;"	m	struct:e1000_adv_tx_context_desc
+mta_reg_count	igb/e1000_hw.h	/^	u16 mta_reg_count;$/;"	m	struct:e1000_mac_info
+mta_shadow	igb/e1000_hw.h	/^	u32 mta_shadow[MAX_MTA_REG];$/;"	m	struct:e1000_mac_info
+multi_tx_table	igb/igb.h	/^	struct igb_ring *multi_tx_table[IGB_ABS_MAX_TX_QUEUES];$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::igb_ring
+name	igb/igb.h	/^	char name[IFNAMSIZ + 9];$/;"	m	struct:igb_q_vector
+name	igb/igb_main.c	/^	char *name;$/;"	m	struct:igb_reg_info	file:
+napi	igb/igb.h	/^	struct napi_struct napi;$/;"	m	struct:igb_q_vector	typeref:struct:igb_q_vector::napi_struct
+netdev	igb/igb.h	/^	struct net_device *netdev;     \/* back pointer to net_device *\/$/;"	m	struct:igb_ring	typeref:struct:igb_ring::net_device
+netdev	igb/igb.h	/^	struct net_device *netdev;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::net_device
+next_to_clean	igb/igb.h	/^	u16 next_to_clean;$/;"	m	struct:igb_ring
+next_to_use	igb/igb.h	/^	u16 next_to_use;$/;"	m	struct:igb_ring
+next_to_watch	igb/igb.h	/^			u16 next_to_watch;$/;"	m	struct:igb_buffer::__anon1::__anon2
+num_q_vectors	igb/igb.h	/^	unsigned int num_q_vectors;$/;"	m	struct:igb_adapter
+num_rx_queues	igb/igb.h	/^	int num_rx_queues;$/;"	m	struct:igb_adapter
+num_tx_queues	igb/igb.h	/^	int num_tx_queues;$/;"	m	struct:igb_adapter
+num_vf_mc_hashes	igb/igb.h	/^	u16 num_vf_mc_hashes;$/;"	m	struct:vf_data_storage
+nvm	igb/e1000_hw.h	/^	struct e1000_nvm_info  nvm;$/;"	m	struct:e1000_hw	typeref:struct:e1000_hw::e1000_nvm_info
+nvm_ops	igb/e1000_hw.h	/^	struct e1000_nvm_operations *nvm_ops;$/;"	m	struct:e1000_info	typeref:struct:e1000_info::e1000_nvm_operations
+nxtseq_seed	igb/e1000_82575.h	/^		__le32 nxtseq_seed;$/;"	m	struct:e1000_adv_tx_desc::__anon16
+obj-m	Makefile	/^obj-m := ukmem.o$/;"	m
+ofs	igb/igb_main.c	/^	u32 ofs;$/;"	m	struct:igb_reg_info	file:
+olinfo_status	igb/e1000_82575.h	/^		__le32 olinfo_status;$/;"	m	struct:e1000_adv_tx_desc::__anon15
+opcode_bits	igb/e1000_hw.h	/^	u16 opcode_bits;$/;"	m	struct:e1000_nvm_info
+ops	igb/e1000_hw.h	/^	struct e1000_mac_operations ops;$/;"	m	struct:e1000_mac_info	typeref:struct:e1000_mac_info::e1000_mac_operations
+ops	igb/e1000_hw.h	/^	struct e1000_mbx_operations ops;$/;"	m	struct:e1000_mbx_info	typeref:struct:e1000_mbx_info::e1000_mbx_operations
+ops	igb/e1000_hw.h	/^	struct e1000_nvm_operations ops;$/;"	m	struct:e1000_nvm_info	typeref:struct:e1000_nvm_info::e1000_nvm_operations
+ops	igb/e1000_hw.h	/^	struct e1000_phy_operations ops;$/;"	m	struct:e1000_phy_info	typeref:struct:e1000_phy_info::e1000_phy_operations
+order	ukmem.c	/^	unsigned int order;	$/;"	m	struct:ukmem	file:
+original_ms_type	igb/e1000_hw.h	/^	enum e1000_ms_type original_ms_type;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_ms_type
+override	igb/e1000_hw.h	/^	enum e1000_nvm_override override;$/;"	m	struct:e1000_nvm_info	typeref:enum:e1000_nvm_info::e1000_nvm_override
+packets	igb/igb.h	/^	u64 packets;$/;"	m	struct:igb_rx_queue_stats
+packets	igb/igb.h	/^	u64 packets;$/;"	m	struct:igb_tx_queue_stats
+page	igb/igb.h	/^			struct page *page;$/;"	m	struct:igb_buffer::__anon1::__anon3	typeref:struct:igb_buffer::__anon1::__anon3::page
+page_dma	igb/igb.h	/^			dma_addr_t page_dma;$/;"	m	struct:igb_buffer::__anon1::__anon3
+page_offset	igb/igb.h	/^			u16 page_offset;$/;"	m	struct:igb_buffer::__anon1::__anon3
+page_size	igb/e1000_hw.h	/^	u16 page_size;$/;"	m	struct:e1000_nvm_info
+pages	ukmem.c	/^	unsigned int pages;	\/*allocated pages number by _get_free_pages*\/$/;"	m	struct:ukmem	file:
+pause_time	igb/e1000_hw.h	/^	u16 pause_time;     \/* Flow control pause timer *\/$/;"	m	struct:e1000_fc_info
+pci_cmd_word	igb/e1000_hw.h	/^	u16 pci_cmd_word;$/;"	m	struct:e1000_bus_info
+pdev	igb/igb.h	/^	struct pci_dev *pdev;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::pci_dev
+perm_addr	igb/e1000_hw.h	/^	u8 perm_addr[6];$/;"	m	struct:e1000_mac_info
+pf_qos	igb/igb.h	/^	u16 pf_qos;$/;"	m	struct:vf_data_storage
+pf_vlan	igb/igb.h	/^	u16 pf_vlan; \/* When set, guest VLAN config not allowed. *\/$/;"	m	struct:vf_data_storage
+phy	igb/e1000_hw.h	/^	struct e1000_phy_info  phy;$/;"	m	struct:e1000_hw	typeref:struct:e1000_hw::e1000_phy_info
+phy_info	igb/igb.h	/^	struct e1000_phy_info phy_info;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::e1000_phy_info
+phy_info_timer	igb/igb.h	/^	struct timer_list phy_info_timer;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::timer_list
+phy_ops	igb/e1000_hw.h	/^	struct e1000_phy_operations *phy_ops;$/;"	m	struct:e1000_info	typeref:struct:e1000_info::e1000_phy_operations
+phy_stats	igb/igb.h	/^	struct e1000_phy_stats phy_stats;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::e1000_phy_stats
+phys	ukmem.c	/^	unsigned long phys;	\/*physical address*\/$/;"	m	struct:ukmem	file:
+pkt_addr	igb/e1000_82575.h	/^		__le64 pkt_addr;             \/* Packet buffer address *\/$/;"	m	struct:e1000_adv_rx_desc::__anon8
+pkt_info	igb/e1000_82575.h	/^				__le16 pkt_info;   \/* RSS type, Packet type *\/$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon10::__anon11
+polarity_correction	igb/e1000_hw.h	/^	bool polarity_correction;$/;"	m	struct:e1000_phy_info
+prc1023	igb/e1000_hw.h	/^	u64 prc1023;$/;"	m	struct:e1000_hw_stats
+prc127	igb/e1000_hw.h	/^	u64 prc127;$/;"	m	struct:e1000_hw_stats
+prc1522	igb/e1000_hw.h	/^	u64 prc1522;$/;"	m	struct:e1000_hw_stats
+prc255	igb/e1000_hw.h	/^	u64 prc255;$/;"	m	struct:e1000_hw_stats
+prc511	igb/e1000_hw.h	/^	u64 prc511;$/;"	m	struct:e1000_hw_stats
+prc64	igb/e1000_hw.h	/^	u64 prc64;$/;"	m	struct:e1000_hw_stats
+ptc1023	igb/e1000_hw.h	/^	u64 ptc1023;$/;"	m	struct:e1000_hw_stats
+ptc127	igb/e1000_hw.h	/^	u64 ptc127;$/;"	m	struct:e1000_hw_stats
+ptc1522	igb/e1000_hw.h	/^	u64 ptc1522;$/;"	m	struct:e1000_hw_stats
+ptc255	igb/e1000_hw.h	/^	u64 ptc255;$/;"	m	struct:e1000_hw_stats
+ptc511	igb/e1000_hw.h	/^	u64 ptc511;$/;"	m	struct:e1000_hw_stats
+ptc64	igb/e1000_hw.h	/^	u64 ptc64;$/;"	m	struct:e1000_hw_stats
+q_vector	igb/igb.h	/^	struct igb_q_vector *q_vector; \/* backlink to q_vector *\/$/;"	m	struct:igb_ring	typeref:struct:igb_ring::igb_q_vector
+q_vector	igb/igb.h	/^	struct igb_q_vector *q_vector[MAX_Q_VECTORS];$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::igb_q_vector
+queue_index	igb/igb.h	/^	u8 queue_index;$/;"	m	struct:igb_ring
+rar_entry_count	igb/e1000_hw.h	/^	u16 rar_entry_count;$/;"	m	struct:e1000_mac_info
+rar_set	igb/e1000_hw.h	/^	void (*rar_set)(struct e1000_hw *, u8 *, u32);$/;"	m	struct:e1000_mac_operations
+rd32	igb/e1000_regs.h	316;"	d
+read	igb/e1000_82575.h	/^	} read;$/;"	m	union:e1000_adv_rx_desc	typeref:struct:e1000_adv_rx_desc::__anon8
+read	igb/e1000_82575.h	/^	} read;$/;"	m	union:e1000_adv_tx_desc	typeref:struct:e1000_adv_tx_desc::__anon15
+read	igb/e1000_hw.h	/^	s32  (*read)(struct e1000_hw *, u16, u16, u16 *);$/;"	m	struct:e1000_nvm_operations
+read	igb/e1000_hw.h	/^	s32 (*read)(struct e1000_hw *, u32 *, u16,  u16);$/;"	m	struct:e1000_mbx_operations
+read_mac_addr	igb/e1000_hw.h	/^	s32  (*read_mac_addr)(struct e1000_hw *);$/;"	m	struct:e1000_mac_operations
+read_posted	igb/e1000_hw.h	/^	s32 (*read_posted)(struct e1000_hw *, u32 *, u16,  u16);$/;"	m	struct:e1000_mbx_operations
+read_reg	igb/e1000_hw.h	/^	s32  (*read_reg)(struct e1000_hw *, u32, u16 *);$/;"	m	struct:e1000_phy_operations
+receive_errors	igb/e1000_hw.h	/^	u32 receive_errors;$/;"	m	struct:e1000_phy_stats
+reg	igb/igb_ethtool.c	/^	u16 reg;$/;"	m	struct:igb_reg_test	file:
+reg_idx	igb/igb.h	/^	u8 reg_idx;$/;"	m	struct:igb_ring
+reg_offset	igb/igb_ethtool.c	/^	u16 reg_offset;$/;"	m	struct:igb_reg_test	file:
+reg_pattern_test	igb/igb_ethtool.c	/^static bool reg_pattern_test(struct igb_adapter *adapter, u64 *data,$/;"	f	file:
+reg_set_and_check	igb/igb_ethtool.c	/^static bool reg_set_and_check(struct igb_adapter *adapter, u64 *data,$/;"	f	file:
+reg_test_82575	igb/igb_ethtool.c	/^static struct igb_reg_test reg_test_82575[] = {$/;"	v	typeref:struct:igb_reg_test	file:
+reg_test_82576	igb/igb_ethtool.c	/^static struct igb_reg_test reg_test_82576[] = {$/;"	v	typeref:struct:igb_reg_test	file:
+reg_test_82580	igb/igb_ethtool.c	/^static struct igb_reg_test reg_test_82580[] = {$/;"	v	typeref:struct:igb_reg_test	file:
+reg_test_i350	igb/igb_ethtool.c	/^static struct igb_reg_test reg_test_i350[] = {$/;"	v	typeref:struct:igb_reg_test	file:
+regs_pages	ukmem.c	/^	unsigned regs_pages;	\/*register contains  page numbers *\/$/;"	m	struct:ukmem	file:
+regs_phys	ukmem.c	/^	unsigned long regs_phys;	\/*adapter register*\/$/;"	m	struct:adapter_mem	file:
+release	igb/e1000_hw.h	/^	void (*release)(struct e1000_hw *);$/;"	m	struct:e1000_nvm_operations
+release	igb/e1000_hw.h	/^	void (*release)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+remote_rx	igb/e1000_hw.h	/^	enum e1000_1000t_rx_status remote_rx;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_1000t_rx_status
+report_tx_early	igb/e1000_hw.h	/^	bool report_tx_early;$/;"	m	struct:e1000_mac_info
+reqs	igb/e1000_hw.h	/^	u32 reqs;$/;"	m	struct:e1000_mbx_stats
+requested_mode	igb/e1000_hw.h	/^	enum e1000_fc_mode requested_mode;$/;"	m	struct:e1000_fc_info	typeref:enum:e1000_fc_info::e1000_fc_mode
+reserved0	igb/e1000_hw.h	/^	u8  reserved0;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+reserved1	igb/e1000_hw.h	/^	u16 reserved1;$/;"	m	struct:e1000_host_mng_command_header
+reserved1	igb/e1000_hw.h	/^	u32 reserved1;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+reserved2	igb/e1000_hw.h	/^	u16 reserved2;$/;"	m	struct:e1000_host_mng_command_header
+reserved2	igb/e1000_hw.h	/^	u16 reserved2;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+reserved3	igb/e1000_hw.h	/^	u8  reserved3;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+reset	igb/e1000_hw.h	/^	s32  (*reset)(struct e1000_hw *);$/;"	m	struct:e1000_phy_operations
+reset_delay_us	igb/e1000_hw.h	/^	u32 reset_delay_us; \/* in usec *\/$/;"	m	struct:e1000_phy_info
+reset_disable	igb/e1000_hw.h	/^	bool reset_disable;$/;"	m	struct:e1000_phy_info
+reset_hw	igb/e1000_hw.h	/^	s32  (*reset_hw)(struct e1000_hw *);$/;"	m	struct:e1000_mac_operations
+reset_task	igb/igb.h	/^	struct work_struct reset_task;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::work_struct
+restart_queue	igb/igb.h	/^	u64 restart_queue;$/;"	m	struct:igb_tx_queue_stats
+revision	igb/e1000_hw.h	/^	u32 revision;$/;"	m	struct:e1000_phy_info
+revision_id	igb/e1000_hw.h	/^	u8  revision_id;$/;"	m	struct:e1000_hw
+rfc	igb/e1000_hw.h	/^	u64 rfc;$/;"	m	struct:e1000_hw_stats
+rjc	igb/e1000_hw.h	/^	u64 rjc;$/;"	m	struct:e1000_hw_stats
+rlec	igb/e1000_hw.h	/^	u64 rlec;$/;"	m	struct:e1000_hw_stats
+rnbc	igb/e1000_hw.h	/^	u64 rnbc;$/;"	m	struct:e1000_hw_stats
+roc	igb/e1000_hw.h	/^	u64 roc;$/;"	m	struct:e1000_hw_stats
+rpthc	igb/e1000_hw.h	/^	u64 rpthc;$/;"	m	struct:e1000_hw_stats
+rss	igb/e1000_82575.h	/^				__le32 rss;          \/* RSS Hash *\/$/;"	m	union:e1000_adv_rx_desc::__anon9::__anon10::__anon12
+rss_queues	igb/igb.h	/^	u32 rss_queues;$/;"	m	struct:igb_adapter
+rsts	igb/e1000_hw.h	/^	u32 rsts;$/;"	m	struct:e1000_mbx_stats
+rsvd	igb/e1000_82575.h	/^		__le64 rsvd;       \/* Reserved *\/$/;"	m	struct:e1000_adv_tx_desc::__anon16
+ruc	igb/e1000_hw.h	/^	u64 ruc;$/;"	m	struct:e1000_hw_stats
+rx_buffer_len	igb/igb.h	/^			u32 rx_buffer_len;$/;"	m	struct:igb_ring::__anon4::__anon6
+rx_desc	ukmem.c	/^	unsigned long rx_desc[MAX_DESC_NUM];	\/\/physical address$/;"	m	struct:adapter_mem	file:
+rx_desc_num	ukmem.c	/^	unsigned int rx_desc_num;$/;"	m	struct:adapter_mem	file:
+rx_itr	igb/igb.h	/^	u16 rx_itr;$/;"	m	struct:igb_adapter
+rx_itr_setting	igb/igb.h	/^	u32 rx_itr_setting;$/;"	m	struct:igb_adapter
+rx_ring	igb/igb.h	/^	struct igb_ring *rx_ring;$/;"	m	struct:igb_q_vector	typeref:struct:igb_q_vector::igb_ring
+rx_ring	igb/igb.h	/^	struct igb_ring *rx_ring[16];$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::igb_ring
+rx_ring_count	igb/igb.h	/^	u16 rx_ring_count;$/;"	m	struct:igb_adapter
+rx_stats	igb/igb.h	/^			struct igb_rx_queue_stats rx_stats;$/;"	m	struct:igb_ring::__anon4::__anon6	typeref:struct:igb_ring::__anon4::__anon6::igb_rx_queue_stats
+rxerrc	igb/e1000_hw.h	/^	u64 rxerrc;$/;"	m	struct:e1000_hw_stats
+scc	igb/e1000_hw.h	/^	u64 scc;$/;"	m	struct:e1000_hw_stats
+scvpc	igb/e1000_hw.h	/^	u64 scvpc;$/;"	m	struct:e1000_hw_stats
+sec	igb/e1000_hw.h	/^	u64 sec;$/;"	m	struct:e1000_hw_stats
+send_xon	igb/e1000_hw.h	/^	bool send_xon;      \/* Flow control send XON *\/$/;"	m	struct:e1000_fc_info
+seqnum_seed	igb/e1000_82575.h	/^	__le32 seqnum_seed;$/;"	m	struct:e1000_adv_tx_context_desc
+serdes_has_link	igb/e1000_hw.h	/^	bool serdes_has_link;$/;"	m	struct:e1000_mac_info
+set_d0_lplu_state	igb/e1000_hw.h	/^	s32  (*set_d0_lplu_state)(struct e1000_hw *, bool);$/;"	m	struct:e1000_phy_operations
+set_d3_lplu_state	igb/e1000_hw.h	/^	s32  (*set_d3_lplu_state)(struct e1000_hw *, bool);$/;"	m	struct:e1000_phy_operations
+set_itr	igb/igb.h	/^	u8 set_itr;$/;"	m	struct:igb_q_vector
+setup_physical_interface	igb/e1000_hw.h	/^	s32  (*setup_physical_interface)(struct e1000_hw *);$/;"	m	struct:e1000_mac_operations
+sgmii_active	igb/e1000_hw.h	/^	bool sgmii_active;$/;"	m	struct:e1000_dev_spec_82575
+shtx	igb/igb.h	/^			union skb_shared_tx shtx;$/;"	m	struct:igb_buffer::__anon1::__anon2	typeref:union:igb_buffer::__anon1::__anon2::skb_shared_tx
+signature	igb/e1000_hw.h	/^	u32 signature;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+size	igb/e1000_hw.h	/^	u16 size;$/;"	m	struct:e1000_mbx_info
+size	igb/igb.h	/^	unsigned int size;             \/* length of desc. ring in bytes *\/$/;"	m	struct:igb_ring
+sizeof_stat	igb/igb_ethtool.c	/^	int sizeof_stat;$/;"	m	struct:igb_stats	file:
+skb	igb/igb.h	/^	struct sk_buff *skb;$/;"	m	struct:igb_buffer	typeref:struct:igb_buffer::sk_buff
+smart_speed	igb/e1000_hw.h	/^	enum e1000_smart_speed smart_speed;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_smart_speed
+snoop	igb/e1000_hw.h	/^	u32 snoop;$/;"	m	struct:e1000_bus_info
+speed	igb/e1000_hw.h	/^	enum e1000_bus_speed speed;$/;"	m	struct:e1000_bus_info	typeref:enum:e1000_bus_info::e1000_bus_speed
+speed_downgraded	igb/e1000_hw.h	/^	bool speed_downgraded;$/;"	m	struct:e1000_phy_info
+start	ukmem.c	/^	unsigned long start;	\/*kernel virtual address*\/$/;"	m	struct:ukmem	file:
+stat_offset	igb/igb_ethtool.c	/^	int stat_offset;$/;"	m	struct:igb_stats	file:
+stat_string	igb/igb_ethtool.c	/^	char stat_string[ETH_GSTRING_LEN];$/;"	m	struct:igb_stats	file:
+state	igb/igb.h	/^	unsigned long state;$/;"	m	struct:igb_adapter
+stats	igb/e1000_hw.h	/^	struct e1000_mbx_stats stats;$/;"	m	struct:e1000_mbx_info	typeref:struct:e1000_mbx_info::e1000_mbx_stats
+stats	igb/igb.h	/^	struct e1000_hw_stats stats;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::e1000_hw_stats
+status	igb/e1000_82575.h	/^		__le32 status;$/;"	m	struct:e1000_adv_tx_desc::__anon16
+status	igb/e1000_hw.h	/^	u8  status;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+status_error	igb/e1000_82575.h	/^			__le32 status_error;     \/* ext status\/error *\/$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon14
+strict_ieee	igb/e1000_hw.h	/^	bool strict_ieee;   \/* Strict IEEE mode *\/$/;"	m	struct:e1000_fc_info
+subsystem_device_id	igb/e1000_hw.h	/^	u16 subsystem_device_id;$/;"	m	struct:e1000_hw
+subsystem_vendor_id	igb/e1000_hw.h	/^	u16 subsystem_vendor_id;$/;"	m	struct:e1000_hw
+symerrs	igb/e1000_hw.h	/^	u64 symerrs;$/;"	m	struct:e1000_hw_stats
+tail	igb/igb.h	/^	void __iomem *tail;$/;"	m	struct:igb_ring
+test-objs	Makefile	/^test-objs := ukmem.o$/;"	m
+test_icr	igb/igb.h	/^	u32 test_icr;$/;"	m	struct:igb_adapter
+test_rx_ring	igb/igb.h	/^	struct igb_ring test_rx_ring;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::igb_ring
+test_tx_ring	igb/igb.h	/^	struct igb_ring test_tx_ring;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::igb_ring
+test_type	igb/igb_ethtool.c	/^	u16 test_type;$/;"	m	struct:igb_reg_test	file:
+time_stamp	igb/igb.h	/^			unsigned long time_stamp;$/;"	m	struct:igb_buffer::__anon1::__anon2
+timeout	igb/e1000_hw.h	/^	u32 timeout;$/;"	m	struct:e1000_mbx_info
+tncrs	igb/e1000_hw.h	/^	u64 tncrs;$/;"	m	struct:e1000_hw_stats
+tor	igb/e1000_hw.h	/^	u64 tor;$/;"	m	struct:e1000_hw_stats
+tot	igb/e1000_hw.h	/^	u64 tot;$/;"	m	struct:e1000_hw_stats
+total_bytes	igb/igb.h	/^	unsigned int total_bytes;$/;"	m	struct:igb_ring
+total_packets	igb/igb.h	/^	unsigned int total_packets;$/;"	m	struct:igb_ring
+tpr	igb/e1000_hw.h	/^	u64 tpr;$/;"	m	struct:e1000_hw_stats
+tpt	igb/e1000_hw.h	/^	u64 tpt;$/;"	m	struct:e1000_hw_stats
+tsctc	igb/e1000_hw.h	/^	u64 tsctc;$/;"	m	struct:e1000_hw_stats
+tsctfc	igb/e1000_hw.h	/^	u64 tsctfc;$/;"	m	struct:e1000_hw_stats
+tx_desc	ukmem.c	/^	unsigned long tx_desc[MAX_DESC_NUM];	\/\/physical address$/;"	m	struct:adapter_mem	file:
+tx_desc_num	ukmem.c	/^	unsigned int tx_desc_num;$/;"	m	struct:adapter_mem	file:
+tx_itr	igb/igb.h	/^	u16 tx_itr;$/;"	m	struct:igb_adapter
+tx_itr_setting	igb/igb.h	/^	u32 tx_itr_setting;$/;"	m	struct:igb_adapter
+tx_pkt_filtering	igb/e1000_hw.h	/^	bool tx_pkt_filtering;$/;"	m	struct:e1000_mac_info
+tx_ring	igb/igb.h	/^	struct igb_ring *tx_ring;$/;"	m	struct:igb_q_vector	typeref:struct:igb_q_vector::igb_ring
+tx_ring	igb/igb.h	/^	struct igb_ring *tx_ring[16];$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::igb_ring
+tx_ring_count	igb/igb.h	/^	u16 tx_ring_count;$/;"	m	struct:igb_adapter
+tx_stats	igb/igb.h	/^			struct igb_tx_queue_stats tx_stats;$/;"	m	struct:igb_ring::__anon4::__anon5	typeref:struct:igb_ring::__anon4::__anon5::igb_tx_queue_stats
+tx_timeout_count	igb/igb.h	/^	u32 tx_timeout_count;$/;"	m	struct:igb_adapter
+tx_timeout_factor	igb/igb.h	/^	u8  tx_timeout_factor;$/;"	m	struct:igb_adapter
+txcw	igb/e1000_hw.h	/^	u32 txcw;$/;"	m	struct:e1000_mac_info
+type	igb/e1000_hw.h	/^	enum e1000_bus_type type;$/;"	m	struct:e1000_bus_info	typeref:enum:e1000_bus_info::e1000_bus_type
+type	igb/e1000_hw.h	/^	enum e1000_mac_type type;$/;"	m	struct:e1000_mac_info	typeref:enum:e1000_mac_info::e1000_mac_type
+type	igb/e1000_hw.h	/^	enum e1000_nvm_type type;$/;"	m	struct:e1000_nvm_info	typeref:enum:e1000_nvm_info::e1000_nvm_type
+type	igb/e1000_hw.h	/^	enum e1000_phy_type type;$/;"	m	struct:e1000_phy_info	typeref:enum:e1000_phy_info::e1000_phy_type
+type_tucmd_mlhl	igb/e1000_82575.h	/^	__le32 type_tucmd_mlhl;$/;"	m	struct:e1000_adv_tx_context_desc
+ukmem	ukmem.c	/^struct ukmem$/;"	s	file:
+ukmem_add_desc	ukmem.c	/^void ukmem_add_desc(unsigned long adapter_addr,unsigned long desc_phys, int flag)$/;"	f
+ukmem_add_regs	ukmem.c	/^EXPORT_SYMBOL(ukmem_add_regs);$/;"	v
+ukmem_add_regs	ukmem.c	/^void ukmem_add_regs(unsigned long adapter_addr,unsigned long phys)$/;"	f
+ukmem_add_rx_desc	ukmem.c	/^EXPORT_SYMBOL(ukmem_add_rx_desc);$/;"	v
+ukmem_add_rx_desc	ukmem.c	/^void ukmem_add_rx_desc(unsigned long adapter_addr,unsigned long desc_phys)$/;"	f
+ukmem_add_tx_desc	ukmem.c	/^EXPORT_SYMBOL(ukmem_add_tx_desc);$/;"	v
+ukmem_add_tx_desc	ukmem.c	/^void ukmem_add_tx_desc(unsigned long adapter_addr,unsigned long desc_phys)$/;"	f
+ukmem_alloc_adapter	ukmem.c	/^EXPORT_SYMBOL(ukmem_alloc_adapter);$/;"	v
+ukmem_alloc_adapter	ukmem.c	/^void ukmem_alloc_adapter(unsigned long adapter_addr)$/;"	f
+ukmem_dev	ukmem.c	/^static struct miscdevice ukmem_dev =$/;"	v	typeref:struct:miscdevice	file:
+ukmem_exit_module	ukmem.c	/^module_exit(ukmem_exit_module);$/;"	v
+ukmem_exit_module	ukmem.c	/^ukmem_exit_module(void)$/;"	f	file:
+ukmem_find_adapter	ukmem.c	/^struct adapter_mem * ukmem_find_adapter(unsigned long adapter_addr)$/;"	f
+ukmem_init_module	ukmem.c	/^module_init(ukmem_init_module);$/;"	v
+ukmem_init_module	ukmem.c	/^ukmem_init_module(void)$/;"	f	file:
+ukmem_ioctl	ukmem.c	/^static int ukmem_ioctl(struct inode *inode, struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+ukmem_mmap	ukmem.c	/^static int ukmem_mmap(struct file *file, struct vm_area_struct *vma)$/;"	f	file:
+ukmem_mmap_desc	ukmem.c	/^static int ukmem_mmap_desc(struct file *file, struct vm_area_struct *vma)$/;"	f	file:
+ukmem_mmap_regs	ukmem.c	/^static int ukmem_mmap_regs(struct file *file, struct vm_area_struct *vma)$/;"	f	file:
+ukmem_open	ukmem.c	/^static int ukmem_open(struct inode *inode, struct file *file)$/;"	f	file:
+ukmem_ops	ukmem.c	/^static struct file_operations ukmem_ops = {$/;"	v	typeref:struct:file_operations	file:
+ukmem_poll	ukmem.c	/^static unsigned int ukmem_poll(struct file *file, struct poll_table_struct *wait)$/;"	f	file:
+ukmem_print	ukmem.c	/^void ukmem_print(void)$/;"	f
+ukmem_read	ukmem.c	/^static ssize_t ukmem_read(struct file *file, char __user *buf, size_t size, loff_t *off)$/;"	f	file:
+ukmem_release	ukmem.c	/^static int ukmem_release(struct inode *inode, struct file *file)$/;"	f	file:
+ukmem_skb_alloc	ukmem.c	/^EXPORT_SYMBOL(ukmem_skb_alloc);$/;"	v
+ukmem_skb_alloc	ukmem.c	/^struct sk_buff * ukmem_skb_alloc(unsigned int size)$/;"	f
+ukmem_skb_free	ukmem.c	/^EXPORT_SYMBOL(ukmem_skb_free);$/;"	v
+ukmem_skb_free	ukmem.c	/^void ukmem_skb_free(struct sk_buff * skb)$/;"	f
+ukmem_vm_ops	ukmem.c	/^static struct vm_operations_struct ukmem_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct	file:
+ukmem_vma_fault	ukmem.c	/^static int ukmem_vma_fault(struct vm_area_struct *vma,struct vm_fault *vmf) $/;"	f	file:
+ukmem_write	ukmem.c	/^static ssize_t ukmem_write(struct file *file, const char __user *buf, size_t size, loff_t *off)$/;"	f	file:
+ukmmap	ukmem.c	/^}ukmmap;$/;"	v	typeref:struct:ukmem
+ukmmap_exit	ukmem.c	/^void ukmmap_exit(void)$/;"	f
+ukmmap_init	ukmem.c	/^int ukmmap_init(int regs_pages, int desc_pages, int order)$/;"	f
+upper	igb/e1000_82575.h	/^		} upper;$/;"	m	struct:e1000_adv_rx_desc::__anon9	typeref:struct:e1000_adv_rx_desc::__anon9::__anon14
+usec_delay	igb/e1000_hw.h	/^	u32 usec_delay;$/;"	m	struct:e1000_mbx_info
+uta_reg_count	igb/e1000_hw.h	/^	u16 uta_reg_count;$/;"	m	struct:e1000_mac_info
+vendor_id	igb/e1000_hw.h	/^	u16 vendor_id;$/;"	m	struct:e1000_hw
+vf_data	igb/igb.h	/^	struct vf_data_storage *vf_data;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::vf_data_storage
+vf_data_storage	igb/igb.h	/^struct vf_data_storage {$/;"	s
+vf_mac_addresses	igb/igb.h	/^	unsigned char vf_mac_addresses[ETH_ALEN];$/;"	m	struct:vf_data_storage
+vf_mc_hashes	igb/igb.h	/^	u16 vf_mc_hashes[IGB_MAX_VF_MC_ENTRIES];$/;"	m	struct:vf_data_storage
+vfs_allocated_count	igb/igb.h	/^	unsigned int vfs_allocated_count;$/;"	m	struct:igb_adapter
+vlan	igb/e1000_82575.h	/^			__le16 vlan;             \/* VLAN tag *\/$/;"	m	struct:e1000_adv_rx_desc::__anon9::__anon14
+vlan_id	igb/e1000_hw.h	/^	u16 vlan_id;$/;"	m	struct:e1000_host_mng_dhcp_cookie
+vlan_macip_lens	igb/e1000_82575.h	/^	__le32 vlan_macip_lens;$/;"	m	struct:e1000_adv_tx_context_desc
+vlans_enabled	igb/igb.h	/^	u16 vlans_enabled;$/;"	m	struct:vf_data_storage
+vlgrp	igb/igb.h	/^	struct vlan_group *vlgrp;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::vlan_group
+watchdog_task	igb/igb.h	/^	struct work_struct watchdog_task;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::work_struct
+watchdog_timer	igb/igb.h	/^	struct timer_list watchdog_timer;$/;"	m	struct:igb_adapter	typeref:struct:igb_adapter::timer_list
+wb	igb/e1000_82575.h	/^	} wb;  \/* writeback *\/$/;"	m	union:e1000_adv_rx_desc	typeref:struct:e1000_adv_rx_desc::__anon9
+wb	igb/e1000_82575.h	/^	} wb;$/;"	m	union:e1000_adv_tx_desc	typeref:struct:e1000_adv_tx_desc::__anon16
+width	igb/e1000_hw.h	/^	enum e1000_bus_width width;$/;"	m	struct:e1000_bus_info	typeref:enum:e1000_bus_info::e1000_bus_width
+wol	igb/igb.h	/^	u32 wol;$/;"	m	struct:igb_adapter
+word_size	igb/e1000_hw.h	/^	u16 word_size;$/;"	m	struct:e1000_nvm_info
+wr32	igb/e1000_regs.h	315;"	d
+wrfl	igb/e1000_regs.h	317;"	d
+write	igb/e1000_hw.h	/^	s32  (*write)(struct e1000_hw *, u16, u16, u16 *);$/;"	m	struct:e1000_nvm_operations
+write	igb/e1000_hw.h	/^	s32 (*write)(struct e1000_hw *, u32 *, u16, u16);$/;"	m	struct:e1000_mbx_operations
+write	igb/igb_ethtool.c	/^	u32 write;$/;"	m	struct:igb_reg_test	file:
+write_posted	igb/e1000_hw.h	/^	s32 (*write_posted)(struct e1000_hw *, u32 *, u16, u16);$/;"	m	struct:e1000_mbx_operations
+write_reg	igb/e1000_hw.h	/^	s32  (*write_reg)(struct e1000_hw *, u32, u16);$/;"	m	struct:e1000_phy_operations
+xoffrxc	igb/e1000_hw.h	/^	u64 xoffrxc;$/;"	m	struct:e1000_hw_stats
+xofftxc	igb/e1000_hw.h	/^	u64 xofftxc;$/;"	m	struct:e1000_hw_stats
+xonrxc	igb/e1000_hw.h	/^	u64 xonrxc;$/;"	m	struct:e1000_hw_stats
+xontxc	igb/e1000_hw.h	/^	u64 xontxc;$/;"	m	struct:e1000_hw_stats

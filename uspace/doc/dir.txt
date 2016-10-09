@@ -1,0 +1,21 @@
+
+directory layout of next version
+
+
+src/
+	--core
+	--vs
+	--tcp
+	--udp
+	--http
+	--https
+	--dns
+	--rules
+
+include/
+
+
+doc/
+
+
+		

@@ -1,0 +1,37 @@
+
+	Road Map
+
+1. version 1.0  (release time: 2013.3.1 )
+	Key Feature: Framwork
+
+	multi-core
+	multi process
+	ipv4,ipv6,icmp,icmpv6,arp,arpv6
+	route
+	tcp proxy
+	udp proxy	
+	full-nat
+	transparant	
+		
+	
+2. version 1.1 (release time: 2013.4.1)
+	Key feature: TCP/IP Stack
+	TCP/IP Stack
+		- tcp timeout 
+		- tcp retry	
+		- tcp state-machine
+		- tcp 3 steps handshake
+		- tcp sequence 
+		- tcp syn-cookie, syn-proxy
+		
+
+3. version 1.2 (release time: 2013.5.1)
+	health checker
+	http proxy
+	https proxy	
+	load balance algorithm
+	
+4. version 1.3 (release time: 2013.6.1)
+	statistics
+	configuration	
+	

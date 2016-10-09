@@ -1,0 +1,24 @@
+diff --git a/ustack/uspace/src/lf_queue.c b/ustack/uspace/src/lf_queue.c
+index a38a92a..f4bf3cc 100644
+--- a/ustack/uspace/src/lf_queue.c
++++ b/ustack/uspace/src/lf_queue.c
+@@ -153,7 +153,9 @@ static int __get_packet_from_queue(struct lf_queue * queue,struct list_head * lh
+ 	int count = 0;
+ 	int i = head;
+ 
+-	while(i != tail)
++	if((i + 1) % queue->size  == tail ) return 0;
++
++	do
+ 	{
+ 		phys = queue->desc[i];	
+ 		pkt = ng_packet_of_phys(phys);
+@@ -161,7 +163,7 @@ static int __get_packet_from_queue(struct lf_queue * queue,struct list_head * lh
+ 		count++;
+ 		i++;
+ 		if(i >= queue->size) i = 0;		
+-	}	
++	}while(i+1 != tail);
+ 
+ 	if(count > 0)
+ 	{

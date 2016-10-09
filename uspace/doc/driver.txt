@@ -1,0 +1,40 @@
+
+
+peng jianzhang 2013.2.9
+
+
+driver design
+
+1, multi-core, multi-process: adapter, queue assign
+
+
+1.1 Best Case: each process has one/more queue of each adapter
+	82580 8 queue, using this kind of queue 
+
+1.2 Difficult Case: some process dosen't have a queue of some adapter 
+
+
+2, multi nic: igb, ixgb
+
+
+3, Story
+
+3.1 CPU:4 core, NIC:82580
+
+	1 core	: control plane
+	3 core	: data plane
+
+3.2 CPU:8 core , NIC:82580
+	1 core	: control plane
+	7 core 	: data plane
+
+
+3.3 CPU:6 core, NIC: 82580
+	1 core	control plane
+	5 core	data plane 	
+
+
+3.4 CPU:12 core NIC:82580
+	1  core	: control plane
+	11 core : data plane
+

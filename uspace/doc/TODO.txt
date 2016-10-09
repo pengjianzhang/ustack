@@ -1,0 +1,50 @@
+
+
+
+1,driver should recv/send pacekt from specific queues, not all queues	[DONE]
+
+
+2,	dispatch get PORT						[DONE]
+	packet init, ip address 					
+	
+
+++++++++++++++++++++++++++++++++
+
+1, icmp, imcpv6 at packet_recv_init
+
+2, IPV6 support / ipv6 don't need checksum
+
+3, connection module ipv6 support					[DONE]
+
+4, route module, add server route info					
+
+5, server's mac address should be get by ARP protocol			
+
+by 2013.2.7
+
+++++++++++++++++++++++++++++++++++
+
+1, send adapter  queue idx shoube be deside				[DONE]
+
+2, ARP support IPV6 							
+
+by 2013.2.8 
+
+++++++++++++++++++++++++++++++++++
+
+1, igb has 8 rx/tx queue, if we use 4/8 cpus, 
+    we should leave a cpu do ctlplan, 7 cpus do traffic 		  
+   This should change igb / main-->spwan
+
+
+by 2013.2.13
+
++++++++++++++++++++
+
+1, start igb/ukmem.ko/ukmem_uspace with argument n-proc
+   igb start <n> queue
+
+2, dynamic route for server
+
+by 2013.2.21
++++++++++++++++++++

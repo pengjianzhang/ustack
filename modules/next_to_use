@@ -1,0 +1,122 @@
+		buffer_info = &tx_ring->buffer_info[tx_ring->next_to_clean];
+			   n, tx_ring->next_to_use, tx_ring->next_to_clean,
+		printk(KERN_INFO "TX QUEUE INDEX = %d\n", tx_ring->queue_index);
+		for (i = 0; tx_ring->desc && (i < tx_ring->count); i++) {
+			buffer_info = &tx_ring->buffer_info[i];
+			if (i == tx_ring->next_to_use &&
+				i == tx_ring->next_to_clean)
+			else if (i == tx_ring->next_to_use)
+			else if (i == tx_ring->next_to_clean)
+		tx_queue = q_vector->tx_ring->reg_idx;
+			        q_vector->tx_ring->queue_index);
+	q_vector->tx_ring->q_vector = q_vector;
+	struct device *dev = tx_ring->dev;
+	size = sizeof(struct igb_buffer) * tx_ring->count;
+	tx_ring->buffer_info = vmalloc(size);
+	if (!tx_ring->buffer_info)
+	memset(tx_ring->buffer_info, 0, size);
+	tx_ring->size = tx_ring->count * sizeof(union e1000_adv_tx_desc);
+	tx_ring->size = ALIGN(tx_ring->size, 4096);
+	printk(KERN_INFO "tx desc_len %ld map size %d num %d\n\n",sizeof(union e1000_adv_tx_desc),tx_ring->size,tx_ring->count);
+	tx_ring->desc = dma_alloc_coherent(dev,
+					   tx_ring->size,
+					   &tx_ring->dma,
+	if (!tx_ring->desc)
+//	ukmem_add_desc((unsigned long)tx_ring->dma, TX_FLAG);
+	tx_ring->next_to_use = 0;
+	tx_ring->next_to_clean = 0;
+	vfree(tx_ring->buffer_info);
+	vfree(tx_ring->buffer_info);
+	tx_ring->buffer_info = NULL;
+	if (!tx_ring->desc)
+	dma_free_coherent(tx_ring->dev, tx_ring->size,
+			  tx_ring->desc, tx_ring->dma);
+	tx_ring->desc = NULL;
+			dma_unmap_page(tx_ring->dev,
+			dma_unmap_single(tx_ring->dev,
+	if (!tx_ring->buffer_info)
+	for (i = 0; i < tx_ring->count; i++) {
+		buffer_info = &tx_ring->buffer_info[i];
+	size = sizeof(struct igb_buffer) * tx_ring->count;
+	memset(tx_ring->buffer_info, 0, size);
+	memset(tx_ring->desc, 0, tx_ring->size);
+	tx_ring->next_to_use = 0;
+	tx_ring->next_to_clean = 0;
+			if (igb_desc_unused(tx_ring) + 1 < tx_ring->count) {
+		tx_ring->detect_tx_hung = true;
+	if (q_vector->tx_ring && q_vector->tx_ring->total_packets) {
+		q_vector->tx_ring->total_bytes = 0;
+		q_vector->tx_ring->total_packets = 0;
+				    q_vector->tx_ring->total_packets,
+				    q_vector->tx_ring->total_bytes);
+	q_vector->tx_ring->total_bytes = 0;
+	q_vector->tx_ring->total_packets = 0;
+	i = tx_ring->next_to_use;
+	buffer_info = &tx_ring->buffer_info[i];
+	if (tx_ring->flags & IGB_RING_FLAG_TX_CTX_IDX)
+		mss_l4len_idx |= tx_ring->reg_idx << 4;
+	if (i == tx_ring->count)
+	tx_ring->next_to_use = i;
+	struct device *dev = tx_ring->dev;
+		i = tx_ring->next_to_use;
+		buffer_info = &tx_ring->buffer_info[i];
+		if (tx_ring->flags & IGB_RING_FLAG_TX_CTX_IDX)
+				cpu_to_le32(tx_ring->reg_idx << 4);
+		if (i == tx_ring->count)
+		tx_ring->next_to_use = i;
+	struct device *dev = tx_ring->dev;
+	i = tx_ring->next_to_use;
+	buffer_info = &tx_ring->buffer_info[i];
+		if (i == tx_ring->count)
+		buffer_info = &tx_ring->buffer_info[i];
+	tx_ring->buffer_info[i].skb = skb;
+	tx_ring->buffer_info[i].shtx = skb_shinfo(skb)->tx_flags;
+	tx_ring->buffer_info[i].bytecount = ((gso_segs - 1) * hlen) + skb->len;
+	tx_ring->buffer_info[i].gso_segs = gso_segs;
+	tx_ring->buffer_info[first].next_to_watch = i;
+			i = tx_ring->count;
+		buffer_info = &tx_ring->buffer_info[i];
+	unsigned int i = tx_ring->next_to_use;
+	if ((tx_ring->flags & IGB_RING_FLAG_TX_CTX_IDX) &&
+		olinfo_status |= tx_ring->reg_idx << 4;
+		buffer_info = &tx_ring->buffer_info[i];
+		if (i == tx_ring->count)
+	tx_ring->next_to_use = i;
+	writel(i, tx_ring->tail);
+	struct net_device *netdev = tx_ring->netdev;
+	netif_stop_subqueue(netdev, tx_ring->queue_index);
+	netif_wake_subqueue(netdev, tx_ring->queue_index);
+	tx_ring->tx_stats.restart_queue++;
+	struct igb_adapter *adapter = netdev_priv(tx_ring->netdev);
+	first = tx_ring->next_to_use;
+		tx_ring->buffer_info[first].time_stamp = 0;
+		tx_ring->next_to_use = first;
+		int q = q_vector->tx_ring->reg_idx;
+	struct net_device *netdev = tx_ring->netdev;
+	i = tx_ring->next_to_clean;
+	eop = tx_ring->buffer_info[i].next_to_watch;
+	       (count < tx_ring->count)) {
+			buffer_info = &tx_ring->buffer_info[i];
+			if (i == tx_ring->count)
+		eop = tx_ring->buffer_info[i].next_to_watch;
+	tx_ring->next_to_clean = i;
+		if (__netif_subqueue_stopped(netdev, tx_ring->queue_index) &&
+			netif_wake_subqueue(netdev, tx_ring->queue_index);
+			tx_ring->tx_stats.restart_queue++;
+	if (tx_ring->detect_tx_hung) {
+		tx_ring->detect_tx_hung = false;
+		if (tx_ring->buffer_info[i].time_stamp &&
+		    time_after(jiffies, tx_ring->buffer_info[i].time_stamp +
+			dev_err(tx_ring->dev,
+				tx_ring->queue_index,
+				readl(tx_ring->head),
+				readl(tx_ring->tail),
+				tx_ring->next_to_use,
+				tx_ring->next_to_clean,
+				tx_ring->buffer_info[eop].time_stamp,
+			netif_stop_subqueue(netdev, tx_ring->queue_index);
+	tx_ring->total_bytes += total_bytes;
+	tx_ring->total_packets += total_packets;
+	tx_ring->tx_stats.bytes += total_bytes;
+	tx_ring->tx_stats.packets += total_packets;
+	return (count < tx_ring->count);
